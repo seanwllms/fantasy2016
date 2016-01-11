@@ -1,0 +1,177 @@
+#set up file
+setwd("C:/Users/Sean/Documents/Fantasy/fantasybaseball2016")
+library(dplyr)
+
+###############################################################
+################HITTER STUFF LIVES HERE#########################
+################################################################
+
+#Import and clean data on replacement levels
+
+#read in league wide csv
+replacement_hitters <- read.csv("replacement_hitters.csv", stringsAsFactors = FALSE)
+
+replacement_hitters$Position <- c("catcher",
+                                  "first_base",
+                                  "second_base",
+                                  "shortstop",
+                                  "third_base",
+                                  "middle_infield",
+                                  "corner_infield",
+                                  "outfield",
+                                  "dh"
+                                  )
+
+names(replacement_hitters)[2:6] <- sapply(names(replacement_hitters[c(2:6)]), paste, ".repl", sep="")
+
+#rename columns
+names(replacement_hitters) <- c("position",
+                                "runs",
+                                "hr",
+                                "rbi",
+                                "sb",
+                                "avg")
+
+#list of file names
+filelocs <- sapply("./steamer/", paste, list.files("./steamer"), sep="")
+
+#read in hitterdata
+hitterdata <- lapply(filelocs, read.csv, header=TRUE, stringsAsFactors = FALSE)
+
+#keep only variables I care about
+hitterdata <- lapply(hitterdata, select, ï..Name, Team, PA, R,HR, RBI, SB, AVG, OBP, playerid)
+
+#rename columns
+hitterdata <- lapply(hitterdata, function(x) {colnames(x)[1] <- "name" 
+                                              return(x)})
+
+#create projection dataframes for each position
+grab.repl <- function(pos) {
+      temp <- filter(replacement_hitters, position==pos)
+      names(temp)[2:6] <- sapply(names(temp)[2:6], paste, ".repl", sep="")
+      return(temp)
+}
+
+      #1b
+      first.base.proj <- cbind(hitterdata[[1]], grab.repl("first_base"))
+      
+      #2b
+      second.base.proj <- cbind(hitterdata[[2]], grab.repl("second_base"))
+      
+      #3b
+      third.base.proj <- cbind(hitterdata[[3]], grab.repl("third_base"))
+      
+      #C
+      catcher.proj <- cbind(hitterdata[[4]], grab.repl("catcher"))
+      
+      #dh
+      dh.proj <- cbind(hitterdata[[5]], grab.repl("dh"))
+      
+      #of
+      of.proj <- cbind(hitterdata[[6]], grab.repl("outfield"))
+      
+      #SS
+      shortstop.proj <- cbind(hitterdata[[7]], grab.repl("shortstop"))
+      
+#build all positional projections into a list
+projections <- list(first.base.proj,
+                    second.base.proj,
+                    third.base.proj,
+                    catcher.proj,
+                    dh.proj,
+                    of.proj,
+                    shortstop.proj)
+
+#create function to calculate value for a position
+calculate.value <- function(df) {
+      mutate(df, 
+             marginal.hr = HR - hr.repl, 
+             marginal.runs = R - runs.repl,
+             marginal.rbi = RBI - rbi.repl,
+             marginal.sb = SB - sb.repl,
+             marginal.avg = AVG - avg.repl,
+             marginal.runs.points = marginal.runs * .035181,
+             marginal.hr.points = marginal.hr * 0.112885207,
+             marginal.rbi.points = marginal.rbi * 0.037956355,
+             marginal.sb.points = marginal.sb * 0.143642896,
+             marginal.avg.points = marginal.avg * 43.82487061,
+             marginal.total.points = marginal.runs.points +
+                                    marginal.hr.points +
+                                    marginal.rbi.points +
+                                    marginal.avg.points +
+                                    marginal.sb.points,
+             adjusted.points = marginal.total.points - 2.2,
+             dollar.value = (adjusted.points/893.5)*2925+2
+      )      
+}
+
+#calculate values for all of the positions
+projections <- lapply(projections, calculate.value)
+
+#merge projections for different positions together.
+projections <- do.call(rbind, projections)
+
+#get player's strongest position
+projections <- projections %>%
+      group_by(playerid) %>%
+      mutate(times.appears = n(), max.points = max(dollar.value)) %>%
+      filter(position != "dh" | times.appears==1) %>%
+      filter(dollar.value==max.points) %>%
+      ungroup() %>%
+      arrange(desc(dollar.value)) %>%
+      select(name, position, playerid, PA, R, HR, RBI, SB, AVG, adjusted.points, dollar.value) %>%
+      mutate( adjusted.points = round(adjusted.points, 2),
+              dollar.value = round(dollar.value, 2)) %>%
+      filter(PA > 1)
+
+
+################################################################
+################PITCHER STUFF LIVES HERE########################
+################################################################
+
+#read in projections
+pitchers <- read.csv("pitchers.csv", stringsAsFactors=FALSE)
+
+#keep only relevant columns
+pitchers <- select(pitchers,ï..Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
+      mutate(position = "pitcher")
+
+names(pitchers)[c(1, 7)] <- c("name", "K")
+
+#create replacement pitcher values
+replacement.pitcher <- c(4.47,1.4,4,1,102)
+names(replacement.pitcher) <- c("ERA.repl","WHIP.repl","W.repl","SV.repl","K.repl")
+
+#calculate marginal values and points
+pitchers <- pitchers %>%
+      mutate(
+            marginal.ERA = ERA - replacement.pitcher["ERA.repl"],
+            marginal.WHIP = WHIP - replacement.pitcher["WHIP.repl"],
+            marginal.W = W - replacement.pitcher["W.repl"],
+            marginal.SV = SV - replacement.pitcher["SV.repl"],
+            marginal.K = K - replacement.pitcher["K.repl"],
+            ERA.points = (marginal.ERA *-12.4)*(IP/1464),
+            WHIP.points = (marginal.WHIP*-75)*(IP/1464),
+            W.points = marginal.W&.25,
+            SV.points = marginal.SV*.14,
+            K.points = marginal.K*.02,
+            marginal.total.points = ERA.points + WHIP.points + W.points + SV.points + K.points,
+            adjusted.points = marginal.total.points - 1.61,
+            dollar.value = (adjusted.points/664.4132)*1872
+      ) %>%
+      
+      #sort by dollar value
+      arrange(desc(dollar.value)) %>%
+      
+      #select relevant columns
+      select(name,Team,position,playerid,IP,ERA,WHIP,SV,W,K,adjusted.points,dollar.value) %>%
+      
+      #round points and dollars columns
+      mutate(adjusted.points = round(adjusted.points, 2), dollar_value = round(dollar.value, 2)) %>%
+      
+      #select only pithcers with at least 1 IP
+      filter(IP > 1)
+
+#write both files out to csv files
+write.csv(pitchers, file = "pitcher_projections.csv")
+write.csv(projections, file = "hitter_projections.csv")
