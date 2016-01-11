@@ -119,7 +119,7 @@ projections <- projections %>%
       filter(dollar.value==max.points) %>%
       ungroup() %>%
       arrange(desc(dollar.value)) %>%
-      select(name, position, playerid, PA, R, HR, RBI, SB, AVG, adjusted.points, dollar.value) %>%
+      select(name, Team, position, playerid, PA, R, HR, RBI, SB, AVG, adjusted.points, dollar.value) %>%
       mutate( adjusted.points = round(adjusted.points, 2),
               dollar.value = round(dollar.value, 2)) %>%
       filter(PA > 1)
@@ -175,7 +175,7 @@ pitchers <- pitchers %>%
 #create file for player projections
 hitterpitcher <- bind_rows(projections, pitchers) %>%
       arrange(desc(dollar.value)) %>%
-      select(name, position, adjusted.points, dollar.value)
+      select(name, Team, position, adjusted.points, dollar.value)
 
 #write both files out to csv files
 write.csv(pitchers, file = "pitcher_projections.csv")
