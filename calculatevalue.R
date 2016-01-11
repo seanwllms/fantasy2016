@@ -167,11 +167,19 @@ pitchers <- pitchers %>%
       select(name,Team,position,playerid,IP,ERA,WHIP,SV,W,K,adjusted.points,dollar.value) %>%
       
       #round points and dollars columns
-      mutate(adjusted.points = round(adjusted.points, 2), dollar_value = round(dollar.value, 2)) %>%
+      mutate(adjusted.points = round(adjusted.points, 2), dollar.value = round(dollar.value, 2)) %>%
       
       #select only pithcers with at least 1 IP
       filter(IP > 1)
 
+#create file for player projections
+hitterpitcher <- bind_rows(projections, pitchers) %>%
+      arrange(desc(dollar.value)) %>%
+      select(name, position, adjusted.points, dollar.value)
+
 #write both files out to csv files
 write.csv(pitchers, file = "pitcher_projections.csv")
 write.csv(projections, file = "hitter_projections.csv")
+write.csv(hitterpitcher, file = "player_projections.csv")
+
+
