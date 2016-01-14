@@ -2,6 +2,9 @@
 setwd("C:/Users/Sean/Documents/Fantasy/fantasybaseball2016")
 library(dplyr)
 
+###Load the coefficients data frame
+load("coefs.rda")
+
 ###############################################################
 ################HITTER STUFF LIVES HERE#########################
 ################################################################
@@ -82,6 +85,11 @@ projections <- list(first.base.proj,
                     of.proj,
                     shortstop.proj)
 
+#convert coefficients frame to a normal data frame
+coefs.for.calc <- as.numeric(coefs$estimate)
+
+names(coefs.for.calc) <- coefs$Category
+
 #create function to calculate value for a position
 calculate.value <- function(df) {
       mutate(df, 
@@ -90,18 +98,24 @@ calculate.value <- function(df) {
              marginal.rbi = RBI - rbi.repl,
              marginal.sb = SB - sb.repl,
              marginal.avg = AVG - avg.repl,
-             marginal.runs.points = marginal.runs * .035181,
-             marginal.hr.points = marginal.hr * 0.112885207,
-             marginal.rbi.points = marginal.rbi * 0.037956355,
-             marginal.sb.points = marginal.sb * 0.143642896,
-             marginal.avg.points = marginal.avg * 43.82487061,
-             marginal.total.points = marginal.runs.points +
+             marginal.runs.points = marginal.runs * coefs.for.calc[["r"]],
+             marginal.hr.points = marginal.hr * coefs.for.calc[["hr"]],
+             marginal.rbi.points = marginal.rbi * coefs.for.calc[["rbi"]],
+             marginal.sb.points = marginal.sb * coefs.for.calc[["sb"]],
+             marginal.avg.points = marginal.avg * coefs.for.calc[["avg"]]/15,
+             marginal.total.points = (marginal.runs.points +
                                     marginal.hr.points +
                                     marginal.rbi.points +
                                     marginal.avg.points +
-                                    marginal.sb.points,
-             adjusted.points = marginal.total.points - 2.2,
-             dollar.value = (adjusted.points/893.5)*2925+2
+                                    marginal.sb.points)*1.2,#this is an adjustment upwards;
+                                                            #in 2016 calculation, top 270 players
+                                                            #result in only 735.5 marginal points.
+                                                            #this means we adjust upwards to make 855
+                                                            #marginal points (sum(1:18)*5)
+             
+             #total of 4680 dollars exist in the league. 1700 marginal points exist. Therefore, marginal
+             #point is worth 4680/1700
+             dollar.value = marginal.total.points*(4680/1700)
       )      
 }
 
@@ -119,8 +133,8 @@ projections <- projections %>%
       filter(dollar.value==max.points) %>%
       ungroup() %>%
       arrange(desc(dollar.value)) %>%
-      select(name, Team, position, playerid, PA, R, HR, RBI, SB, AVG, adjusted.points, dollar.value) %>%
-      mutate( adjusted.points = round(adjusted.points, 2),
+      select(name, Team, position, playerid, PA, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
+      mutate( marginal.total.points = round(marginal.total.points, 2),
               dollar.value = round(dollar.value, 2)) %>%
       filter(PA > 1)
 
@@ -150,24 +164,23 @@ pitchers <- pitchers %>%
             marginal.W = W - replacement.pitcher["W.repl"],
             marginal.SV = SV - replacement.pitcher["SV.repl"],
             marginal.K = K - replacement.pitcher["K.repl"],
-            ERA.points = (marginal.ERA *-12.4)*(IP/1464),
-            WHIP.points = (marginal.WHIP*-75)*(IP/1464),
-            W.points = marginal.W&.25,
-            SV.points = marginal.SV*.14,
-            K.points = marginal.K*.02,
-            marginal.total.points = ERA.points + WHIP.points + W.points + SV.points + K.points,
-            adjusted.points = marginal.total.points - 1.61,
-            dollar.value = (adjusted.points/664.4132)*1872
+            ERA.points = (marginal.ERA *coefs.for.calc[["era"]])*(IP/1464),
+            WHIP.points = (marginal.WHIP*coefs.for.calc[["whip"]])*(IP/1464),
+            W.points = marginal.W*coefs.for.calc[["w"]],
+            SV.points = marginal.SV*coefs.for.calc[["sv"]],
+            K.points = marginal.K*coefs.for.calc[["k"]],
+            marginal.total.points =  1.16*(ERA.points + WHIP.points + W.points + SV.points + K.points),
+            dollar.value = marginal.total.points*(4680/1700)
       ) %>%
       
       #sort by dollar value
       arrange(desc(dollar.value)) %>%
       
       #select relevant columns
-      select(name,Team,position,playerid,IP,ERA,WHIP,SV,W,K,adjusted.points,dollar.value) %>%
+      select(name,Team,position,playerid,IP,ERA,WHIP,SV,W,K,marginal.total.points,dollar.value) %>%
       
       #round points and dollars columns
-      mutate(adjusted.points = round(adjusted.points, 2), dollar.value = round(dollar.value, 2)) %>%
+      mutate(marginal.total.points = round(marginal.total.points, 2), dollar.value = round(dollar.value, 2)) %>%
       
       #select only pithcers with at least 1 IP
       filter(IP > 1)
@@ -175,7 +188,7 @@ pitchers <- pitchers %>%
 #create file for player projections
 hitterpitcher <- bind_rows(projections, pitchers) %>%
       arrange(desc(dollar.value)) %>%
-      select(name, Team, position, adjusted.points, dollar.value)
+      select(name, Team, position, marginal.total.points, dollar.value)
 
 #write both files out to csv files
 write.csv(pitchers, file = "pitcher_projections.csv")
