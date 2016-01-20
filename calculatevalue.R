@@ -1,6 +1,4 @@
-#set up file
-setwd("C:/Users/Sean/Documents/Fantasy/fantasybaseball2016")
-library(dplyr)
+source(setupfile.R)
 
 ###Load the coefficients data frame
 load("coefs.rda")
@@ -42,7 +40,7 @@ filelocs <- sapply("./steamer/", paste, list.files("./steamer"), sep="")
 hitterdata <- lapply(filelocs, read.csv, header=TRUE, stringsAsFactors = FALSE)
 
 #keep only variables I care about
-hitterdata <- lapply(hitterdata, select, ï..Name, Team, PA, R,HR, RBI, SB, AVG, OBP, playerid)
+hitterdata <- lapply(hitterdata, select, ?..Name, Team, PA, R,HR, RBI, SB, AVG, OBP, playerid)
 
 #rename columns
 hitterdata <- lapply(hitterdata, function(x) {colnames(x)[1] <- "name" 
@@ -147,7 +145,7 @@ projections <- projections %>%
 pitchers <- read.csv("pitchers.csv", stringsAsFactors=FALSE)
 
 #keep only relevant columns
-pitchers <- select(pitchers,ï..Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
+pitchers <- select(pitchers,?..Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
       mutate(position = "pitcher")
 
 names(pitchers)[c(1, 7)] <- c("name", "K")
