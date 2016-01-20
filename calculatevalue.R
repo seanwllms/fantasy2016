@@ -153,7 +153,8 @@ pitchers <- select(pitchers,ï..Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
 names(pitchers)[c(1, 7)] <- c("name", "K")
 
 #create replacement pitcher values
-replacement.pitcher <- c(4.47,1.4,4,1,102)
+#these are the mean projections for the 170th through 190th best players
+replacement.pitcher <- c(3.761429,1.284286,5.523810,2.952381,88.714286)
 names(replacement.pitcher) <- c("ERA.repl","WHIP.repl","W.repl","SV.repl","K.repl")
 
 #calculate marginal values and points
