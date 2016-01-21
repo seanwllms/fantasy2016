@@ -1,600 +1,600 @@
-"","name","Team","position","playerid","PA","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value"
-"1","Mike Trout","Angels","outfield","10155",671,111,37,104,15,0.307,10.61,29.2
-"2","Jose Altuve","Astros","second_base","5417",683,92,11,67,36,0.307,9.4,25.89
-"3","Dee Gordon","Marlins","second_base","8203",680,81,4,48,54,0.284,8.98,24.71
-"4","Bryce Harper","Nationals","outfield","11579",647,98,35,102,7,0.301,8.69,23.92
-"5","Giancarlo Stanton","Marlins","outfield","4949",647,98,44,110,8,0.277,8.64,23.78
-"6","Mookie Betts","Red Sox","outfield","13611",664,98,18,76,25,0.3,8.57,23.61
-"7","Miguel Cabrera","Tigers","third_base","1744",649,93,28,99,2,0.314,8.48,23.34
-"8","Billy Hamilton","Reds","outfield","10199",604,67,8,47,63,0.25,8.15,22.43
-"9","Manny Machado","Orioles","third_base","11493",672,94,27,82,15,0.285,8.05,22.16
-"10","Paul Goldschmidt","Diamondbacks","first_base","9218",658,95,30,93,14,0.29,7.91,21.77
-"11","Starling Marte","Pirates","outfield","9241",653,81,18,76,28,0.286,7.76,21.37
-"12","Kris Bryant","Cubs","third_base","15429",651,92,32,96,11,0.273,7.75,21.32
-"13","Charlie Blackmon","Rockies","outfield","7859",658,88,16,63,33,0.279,7.65,21.07
-"14","Carlos Correa","Astros","shortstop","14162",648,83,22,84,21,0.275,7.53,20.73
-"15","Jose Reyes","Rockies","shortstop","1736",632,85,11,55,25,0.299,7.46,20.54
-"16","Anthony Rizzo","Cubs","first_base","3473",657,96,32,99,11,0.279,7.35,20.24
-"17","Andrew McCutchen","Pirates","outfield","9847",659,90,23,87,12,0.297,7.35,20.22
-"18","Nolan Arenado","Rockies","third_base","9777",627,82,29,97,4,0.289,7.17,19.74
-"19","Ryan Braun","Brewers","outfield","3410",651,84,26,86,18,0.276,7.1,19.54
-"20","A.J. Pollock","Diamondbacks","outfield","9256",656,81,15,67,27,0.282,6.89,18.96
-"21","Josh Donaldson","Blue Jays","third_base","5038",661,95,31,94,4,0.274,6.85,18.85
-"22","Jose Abreu","White Sox","first_base","15676",660,91,35,103,2,0.286,6.84,18.82
-"23","Buster Posey","Giants","catcher","9166",536,65,17,72,1,0.306,6.42,17.68
-"24","Jason Heyward","Cubs","outfield","4940",648,85,18,76,17,0.284,6.38,17.57
-"25","George Springer","Astros","outfield","12856",645,89,29,82,18,0.256,6.36,17.51
-"26","Christian Yelich","Marlins","outfield","11477",657,82,13,64,19,0.288,5.94,16.36
-"27","Adrian Beltre","Rangers","third_base","639",636,79,21,90,1,0.292,5.92,16.3
-"28","Lorenzo Cain","Royals","outfield","9077",628,70,12,69,23,0.283,5.91,16.28
-"29","Jacoby Ellsbury","Yankees","outfield","4727",641,80,14,61,28,0.264,5.79,15.93
-"30","Jose Bautista","Blue Jays","outfield","1887",629,92,33,95,6,0.257,5.73,15.78
-"31","Xander Bogaerts","Red Sox","shortstop","12161",631,76,15,78,7,0.293,5.68,15.64
-"32","Todd Frazier","White Sox","third_base","785",635,78,27,86,13,0.25,5.67,15.6
-"33","Justin Upton"," ","outfield","5222",638,80,28,88,12,0.26,5.65,15.55
-"34","Corey Dickerson","Rockies","outfield","10762",527,70,23,75,7,0.293,5.6,15.43
-"35","Carlos Gomez","Astros","outfield","4881",611,77,19,70,24,0.257,5.56,15.31
-"36","Edwin Encarnacion","Blue Jays","first_base","2151",608,87,34,99,3,0.265,5.56,15.3
-"37","Yasiel Puig","Dodgers","outfield","14225",570,70,22,76,10,0.285,5.51,15.16
-"38","Adam Jones","Orioles","outfield","6368",654,79,28,93,5,0.272,5.51,15.16
-"39","Gregory Polanco","Pirates","outfield","12907",642,78,14,59,27,0.263,5.49,15.12
-"40","Joey Votto","Reds","first_base","4314",661,92,23,76,7,0.283,5.44,14.97
-"41","Hanley Ramirez","Red Sox","shortstop","8001",515,68,19,74,8,0.284,5.37,14.79
-"42","Prince Fielder","Rangers","first_base","4613",643,85,24,90,1,0.29,5.36,14.75
-"43","Francisco Lindor","Indians","shortstop","12916",671,77,12,66,19,0.269,5.35,14.73
-"44","Delino Deshields","Rangers","outfield","11379",654,80,8,53,36,0.25,5.28,14.54
-"45","Freddie Freeman","Braves","first_base","5361",652,81,25,85,4,0.283,5.21,14.33
-"46","Yoenis Cespedes"," ","outfield","13110",635,77,27,89,7,0.266,5.18,14.27
-"47","Daniel Murphy","Nationals","second_base","4316",597,73,10,66,7,0.308,5.16,14.2
-"48","Josh Harrison","Pirates","third_base","8202",611,71,10,58,16,0.282,5.12,14.09
-"49","J.D. Martinez","Tigers","outfield","6184",600,76,27,88,4,0.273,5.11,14.07
-"50","Kyle Schwarber","Cubs","catcher","16478",501,70,23,64,5,0.261,5.05,13.91
-"51","Kyle Seager","Mariners","third_base","9785",636,78,22,80,7,0.265,5.05,13.9
-"52","Carlos Gonzalez","Rockies","outfield","7287",532,72,28,81,4,0.276,5.04,13.88
-"53","Robinson Cano","Mariners","second_base","3269",647,77,18,82,5,0.285,5.04,13.86
-"54","Billy Burns","Athletics","outfield","12701",655,74,5,47,33,0.264,5.01,13.79
-"55","Elvis Andrus","Rangers","shortstop","8709",626,68,6,55,25,0.267,4.88,13.43
-"56","Eric Hosmer","Royals","first_base","3516",649,78,19,82,6,0.285,4.84,13.32
-"57","Nelson Cruz","Mariners","outfield","2434",623,79,32,93,3,0.255,4.74,13.06
-"58","Trea Turner","Nationals","shortstop","16252",501,53,8,51,20,0.283,4.73,13.02
-"59","Albert Pujols","Angels","first_base","1177",646,80,30,94,4,0.26,4.72,12.98
-"60","Evan Gattis","Astros","catcher","11003",551,68,27,81,1,0.248,4.69,12.92
-"61","Rougned Odor","Rangers","second_base","12282",570,70,17,71,12,0.273,4.69,12.91
-"62","Anthony Rendon","Nationals","third_base","12861",602,78,16,64,7,0.277,4.65,12.79
-"63","Maikel Franco","Phillies","third_base","12179",592,68,23,77,3,0.272,4.64,12.76
-"64","Jason Kipnis","Indians","second_base","9776",664,81,12,63,17,0.267,4.61,12.7
-"65","Miguel Sano","Twins","dh","12164",624,85,34,96,5,0.255,4.6,12.67
-"66","Adam Eaton","White Sox","outfield","11205",662,84,10,55,18,0.272,4.5,12.4
-"67","Ian Kinsler","Tigers","second_base","6195",675,83,15,69,11,0.269,4.47,12.31
-"68","Kevin Pillar","Blue Jays","outfield","12434",550,62,11,63,17,0.279,4.46,12.29
-"69","David Peralta","Diamondbacks","outfield","2136",595,67,16,72,9,0.281,4.42,12.17
-"70","Dustin Pedroia","Red Sox","second_base","8370",633,80,12,68,7,0.284,4.35,11.98
-"71","Evan Longoria","Rays","third_base","9368",653,76,24,84,3,0.256,4.33,11.92
-"72","Matt Carpenter","Cardinals","third_base","8090",666,90,16,60,6,0.269,4.32,11.89
-"73","Salvador Perez","Royals","catcher","7304",520,56,17,66,1,0.273,4.29,11.82
-"74","DJ LeMahieu","Rockies","second_base","9874",580,61,6,52,17,0.287,4.22,11.62
-"75","Matt Duffy","Giants","third_base","13836",624,64,10,64,11,0.276,4.16,11.46
-"76","David Ortiz","Red Sox","dh","745",603,83,27,92,1,0.272,4.16,11.46
-"77","Adrian Gonzalez","Dodgers","first_base","1908",636,75,24,88,1,0.272,4.09,11.26
-"78","Melky Cabrera","White Sox","outfield","4022",646,77,15,72,4,0.283,4.08,11.23
-"79","Matt Kemp","Padres","outfield","5631",578,65,21,73,8,0.268,4.06,11.17
-"80","Hunter Pence","Giants","outfield","8252",598,70,19,72,9,0.267,4.06,11.17
-"81","Jean Segura","Brewers","shortstop","5933",570,56,8,50,22,0.263,4,11.01
-"82","Kolten Wong","Cardinals","second_base","12532",593,65,13,59,17,0.264,3.99,10.99
-"83","Ketel Marte","Mariners","shortstop","13613",558,62,5,43,22,0.269,3.99,10.99
-"84","Mark Trumbo","Orioles","outfield","6876",627,75,30,85,2,0.252,3.93,10.83
-"85","Jonathan Lucroy","Brewers","catcher","7870",526,61,12,55,3,0.273,3.9,10.73
-"86","Matt Holliday","Cardinals","outfield","1873",611,76,18,73,4,0.274,3.89,10.71
-"87","Brett Gardner","Yankees","outfield","9927",622,78,14,59,17,0.256,3.87,10.66
-"88","Brian Dozier","Twins","second_base","9810",669,85,20,67,14,0.241,3.86,10.62
-"89","Jung-ho Kang","Pirates","third_base","17182",590,64,18,72,7,0.261,3.85,10.61
-"90","Khris Davis","Brewers","outfield","9112",588,70,28,80,7,0.247,3.83,10.56
-"91","Cory Spangenberg","Padres","third_base","12294",618,59,8,53,20,0.26,3.82,10.52
-"92","Byron Buxton","Twins","outfield","14161",531,60,11,54,23,0.258,3.81,10.5
-"93","Nick Hundley","Rockies","catcher","3376",404,43,12,49,6,0.277,3.81,10.49
-"94","Justin Turner","Dodgers","third_base","5235",572,65,14,65,6,0.273,3.8,10.47
-"95","Ben Zobrist","Cubs","second_base","7435",621,81,14,65,6,0.273,3.78,10.41
-"96","Mike Moustakas","Royals","third_base","4892",599,71,20,72,3,0.262,3.78,10.4
-"97","Alex Gordon","Royals","outfield","5209",605,73,17,67,7,0.271,3.76,10.36
-"98","Wil Myers","Padres","outfield","10047",602,70,21,66,11,0.256,3.75,10.31
-"99","Starlin Castro","Yankees","shortstop","4579",624,66,14,69,7,0.267,3.7,10.2
-"100","Shin-Soo Choo","Rangers","outfield","3174",647,87,18,67,6,0.263,3.7,10.19
-"101","Pablo Sandoval","Red Sox","third_base","5409",555,66,15,70,1,0.278,3.7,10.18
-"102","Troy Tulowitzki","Blue Jays","shortstop","3531",573,73,21,74,2,0.26,3.7,10.18
-"103","Michael Brantley","Indians","outfield","4106",450,53,10,54,9,0.295,3.68,10.12
-"104","Howie Kendrick"," ","second_base","4229",563,61,10,62,6,0.29,3.65,10.06
-"105","Denard Span","Giants","outfield","8347",586,71,6,44,18,0.275,3.61,9.93
-"106","Corey Seager","Dodgers","shortstop","13624",593,64,17,70,5,0.265,3.6,9.91
-"107","Victor Martinez","Tigers","dh","393",594,72,18,79,1,0.29,3.58,9.85
-"108","Joc Pederson","Dodgers","outfield","11899",650,87,26,65,14,0.228,3.58,9.84
-"109","Kole Calhoun","Angels","outfield","11200",640,79,21,72,5,0.259,3.57,9.83
-"110","Brandon Belt","Giants","first_base","10264",584,67,19,73,8,0.266,3.54,9.75
-"111","Jose Iglesias","Tigers","shortstop","10231",527,55,5,49,14,0.28,3.54,9.74
-"112","Chris Davis"," ","first_base","9272",630,79,33,91,3,0.236,3.51,9.66
-"113","Alcides Escobar","Royals","shortstop","6310",641,66,4,51,19,0.262,3.51,9.65
-"114","Jarrod Dyson","Royals","outfield","4866",401,44,3,33,38,0.25,3.49,9.61
-"115","Josh Reddick","Athletics","outfield","3892",568,66,19,72,7,0.263,3.49,9.6
-"116","Avisail Garcia","White Sox","outfield","5760",584,64,18,70,8,0.264,3.46,9.52
-"117","Brian McCann","Yankees","catcher","4810",512,61,23,70,1,0.241,3.45,9.49
-"118","Randal Grichuk","Cardinals","outfield","10243",590,67,23,76,8,0.249,3.4,9.37
-"119","Alexei Ramirez"," ","shortstop","5133",620,59,9,59,15,0.26,3.4,9.37
-"120","David Wright","Mets","third_base","3787",556,62,14,60,7,0.267,3.39,9.32
-"121","Nori Aoki","Mariners","outfield","13075",618,72,6,48,17,0.27,3.37,9.28
-"122","Marcell Ozuna","Marlins","outfield","10324",591,65,19,74,4,0.267,3.35,9.22
-"123","Brandon Phillips","Reds","second_base","791",610,62,13,61,11,0.266,3.32,9.13
-"124","John Jaso","Pirates","catcher","5887",491,60,12,48,5,0.261,3.29,9.07
-"125","Matt Adams","Cardinals","first_base","9393",548,63,21,76,3,0.27,3.28,9.03
-"126","Brett Lawrie","White Sox","third_base","5247",566,62,19,68,5,0.256,3.26,8.98
-"127","Eddie Rosario","Twins","outfield","12155",574,60,14,64,14,0.258,3.25,8.95
-"128","Marcus Semien","Athletics","shortstop","12533",561,65,16,62,10,0.251,3.21,8.82
-"129","Jay Bruce","Reds","outfield","9892",624,70,25,80,9,0.235,3.19,8.78
-"130","Kevin Kiermaier","Rays","outfield","11038",553,60,11,56,16,0.261,3.14,8.66
-"131","Nick Castellanos","Tigers","third_base","11737",545,60,15,64,3,0.269,3.14,8.65
-"132","Ian Desmond"," ","shortstop","6885",612,63,18,68,13,0.236,3.11,8.57
-"133","Yadier Molina","Cardinals","catcher","7007",461,46,8,50,2,0.278,3.1,8.54
-"134","Curtis Granderson","Mets","outfield","4747",660,82,24,67,10,0.232,3.02,8.3
-"135","Erick Aybar","Braves","shortstop","4082",586,55,6,52,12,0.271,3,8.26
-"136","Jhonny Peralta","Cardinals","shortstop","1738",590,63,15,68,3,0.262,2.92,8.05
-"137","Yasmany Tomas","Diamondbacks","third_base","17171",496,52,15,61,6,0.263,2.9,7.99
-"138","Stephen Vogt","Athletics","catcher","5000",464,52,13,53,2,0.26,2.88,7.94
-"139","Chase Headley","Yankees","third_base","4720",588,66,15,64,4,0.258,2.86,7.89
-"140","Scooter Gennett","Brewers","second_base","10339",579,59,11,56,7,0.274,2.81,7.74
-"141","Trevor Plouffe","Twins","third_base","7462",598,67,19,73,2,0.249,2.81,7.73
-"142","Domingo Santana","Brewers","outfield","10348",579,64,21,69,7,0.249,2.8,7.72
-"143","Austin Jackson"," ","outfield","9848",582,65,9,49,16,0.259,2.79,7.68
-"144","Kendrys Morales","Royals","dh","8610",626,73,20,80,1,0.27,2.78,7.67
-"145","Dexter Fowler"," ","outfield","4062",596,75,12,50,15,0.25,2.78,7.65
-"146","Martin Prado","Marlins","third_base","3312",595,63,10,60,2,0.273,2.73,7.51
-"147","Gerardo Parra"," ","outfield","8553",567,63,10,53,11,0.267,2.73,7.51
-"148","Ryan Zimmerman","Nationals","third_base","4220",478,56,17,62,2,0.263,2.72,7.49
-"149","Russell Martin","Blue Jays","catcher","4616",475,57,17,57,5,0.237,2.7,7.43
-"150","Anthony Gose","Tigers","outfield","5097",516,58,7,44,25,0.245,2.67,7.36
-"151","J.T. Realmuto","Marlins","catcher","11739",429,40,8,45,9,0.257,2.59,7.12
-"152","Jorge Soler","Cubs","outfield","14221",520,62,18,66,4,0.26,2.58,7.09
-"153","Carlos Beltran","Yankees","outfield","589",538,63,18,68,2,0.263,2.57,7.06
-"154","Carlos Santana","Indians","first_base","2396",638,78,21,75,7,0.239,2.56,7.06
-"155","Joe Panik","Giants","second_base","11936",614,68,7,53,5,0.278,2.56,7.04
-"156","Michael Conforto","Mets","outfield","16376",557,60,19,68,3,0.26,2.55,7.01
-"157","Francisco Cervelli","Pirates","catcher","5275",500,47,7,49,2,0.269,2.54,7
-"158","Addison Russell","Cubs","shortstop","14106",526,57,14,59,10,0.247,2.51,6.9
-"159","Odubel Herrera","Phillies","outfield","11476",563,54,7,47,15,0.266,2.48,6.82
-"160","Adonis Garcia","Braves","third_base","13777",510,48,12,57,5,0.267,2.48,6.82
-"161","Steven Souza","Rays","outfield","5667",491,58,18,56,15,0.239,2.47,6.8
-"162","Desmond Jennings","Rays","outfield","1965",569,65,12,53,16,0.245,2.46,6.77
-"163","Ender Inciarte","Braves","outfield","4922",474,50,5,36,17,0.272,2.42,6.67
-"164","Adam Lind","Mariners","first_base","8027",537,63,17,68,1,0.269,2.37,6.53
-"165","Devin Mesoraco","Reds","catcher","5666",422,46,16,53,4,0.243,2.37,6.52
-"166","Jimmy Rollins"," ","shortstop","971",574,63,11,50,16,0.237,2.37,6.52
-"167","Leonys Martin","Mariners","outfield","11846",529,54,8,47,23,0.242,2.34,6.44
-"168","Andrelton Simmons","Angels","shortstop","10847",611,61,9,58,6,0.26,2.29,6.32
-"169","Chris Owings","Diamondbacks","shortstop","10030",552,50,9,53,14,0.249,2.28,6.29
-"170","Jayson Werth","Nationals","outfield","1327",508,61,14,59,4,0.266,2.28,6.29
-"171","Michael Taylor","Nationals","outfield","11489",536,55,14,54,17,0.24,2.26,6.23
-"172","Brandon Guyer","Rays","outfield","2636",527,59,10,49,12,0.26,2.26,6.23
-"173","Josh Hamilton","Rangers","outfield","1875",496,59,19,66,3,0.256,2.25,6.2
-"174","Neil Walker","Mets","second_base","7539",526,60,17,61,3,0.258,2.21,6.08
-"175","C.J. Cron","Angels","first_base","12546",532,59,19,68,3,0.259,2.18,6
-"176","Logan Forsythe","Rays","second_base","7185",582,61,13,61,7,0.254,2.16,5.96
-"177","Jake Lamb","Diamondbacks","third_base","13329",511,53,12,56,4,0.261,2.15,5.92
-"178","Cameron Maybin","Tigers","outfield","5223",453,51,8,44,14,0.263,2.12,5.83
-"179","Brad Miller","Rays","shortstop","12775",478,53,11,49,10,0.252,2.08,5.73
-"180","Yan Gomes","Indians","catcher","9627",432,45,14,52,1,0.249,2.06,5.67
-"181","Jose Ramirez","Indians","shortstop","13510",389,42,5,35,17,0.259,2.06,5.67
-"182","Adam Duvall","Reds","outfield","10950",479,55,25,67,3,0.243,2.05,5.65
-"183","Yunel Escobar","Angels","third_base","4191",587,60,8,54,3,0.266,2.05,5.64
-"184","Mark Teixeira","Yankees","first_base","1281",548,70,27,78,2,0.233,2.04,5.63
-"185","Stephen Piscotty","Cardinals","outfield","13367",500,55,11,51,7,0.267,2.04,5.6
-"186","Wilson Ramos","Nationals","catcher","1433",402,40,14,50,1,0.252,2.02,5.56
-"187","Joe Mauer","Twins","first_base","1857",610,69,9,61,2,0.274,1.98,5.45
-"188","Didi Gregorius","Yankees","shortstop","6012",548,57,11,56,5,0.256,1.98,5.44
-"189","Rusney Castillo","Red Sox","outfield","17016",405,45,9,46,10,0.27,1.96,5.4
-"190","Nick Markakis","Braves","outfield","5930",655,69,9,55,3,0.269,1.95,5.38
-"191","Mitch Moreland","Rangers","first_base","3086",536,62,20,69,2,0.253,1.95,5.36
-"192","Travis d'Arnaud","Mets","catcher","7739",343,38,13,43,1,0.257,1.92,5.29
-"193","Javier Baez","Cubs","shortstop","12979",335,42,15,45,9,0.252,1.9,5.24
-"194","David Freese"," ","third_base","9549",505,52,13,57,2,0.259,1.89,5.2
-"195","Johnny Giavotella","Angels","second_base","6740",540,57,6,49,7,0.27,1.88,5.19
-"196","Alex Rodriguez","Yankees","dh","1274",631,75,23,77,4,0.24,1.85,5.1
-"197","Eugenio Suarez","Reds","shortstop","12552",465,47,14,51,6,0.254,1.85,5.1
-"198","Jonathan Schoop","Orioles","second_base","11265",485,53,19,60,4,0.249,1.83,5.04
-"199","Lucas Duda","Mets","first_base","2502",581,68,24,73,2,0.238,1.82,5.02
-"200","Pedro Alvarez"," ","third_base","2495",402,48,21,57,3,0.243,1.81,4.99
-"201","Lonnie Chisenhall","Indians","third_base","7571",445,48,13,52,3,0.26,1.81,4.98
-"202","Mark Canha","Athletics","outfield","11445",480,56,14,54,5,0.259,1.76,4.85
-"203","Chris Carter","Brewers","first_base","9911",552,66,30,76,3,0.223,1.76,4.85
-"204","Danny Valencia","Athletics","third_base","6364",474,50,15,57,3,0.25,1.68,4.62
-"205","Luis Valbuena","Astros","third_base","4969",536,63,19,62,2,0.235,1.65,4.54
-"206","Asdrubal Cabrera","Mets","shortstop","4962",530,54,14,56,6,0.243,1.62,4.47
-"207","Yangervis Solarte","Padres","third_base","5352",544,56,10,50,2,0.261,1.62,4.46
-"208","Justin Bour","Marlins","first_base","9744",510,56,18,64,2,0.256,1.61,4.42
-"209","Jed Lowrie","Athletics","shortstop","4418",575,61,11,59,2,0.252,1.59,4.38
-"210","Yonder Alonso","Athletics","first_base","2530",488,53,9,51,5,0.272,1.52,4.18
-"211","Oswaldo Arcia","Twins","outfield","10306",429,51,19,58,2,0.253,1.51,4.17
-"212","Derek Norris","Padres","catcher","6867",445,45,12,46,3,0.24,1.49,4.09
-"213","Jackie Bradley Jr.","Red Sox","outfield","12984",476,56,10,52,7,0.257,1.48,4.09
-"214","A.J. Pierzynski","Braves","catcher","746",379,34,8,40,1,0.261,1.47,4.05
-"215","Jose Peraza","Reds","second_base","13593",288,27,3,25,16,0.275,1.47,4.03
-"216","Yasmani Grandal","Dodgers","catcher","11368",400,46,13,48,1,0.241,1.46,4.03
-"217","Blake Swihart","Red Sox","catcher","13176",297,32,5,31,4,0.265,1.46,4.02
-"218","Adeiny Hechavarria","Marlins","shortstop","10459",558,47,5,49,7,0.261,1.45,4
-"219","James Loney","Rays","first_base","4556",514,51,9,53,3,0.274,1.37,3.78
-"220","Matt Wieters","Orioles","catcher","4298",379,41,13,44,1,0.244,1.36,3.75
-"221","Danny Santana","Twins","shortstop","10322",342,37,4,30,12,0.265,1.36,3.75
-"222","Hector Olivera","Braves","third_base","17528",460,47,10,46,3,0.26,1.33,3.65
-"223","Miguel Montero","Cubs","catcher","3364",412,44,10,45,2,0.244,1.33,3.65
-"224","Welington Castillo","Diamondbacks","catcher","3256",372,38,13,44,1,0.244,1.28,3.52
-"225","Brandon Crawford","Giants","shortstop","5343",553,52,12,57,5,0.242,1.24,3.41
-"226","Jonathan Villar","Brewers","shortstop","10071",323,33,7,31,20,0.239,1.22,3.36
-"227","Zack Cozart","Reds","shortstop","2616",534,50,11,51,6,0.245,1.19,3.29
-"228","Henry Urrutia","Orioles","outfield","14441",376,40,9,40,3,0.278,1.18,3.24
-"229","Robinson Chirinos","Rangers","catcher","3142",417,46,12,47,2,0.235,1.16,3.19
-"230","Andre Ethier","Dodgers","outfield","6265",444,45,10,50,3,0.267,1.14,3.12
-"231","Justin Morneau"," ","first_base","1737",453,49,13,55,1,0.265,1.03,2.83
-"232","Jordy Mercer","Pirates","shortstop","6547",490,45,8,48,4,0.256,1.01,2.78
-"233","Dioner Navarro","White Sox","catcher","3179",281,30,8,32,1,0.258,0.97,2.67
-"234","Cody Asche","Phillies","third_base","11997",423,41,12,47,2,0.254,0.94,2.59
-"235","Wilmer Flores","Mets","shortstop","5827",350,36,11,42,1,0.264,0.89,2.46
-"236","Michael Saunders","Blue Jays","outfield","9981",432,52,12,48,7,0.246,0.87,2.4
-"237","Chris Colabello","Blue Jays","outfield","13051",345,42,14,47,1,0.262,0.82,2.26
-"238","Chris Young","Red Sox","outfield","3882",401,49,13,49,5,0.249,0.81,2.24
-"239","Jace Peterson","Braves","second_base","12325",523,48,5,40,15,0.241,0.79,2.17
-"240","James McCann","Tigers","catcher","12859",332,32,5,34,2,0.255,0.78,2.14
-"241","Rajai Davis","Indians","outfield","3708",364,39,6,32,19,0.241,0.74,2.04
-"242","Steve Pearce"," ","outfield","9957",377,45,15,47,3,0.252,0.73,2.01
-"243","Tim Anderson","White Sox","shortstop","sa737508",265,26,4,26,13,0.258,0.7,1.94
-"244","Eduardo Escobar","Twins","shortstop","6153",377,39,7,39,4,0.26,0.69,1.91
-"245","Nick Ahmed","Diamondbacks","shortstop","12147",518,45,7,46,9,0.24,0.66,1.82
-"246","Juan Uribe"," ","third_base","454",367,36,9,41,2,0.26,0.66,1.81
-"247","Brock Holt","Red Sox","third_base","9345",328,37,2,28,5,0.272,0.66,1.81
-"248","Alex Rios"," ","outfield","2090",442,41,8,45,10,0.249,0.64,1.78
-"249","Jesus Montero","Mariners","catcher","5514",171,19,6,21,1,0.267,0.62,1.72
-"250","Colby Rasmus","Astros","outfield","9893",524,59,21,64,3,0.222,0.62,1.71
-"251","Marlon Byrd"," ","outfield","950",480,49,15,57,2,0.244,0.6,1.64
-"252","Adam LaRoche","White Sox","first_base","1904",568,64,21,68,2,0.224,0.57,1.56
-"253","Jason Castro","Astros","catcher","8722",436,46,12,46,2,0.224,0.56,1.54
-"254","Carlos Perez","Angels","catcher","10642",390,36,5,36,3,0.245,0.56,1.53
-"255","Aaron Altherr","Phillies","outfield","11270",449,46,11,45,10,0.239,0.54,1.49
-"256","Carl Crawford","Dodgers","outfield","1201",297,32,6,30,10,0.263,0.49,1.36
-"257","J.J. Hardy","Orioles","shortstop","3797",528,49,13,53,1,0.239,0.47,1.29
-"258","Will Venable"," ","outfield","211",412,43,9,40,11,0.243,0.46,1.27
-"259","Cesar Hernandez","Phillies","second_base","10556",403,37,2,29,12,0.259,0.44,1.2
-"260","Billy Butler","Athletics","dh","7399",486,53,12,56,1,0.263,0.43,1.18
-"261","Brandon Moss","Cardinals","outfield","4467",400,47,18,54,1,0.24,0.4,1.09
-"262","Chase Utley","Dodgers","second_base","1679",489,52,10,49,4,0.244,0.39,1.08
-"263","Logan Morrison","Rays","first_base","9205",438,48,15,50,6,0.24,0.37,1.03
-"264","Kurt Suzuki","Twins","catcher","8259",335,32,4,31,1,0.253,0.37,1.02
-"265","Seth Smith","Mariners","outfield","7331",470,54,12,51,1,0.248,0.36,1
-"266","Darin Ruf","Phillies","outfield","9929",449,46,15,51,3,0.242,0.36,0.99
-"267","Freddy Galvis","Phillies","shortstop","6609",473,42,8,42,5,0.246,0.36,0.98
-"268","Christian Colon","Royals","shortstop","11145",290,29,4,26,7,0.264,0.34,0.94
-"269","Gregor Blanco","Giants","outfield","3123",348,36,4,30,10,0.261,0.32,0.87
-"270","Mike Napoli","Indians","first_base","3057",527,59,19,61,4,0.224,0.29,0.8
-"271","JR Murphy","Twins","catcher","10346",247,26,6,27,1,0.253,0.27,0.74
-"272","Juan Lagares","Mets","outfield","5384",410,39,6,37,7,0.257,0.21,0.56
-"273","Marwin Gonzalez","Astros","shortstop","5497",342,36,7,35,5,0.252,0.2,0.56
-"274","David Murphy"," ","outfield","6035",403,40,9,44,2,0.259,0.19,0.52
-"275","Ben Paulsen","Rockies","first_base","9741",403,43,12,48,3,0.252,0.14,0.4
-"276","Dalton Pompey","Blue Jays","outfield","12797",256,29,4,26,11,0.261,0.13,0.36
-"277","Ryan Howard","Phillies","first_base","2154",507,52,20,63,1,0.228,0.08,0.21
-"278","L.J. Hoes","Orioles","outfield","6656",318,32,4,28,9,0.262,0.07,0.2
-"279","Christian Walker","Orioles","first_base","13419",367,42,13,44,2,0.254,0.07,0.19
-"280","Jon Jay","Padres","outfield","5227",406,37,5,34,5,0.263,0.03,0.08
-"281","Jimmy Paredes","Orioles","outfield","5481",356,37,7,35,7,0.253,-0.02,-0.07
-"282","Mark Reynolds","Rockies","third_base","7619",244,30,11,33,2,0.251,-0.02,-0.07
-"283","Coco Crisp","Athletics","outfield","1572",416,48,8,35,10,0.238,-0.03,-0.07
-"284","Jon Singleton","Astros","first_base","10441",438,53,18,54,3,0.229,-0.04,-0.11
-"285","Omar Infante","Royals","second_base","1609",432,41,5,40,5,0.253,-0.05,-0.12
-"286","Giovanny Urshela","Indians","third_base","10681",387,39,10,42,2,0.242,-0.07,-0.19
-"287","J.P. Crawford","Phillies","shortstop","sa737507",304,28,5,27,6,0.256,-0.1,-0.29
-"288","Conor Gillaspie"," ","third_base","9009",338,33,7,36,2,0.253,-0.12,-0.32
-"289","Darnell Sweeney","Phillies","second_base","13284",400,36,7,35,14,0.231,-0.15,-0.41
-"290","Devon Travis","Blue Jays","second_base","13862",204,25,5,22,4,0.272,-0.16,-0.44
-"291","Tyler Saladino","White Sox","third_base","10807",276,30,5,26,10,0.243,-0.19,-0.52
-"292","Alejandro De Aza","Mets","outfield","3371",418,41,7,37,9,0.241,-0.22,-0.61
-"293","Alexi Amarista","Padres","shortstop","9063",493,41,7,42,7,0.232,-0.23,-0.64
-"294","Kyle Parker","Rockies","outfield","11763",298,31,9,34,4,0.256,-0.26,-0.71
-"295","Tyler Collins","Tigers","outfield","12723",316,34,9,35,5,0.251,-0.28,-0.77
-"296","Tommy Pham","Cardinals","outfield","2967",267,30,5,26,5,0.265,-0.3,-0.82
-"297","Enrique Hernandez","Dodgers","outfield","10472",387,38,9,40,4,0.248,-0.3,-0.83
-"298","Brandon Barnes","Rockies","outfield","629",321,32,6,33,7,0.253,-0.31,-0.86
-"299","Gregory Bird","Yankees","first_base","14131",235,30,11,33,1,0.265,-0.33,-0.91
-"300","Will Middlebrooks","Brewers","third_base","7002",327,33,13,40,3,0.233,-0.36,-0.98
-"301","Eduardo Nunez","Twins","shortstop","6848",188,19,3,19,6,0.264,-0.36,-0.99
-"302","Christian Vazquez","Red Sox","catcher","9774",119,13,2,12,2,0.261,-0.36,-0.99
-"303","Steve Clevenger","Mariners","catcher","9542",170,17,2,16,1,0.259,-0.36,-0.99
-"304","Nolan Reimold","Orioles","outfield","3441",391,43,11,39,4,0.241,-0.37,-1.02
-"305","Michael Bourn","Braves","outfield","6387",406,37,3,28,12,0.244,-0.43,-1.19
-"306","Abraham Almonte","Indians","outfield","5486",337,35,6,32,8,0.247,-0.44,-1.22
-"307","Carlos Ruiz","Phillies","catcher","2579",277,24,4,24,2,0.243,-0.45,-1.24
-"308","Aaron Hill","Diamondbacks","second_base","6104",347,35,7,35,4,0.25,-0.46,-1.25
-"309","Angel Pagan","Giants","outfield","2918",303,31,3,24,7,0.261,-0.47,-1.29
-"310","Ryan Goins","Blue Jays","shortstop","9807",448,43,4,39,4,0.24,-0.51,-1.4
-"311","Kennys Vargas","Twins","first_base","12101",293,34,11,38,1,0.256,-0.54,-1.48
-"312","Franklin Gutierrez","Mariners","outfield","3255",379,41,13,44,2,0.237,-0.55,-1.52
-"313","Paulo Orlando","Royals","outfield","8628",294,28,4,28,8,0.254,-0.58,-1.59
-"314","Jarrett Parker","Giants","outfield","11624",339,35,10,37,8,0.234,-0.6,-1.65
-"315","Casey McGehee"," ","third_base","6086",370,34,5,35,2,0.247,-0.61,-1.69
-"316","Joey Gallo","Rangers","third_base","14128",263,34,15,38,3,0.225,-0.62,-1.7
-"317","Travis Jankowski","Padres","outfield","13768",227,20,2,19,11,0.258,-0.66,-1.82
-"318","Jose Pirela","Padres","second_base","5485",263,24,4,26,4,0.262,-0.68,-1.87
-"319","Justin Smoak","Blue Jays","first_base","9054",386,45,15,48,1,0.234,-0.71,-1.95
-"320","Josh Phegley","Athletics","catcher","9308",183,19,6,21,1,0.241,-0.72,-1.98
-"321","Chris Iannetta","Mariners","catcher","8267",358,38,9,35,2,0.215,-0.73,-2
-"322","Derek Dietrich","Marlins","second_base","10542",284,31,9,33,2,0.249,-0.74,-2.05
-"323","Tommy La Stella","Cubs","second_base","12371",176,18,2,17,2,0.277,-0.77,-2.12
-"324","Justin Ruggiano","Rangers","outfield","7620",235,28,8,27,5,0.251,-0.77,-2.12
-"325","Clint Robinson","Nationals","outfield","6908",267,29,6,30,1,0.262,-0.77,-2.13
-"326","Shane Victorino"," ","outfield","1677",349,36,6,32,7,0.242,-0.8,-2.2
-"327","Jarrod Saltalamacchia","Tigers","catcher","5557",245,27,8,28,1,0.227,-0.83,-2.29
-"328","Scott Van Slyke","Dodgers","outfield","4365",297,33,10,36,3,0.243,-0.85,-2.34
-"329","Brayan Pena","Cardinals","catcher","3231",160,14,1,14,1,0.254,-0.85,-2.35
-"330","Matt Joyce"," ","outfield","3353",376,40,10,40,3,0.236,-0.9,-2.48
-"331","Travis Shaw","Red Sox","first_base","11982",259,31,8,32,1,0.259,-0.92,-2.52
-"332","Travis Snider"," ","outfield","2830",302,33,8,32,2,0.249,-0.97,-2.66
-"333","Chris Coghlan","Cubs","outfield","6878",283,32,6,29,5,0.247,-0.99,-2.73
-"334","Michael Morse","Pirates","outfield","3035",310,32,9,36,1,0.247,-1.01,-2.79
-"335","J.B. Shuck","White Sox","outfield","6677",264,26,2,22,7,0.256,-1.02,-2.8
-"336","Socrates Brito","Diamondbacks","outfield","12944",200,19,3,19,6,0.262,-1.02,-2.81
-"337","Preston Tucker","Astros","outfield","13633",235,28,9,29,1,0.253,-1.02,-2.81
-"338","Dustin Garneau","Rockies","catcher","9433",181,18,5,19,1,0.238,-1.05,-2.9
-"339","Jedd Gyorko","Cardinals","second_base","10816",218,24,8,27,1,0.254,-1.07,-2.96
-"340","Cameron Rupp","Phillies","catcher","11146",299,26,8,29,1,0.222,-1.09,-3
-"341","Alberto Callaspo"," ","third_base","3336",331,30,4,29,1,0.247,-1.12,-3.08
-"342","Kevin Plawecki","Mets","catcher","13807",242,20,4,23,1,0.235,-1.13,-3.11
-"343","Domonic Brown"," ","outfield","3154",267,27,7,30,4,0.247,-1.13,-3.12
-"344","Matt den Dekker","Nationals","outfield","11385",185,20,4,20,4,0.261,-1.18,-3.24
-"345","Tyler Moore","Nationals","outfield","7244",245,27,9,30,2,0.247,-1.2,-3.31
-"346","Daniel Nava","Angels","outfield","5450",379,39,6,34,3,0.241,-1.21,-3.34
-"347","Scott Schebler","Reds","outfield","12225",294,31,10,33,6,0.231,-1.24,-3.4
-"348","Melvin Upton","Padres","outfield","5015",396,38,9,35,12,0.213,-1.25,-3.44
-"349","Austin Barnes","Dodgers","catcher","12158",45,5,1,5,1,0.256,-1.26,-3.48
-"350","Cristhian Adames","Rockies","shortstop","6013",54,6,1,5,1,0.277,-1.27,-3.5
-"351","Andres Blanco","Phillies","third_base","1907",212,20,4,20,3,0.249,-1.3,-3.59
-"352","Chris Denorfia"," ","outfield","4400",310,30,5,28,3,0.249,-1.32,-3.63
-"353","Chris Gimenez","Rangers","catcher","7324",179,18,3,17,2,0.235,-1.33,-3.65
-"354","Delmon Young"," ","outfield","2140",206,21,5,23,1,0.261,-1.35,-3.7
-"355","Alex Avila","White Sox","catcher","7476",303,32,8,29,2,0.211,-1.37,-3.76
-"356","Craig Gentry","Angels","outfield","9571",269,26,2,21,11,0.24,-1.37,-3.77
-"357","Andrew Susac","Giants","catcher","13132",214,20,5,22,1,0.229,-1.38,-3.79
-"358","Dustin Ackley","Yankees","outfield","10099",167,19,5,19,2,0.261,-1.39,-3.83
-"359","Caleb Joseph","Orioles","catcher","7087",177,18,5,18,1,0.232,-1.39,-3.84
-"360","David DeJesus"," ","outfield","1825",316,34,6,29,3,0.243,-1.4,-3.84
-"361","Phil Gosselin","Diamondbacks","second_base","10953",173,17,2,16,2,0.266,-1.4,-3.84
-"362","Joey Butler","Indians","outfield","7799",189,21,5,20,2,0.259,-1.41,-3.88
-"363","Curt Casali","Rays","catcher","12510",236,24,7,24,2,0.219,-1.41,-3.89
-"364","Ryan Hanigan","Red Sox","catcher","4952",177,18,2,16,1,0.238,-1.42,-3.91
-"365","Ike Davis"," ","first_base","8433",305,33,10,35,2,0.24,-1.45,-3.98
-"366","Hank Conger","Rays","catcher","2505",238,24,6,24,2,0.22,-1.45,-4
-"367","Tomas Telis","Marlins","catcher","10067",30,3,0,3,0,0.258,-1.49,-4.11
-"368","Josmil Pinto","Twins","catcher","6806",33,4,1,4,0,0.255,-1.5,-4.12
-"369","Matt McBride","Rockies","outfield","9373",65,7,2,8,1,0.279,-1.52,-4.18
-"370","Rymer Liriano","Padres","outfield","4779",312,28,6,29,7,0.234,-1.52,-4.19
-"371","Michael McKenry"," ","catcher","9628",153,16,4,16,2,0.231,-1.53,-4.2
-"372","Ramon Cabrera","Reds","catcher","10327",92,8,1,8,0,0.25,-1.53,-4.21
-"373","Carlos Sanchez","White Sox","second_base","11602",222,21,2,20,4,0.254,-1.54,-4.23
-"374","Orlando Arcia","Brewers","shortstop","sa596917",88,8,1,8,3,0.264,-1.55,-4.26
-"375","Peter O'Brien","Diamondbacks","outfield","13288",233,27,11,31,1,0.238,-1.58,-4.35
-"376","Alex Dickerson","Padres","outfield","12649",243,23,6,25,2,0.25,-1.58,-4.35
-"377","Chris Stewart","Pirates","catcher","3878",137,11,1,11,1,0.243,-1.59,-4.38
-"378","Max Kepler","Twins","outfield","12144",197,21,3,20,4,0.254,-1.6,-4.41
-"379","Rob Refsnyder","Yankees","second_base","13770",99,11,2,11,2,0.268,-1.61,-4.42
-"380","Ezequiel Carrera","Blue Jays","outfield","9048",174,18,2,16,6,0.254,-1.64,-4.52
-"381","Willson Contreras","Cubs","catcher","sa508176",13,1,0,1,0,0.257,-1.66,-4.56
-"382","Sean Rodriguez","Pirates","outfield","6589",311,29,7,32,4,0.234,-1.69,-4.66
-"383","Mike Aviles","Tigers","third_base","5986",165,17,3,16,3,0.247,-1.7,-4.68
-"384","Joey Terdoslavich","Orioles","outfield","10593",161,18,5,18,2,0.256,-1.71,-4.7
-"385","Tucker Barnhart","Reds","catcher","10200",151,12,2,13,1,0.237,-1.72,-4.75
-"386","Cheslor Cuthbert","Royals","third_base","10473",152,15,3,16,2,0.25,-1.73,-4.75
-"387","Grady Sizemore"," ","outfield","2197",243,25,5,24,3,0.246,-1.73,-4.76
-"388","A.J. Ellis","Dodgers","catcher","5677",207,19,4,19,1,0.226,-1.74,-4.79
-"389","Dariel Alvarez","Orioles","outfield","15580",79,9,2,9,1,0.273,-1.74,-4.8
-"390","Jose Lobaton","Nationals","catcher","4243",180,16,3,17,1,0.23,-1.77,-4.86
-"391","Eric Campbell","Mets","third_base","6938",188,18,3,17,4,0.242,-1.78,-4.89
-"392","Skip Schumaker"," ","second_base","3704",264,24,2,21,3,0.249,-1.81,-4.98
-"393","Kelby Tomlinson","Giants","second_base","13005",191,17,1,15,7,0.248,-1.82,-5.01
-"394","Josh Thole","Blue Jays","catcher","9689",121,12,1,11,1,0.238,-1.82,-5.02
-"395","Shane Peterson","Brewers","outfield","7423",185,19,4,18,2,0.255,-1.82,-5.02
-"396","Jurickson Profar","Rangers","second_base","10815",142,16,3,15,3,0.254,-1.86,-5.11
-"397","Steven Moya","Tigers","outfield","11854",176,20,8,24,2,0.243,-1.87,-5.15
-"398","Jake Marisnick","Astros","outfield","11339",175,19,4,18,9,0.237,-1.87,-5.15
-"399","Maicer Izturis"," ","third_base","2437",166,15,2,14,2,0.249,-1.93,-5.31
-"400","Austin Hedges","Padres","catcher","12976",244,19,4,21,2,0.218,-1.97,-5.42
-"401","Daniel Descalso","Rockies","shortstop","8392",122,12,2,12,2,0.252,-1.97,-5.43
-"402","Mikie Mahtook","Rays","outfield","13130",231,23,5,22,5,0.238,-2,-5.52
-"403","Tyler Flowers","Braves","catcher","9134",206,18,5,20,1,0.219,-2.01,-5.52
-"404","Nate McLouth"," ","outfield","3190",242,25,5,22,7,0.232,-2.01,-5.53
-"405","Boog Powell","Mariners","outfield","sa658509",113,11,1,10,3,0.263,-2.02,-5.55
-"406","Tommy Medica","Marlins","first_base","11147",256,26,7,29,3,0.239,-2.02,-5.55
-"407","Chris Taylor","Mariners","shortstop","13757",71,7,1,6,2,0.259,-2.02,-5.56
-"408","Christian Bethancourt","Padres","catcher","10028",30,3,1,3,0,0.246,-2.02,-5.56
-"409","Mac Williamson","Giants","outfield","14158",184,18,4,19,2,0.251,-2.03,-5.58
-"410","Chris Parmelee"," ","outfield","2554",169,18,5,20,1,0.251,-2.03,-5.6
-"411","Ryan Raburn"," ","outfield","2218",204,22,7,24,1,0.243,-2.03,-5.6
-"412","Daniel Castro","Braves","shortstop","15450",129,11,1,11,1,0.256,-2.04,-5.62
-"413","Aaron Hicks","Yankees","outfield","5297",155,18,4,16,3,0.25,-2.04,-5.62
-"414","Rafael Ynoa","Rockies","third_base","2832",45,4,0,4,1,0.264,-2.06,-5.68
-"415","Ichiro Suzuki","Marlins","outfield","1101",183,16,1,15,5,0.251,-2.1,-5.78
-"416","Jorge Polanco","Twins","shortstop","13152",46,5,1,4,1,0.262,-2.1,-5.79
-"417","Tom Murphy","Rockies","catcher","13499",18,2,1,2,0,0.245,-2.13,-5.86
-"418","Eric Sogard","Athletics","second_base","7927",211,20,1,17,4,0.246,-2.16,-5.94
-"419","Collin Cowgill","Indians","outfield","7250",248,25,4,23,4,0.237,-2.19,-6.03
-"420","Raimel Tapia","Rockies","outfield","sa597078",7,1,0,1,0,0.279,-2.2,-6.06
-"421","Kelly Johnson","Braves","third_base","2234",185,18,5,20,2,0.233,-2.22,-6.11
+"","name","Team","position","playerid","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value"
+"1","Mike Trout","Angels","outfield","10155",561,111,37,104,15,0.307,10.61,29.2
+"2","Jose Altuve","Astros","second_base","5417",629,92,11,67,36,0.307,9.4,25.89
+"3","Dee Gordon","Marlins","second_base","8203",629,81,4,48,54,0.284,8.98,24.71
+"4","Bryce Harper","Nationals","outfield","11579",536,98,35,102,7,0.301,8.69,23.92
+"5","Giancarlo Stanton","Marlins","outfield","4949",554,98,44,110,8,0.277,8.64,23.78
+"6","Mookie Betts","Red Sox","outfield","13611",595,98,18,76,25,0.3,8.57,23.61
+"7","Miguel Cabrera","Tigers","third_base","1744",561,93,28,99,2,0.314,8.48,23.34
+"8","Billy Hamilton","Reds","outfield","10199",553,67,8,47,63,0.25,8.15,22.43
+"9","Manny Machado","Orioles","third_base","11493",604,94,27,82,15,0.285,8.05,22.16
+"10","Paul Goldschmidt","Diamondbacks","first_base","9218",548,95,30,93,14,0.29,7.91,21.77
+"11","Starling Marte","Pirates","outfield","9241",594,81,18,76,28,0.286,7.76,21.37
+"12","Kris Bryant","Cubs","third_base","15429",564,92,32,96,11,0.273,7.75,21.32
+"13","Charlie Blackmon","Rockies","outfield","7859",597,88,16,63,33,0.279,7.65,21.07
+"14","Carlos Correa","Astros","shortstop","14162",582,83,22,84,21,0.275,7.53,20.73
+"15","Jose Reyes","Rockies","shortstop","1736",581,85,11,55,25,0.299,7.46,20.54
+"16","Anthony Rizzo","Cubs","first_base","3473",563,96,32,99,11,0.279,7.35,20.24
+"17","Andrew McCutchen","Pirates","outfield","9847",559,90,23,87,12,0.297,7.35,20.22
+"18","Nolan Arenado","Rockies","third_base","9777",580,82,29,97,4,0.289,7.17,19.74
+"19","Ryan Braun","Brewers","outfield","3410",584,84,26,86,18,0.276,7.1,19.54
+"20","A.J. Pollock","Diamondbacks","outfield","9256",596,81,15,67,27,0.282,6.89,18.96
+"21","Josh Donaldson","Blue Jays","third_base","5038",581,95,31,94,4,0.274,6.85,18.85
+"22","Jose Abreu","White Sox","first_base","15676",592,91,35,103,2,0.286,6.84,18.82
+"23","Buster Posey","Giants","catcher","9166",478,65,17,72,1,0.306,6.42,17.68
+"24","Jason Heyward","Cubs","outfield","4940",568,85,18,76,17,0.284,6.38,17.57
+"25","George Springer","Astros","outfield","12856",560,89,29,82,18,0.256,6.36,17.51
+"26","Christian Yelich","Marlins","outfield","11477",580,82,13,64,19,0.288,5.94,16.36
+"27","Adrian Beltre","Rangers","third_base","639",582,79,21,90,1,0.292,5.92,16.3
+"28","Lorenzo Cain","Royals","outfield","9077",575,70,12,69,23,0.283,5.91,16.28
+"29","Jacoby Ellsbury","Yankees","outfield","4727",580,80,14,61,28,0.264,5.79,15.93
+"30","Jose Bautista","Blue Jays","outfield","1887",526,92,33,95,6,0.257,5.73,15.78
+"31","Xander Bogaerts","Red Sox","shortstop","12161",577,76,15,78,7,0.293,5.68,15.64
+"32","Todd Frazier","White Sox","third_base","785",570,78,27,86,13,0.25,5.67,15.6
+"33","Justin Upton"," ","outfield","5222",559,80,28,88,12,0.26,5.65,15.55
+"34","Corey Dickerson","Rockies","outfield","10762",485,70,23,75,7,0.293,5.6,15.43
+"35","Carlos Gomez","Astros","outfield","4881",553,77,19,70,24,0.257,5.56,15.31
+"36","Edwin Encarnacion","Blue Jays","first_base","2151",525,87,34,99,3,0.265,5.56,15.3
+"37","Yasiel Puig","Dodgers","outfield","14225",503,70,22,76,10,0.285,5.51,15.16
+"38","Adam Jones","Orioles","outfield","6368",612,79,28,93,5,0.272,5.51,15.16
+"39","Gregory Polanco","Pirates","outfield","12907",576,78,14,59,27,0.263,5.49,15.12
+"40","Joey Votto","Reds","first_base","4314",527,92,23,76,7,0.283,5.44,14.97
+"41","Hanley Ramirez","Red Sox","shortstop","8001",464,68,19,74,8,0.284,5.37,14.79
+"42","Prince Fielder","Rangers","first_base","4613",563,85,24,90,1,0.29,5.36,14.75
+"43","Francisco Lindor","Indians","shortstop","12916",615,77,12,66,19,0.269,5.35,14.73
+"44","Delino Deshields","Rangers","outfield","11379",577,80,8,53,36,0.25,5.28,14.54
+"45","Freddie Freeman","Braves","first_base","5361",562,81,25,85,4,0.283,5.21,14.33
+"46","Yoenis Cespedes"," ","outfield","13110",587,77,27,89,7,0.266,5.18,14.27
+"47","Daniel Murphy","Nationals","second_base","4316",552,73,10,66,7,0.308,5.16,14.2
+"48","Josh Harrison","Pirates","third_base","8202",568,71,10,58,16,0.282,5.12,14.09
+"49","J.D. Martinez","Tigers","outfield","6184",545,76,27,88,4,0.273,5.11,14.07
+"50","Kyle Schwarber","Cubs","catcher","16478",436,70,23,64,5,0.261,5.05,13.91
+"51","Kyle Seager","Mariners","third_base","9785",569,78,22,80,7,0.265,5.05,13.9
+"52","Carlos Gonzalez","Rockies","outfield","7287",481,72,28,81,4,0.276,5.04,13.88
+"53","Robinson Cano","Mariners","second_base","3269",586,77,18,82,5,0.285,5.04,13.86
+"54","Billy Burns","Athletics","outfield","12701",597,74,5,47,33,0.264,5.01,13.79
+"55","Elvis Andrus","Rangers","shortstop","8709",569,68,6,55,25,0.267,4.88,13.43
+"56","Eric Hosmer","Royals","first_base","3516",583,78,19,82,6,0.285,4.84,13.32
+"57","Nelson Cruz","Mariners","outfield","2434",562,79,32,93,3,0.255,4.74,13.06
+"58","Trea Turner","Nationals","shortstop","16252",463,53,8,51,20,0.283,4.73,13.02
+"59","Albert Pujols","Angels","first_base","1177",585,80,30,94,4,0.26,4.72,12.98
+"60","Evan Gattis","Astros","catcher","11003",509,68,27,81,1,0.248,4.69,12.92
+"61","Rougned Odor","Rangers","second_base","12282",523,70,17,71,12,0.273,4.69,12.91
+"62","Anthony Rendon","Nationals","third_base","12861",532,78,16,64,7,0.277,4.65,12.79
+"63","Maikel Franco","Phillies","third_base","12179",549,68,23,77,3,0.272,4.64,12.76
+"64","Jason Kipnis","Indians","second_base","9776",586,81,12,63,17,0.267,4.61,12.7
+"65","Miguel Sano","Twins","dh","12164",542,85,34,96,5,0.255,4.6,12.67
+"66","Adam Eaton","White Sox","outfield","11205",587,84,10,55,18,0.272,4.5,12.4
+"67","Ian Kinsler","Tigers","second_base","6195",619,83,15,69,11,0.269,4.47,12.31
+"68","Kevin Pillar","Blue Jays","outfield","12434",513,62,11,63,17,0.279,4.46,12.29
+"69","David Peralta","Diamondbacks","outfield","2136",543,67,16,72,9,0.281,4.42,12.17
+"70","Dustin Pedroia","Red Sox","second_base","8370",568,80,12,68,7,0.284,4.35,11.98
+"71","Evan Longoria","Rays","third_base","9368",587,76,24,84,3,0.256,4.33,11.92
+"72","Matt Carpenter","Cardinals","third_base","8090",570,90,16,60,6,0.269,4.32,11.89
+"73","Salvador Perez","Royals","catcher","7304",491,56,17,66,1,0.273,4.29,11.82
+"74","DJ LeMahieu","Rockies","second_base","9874",528,61,6,52,17,0.287,4.22,11.62
+"75","Matt Duffy","Giants","third_base","13836",575,64,10,64,11,0.276,4.16,11.46
+"76","David Ortiz","Red Sox","dh","745",525,83,27,92,1,0.272,4.16,11.46
+"77","Adrian Gonzalez","Dodgers","first_base","1908",572,75,24,88,1,0.272,4.09,11.26
+"78","Melky Cabrera","White Sox","outfield","4022",591,77,15,72,4,0.283,4.08,11.23
+"79","Matt Kemp","Padres","outfield","5631",526,65,21,73,8,0.268,4.06,11.17
+"80","Hunter Pence","Giants","outfield","8252",543,70,19,72,9,0.267,4.06,11.17
+"81","Jean Segura","Brewers","shortstop","5933",534,56,8,50,22,0.263,4,11.01
+"82","Kolten Wong","Cardinals","second_base","12532",542,65,13,59,17,0.264,3.99,10.99
+"83","Ketel Marte","Mariners","shortstop","13613",516,62,5,43,22,0.269,3.99,10.99
+"84","Mark Trumbo","Orioles","outfield","6876",571,75,30,85,2,0.252,3.93,10.83
+"85","Jonathan Lucroy","Brewers","catcher","7870",471,61,12,55,3,0.273,3.9,10.73
+"86","Matt Holliday","Cardinals","outfield","1873",526,76,18,73,4,0.274,3.89,10.71
+"87","Brett Gardner","Yankees","outfield","9927",549,78,14,59,17,0.256,3.87,10.66
+"88","Brian Dozier","Twins","second_base","9810",589,85,20,67,14,0.241,3.86,10.62
+"89","Jung-ho Kang","Pirates","third_base","17182",534,64,18,72,7,0.261,3.85,10.61
+"90","Khris Davis","Brewers","outfield","9112",526,70,28,80,7,0.247,3.83,10.56
+"91","Cory Spangenberg","Padres","third_base","12294",567,59,8,53,20,0.26,3.82,10.52
+"92","Byron Buxton","Twins","outfield","14161",486,60,11,54,23,0.258,3.81,10.5
+"93","Nick Hundley","Rockies","catcher","3376",373,43,12,49,6,0.277,3.81,10.49
+"94","Justin Turner","Dodgers","third_base","5235",514,65,14,65,6,0.273,3.8,10.47
+"95","Ben Zobrist","Cubs","second_base","7435",541,81,14,65,6,0.273,3.78,10.41
+"96","Mike Moustakas","Royals","third_base","4892",542,71,20,72,3,0.262,3.78,10.4
+"97","Alex Gordon","Royals","outfield","5209",527,73,17,67,7,0.271,3.76,10.36
+"98","Wil Myers","Padres","outfield","10047",534,70,21,66,11,0.256,3.75,10.31
+"99","Starlin Castro","Yankees","shortstop","4579",580,66,14,69,7,0.267,3.7,10.2
+"100","Shin-Soo Choo","Rangers","outfield","3174",547,87,18,67,6,0.263,3.7,10.19
+"101","Pablo Sandoval","Red Sox","third_base","5409",508,66,15,70,1,0.278,3.7,10.18
+"102","Troy Tulowitzki","Blue Jays","shortstop","3531",509,73,21,74,2,0.26,3.7,10.18
+"103","Michael Brantley","Indians","outfield","4106",403,53,10,54,9,0.295,3.68,10.12
+"104","Howie Kendrick"," ","second_base","4229",519,61,10,62,6,0.29,3.65,10.06
+"105","Denard Span","Giants","outfield","8347",528,71,6,44,18,0.275,3.61,9.93
+"106","Corey Seager","Dodgers","shortstop","13624",544,64,17,70,5,0.265,3.6,9.91
+"107","Victor Martinez","Tigers","dh","393",536,72,18,79,1,0.29,3.58,9.85
+"108","Joc Pederson","Dodgers","outfield","11899",544,87,26,65,14,0.228,3.58,9.84
+"109","Kole Calhoun","Angels","outfield","11200",581,79,21,72,5,0.259,3.57,9.83
+"110","Brandon Belt","Giants","first_base","10264",517,67,19,73,8,0.266,3.54,9.75
+"111","Jose Iglesias","Tigers","shortstop","10231",483,55,5,49,14,0.28,3.54,9.74
+"112","Chris Davis"," ","first_base","9272",546,79,33,91,3,0.236,3.51,9.66
+"113","Alcides Escobar","Royals","shortstop","6310",599,66,4,51,19,0.262,3.51,9.65
+"114","Jarrod Dyson","Royals","outfield","4866",363,44,3,33,38,0.25,3.49,9.61
+"115","Josh Reddick","Athletics","outfield","3892",513,66,19,72,7,0.263,3.49,9.6
+"116","Avisail Garcia","White Sox","outfield","5760",537,64,18,70,8,0.264,3.46,9.52
+"117","Brian McCann","Yankees","catcher","4810",458,61,23,70,1,0.241,3.45,9.49
+"118","Randal Grichuk","Cardinals","outfield","10243",545,67,23,76,8,0.249,3.4,9.37
+"119","Alexei Ramirez"," ","shortstop","5133",583,59,9,59,15,0.26,3.4,9.37
+"120","David Wright","Mets","third_base","3787",495,62,14,60,7,0.267,3.39,9.32
+"121","Nori Aoki","Mariners","outfield","13075",555,72,6,48,17,0.27,3.37,9.28
+"122","Marcell Ozuna","Marlins","outfield","10324",543,65,19,74,4,0.267,3.35,9.22
+"123","Brandon Phillips","Reds","second_base","791",568,62,13,61,11,0.266,3.32,9.13
+"124","John Jaso","Pirates","catcher","5887",427,60,12,48,5,0.261,3.29,9.07
+"125","Matt Adams","Cardinals","first_base","9393",507,63,21,76,3,0.27,3.28,9.03
+"126","Brett Lawrie","White Sox","third_base","5247",518,62,19,68,5,0.256,3.26,8.98
+"127","Eddie Rosario","Twins","outfield","12155",539,60,14,64,14,0.258,3.25,8.95
+"128","Marcus Semien","Athletics","shortstop","12533",502,65,16,62,10,0.251,3.21,8.82
+"129","Jay Bruce","Reds","outfield","9892",559,70,25,80,9,0.235,3.19,8.78
+"130","Kevin Kiermaier","Rays","outfield","11038",509,60,11,56,16,0.261,3.14,8.66
+"131","Nick Castellanos","Tigers","third_base","11737",498,60,15,64,3,0.269,3.14,8.65
+"132","Ian Desmond"," ","shortstop","6885",558,63,18,68,13,0.236,3.11,8.57
+"133","Yadier Molina","Cardinals","catcher","7007",424,46,8,50,2,0.278,3.1,8.54
+"134","Curtis Granderson","Mets","outfield","4747",567,82,24,67,10,0.232,3.02,8.3
+"135","Erick Aybar","Braves","shortstop","4082",547,55,6,52,12,0.271,3,8.26
+"136","Jhonny Peralta","Cardinals","shortstop","1738",531,63,15,68,3,0.262,2.92,8.05
+"137","Yasmany Tomas","Diamondbacks","third_base","17171",463,52,15,61,6,0.263,2.9,7.99
+"138","Stephen Vogt","Athletics","catcher","5000",416,52,13,53,2,0.26,2.88,7.94
+"139","Chase Headley","Yankees","third_base","4720",520,66,15,64,4,0.258,2.86,7.89
+"140","Scooter Gennett","Brewers","second_base","10339",542,59,11,56,7,0.274,2.81,7.74
+"141","Trevor Plouffe","Twins","third_base","7462",538,67,19,73,2,0.249,2.81,7.73
+"142","Domingo Santana","Brewers","outfield","10348",510,64,21,69,7,0.249,2.8,7.72
+"143","Austin Jackson"," ","outfield","9848",527,65,9,49,16,0.259,2.79,7.68
+"144","Kendrys Morales","Royals","dh","8610",562,73,20,80,1,0.27,2.78,7.67
+"145","Dexter Fowler"," ","outfield","4062",510,75,12,50,15,0.25,2.78,7.65
+"146","Martin Prado","Marlins","third_base","3312",544,63,10,60,2,0.273,2.73,7.51
+"147","Gerardo Parra"," ","outfield","8553",521,63,10,53,11,0.267,2.73,7.51
+"148","Ryan Zimmerman","Nationals","third_base","4220",430,56,17,62,2,0.263,2.72,7.49
+"149","Russell Martin","Blue Jays","catcher","4616",410,57,17,57,5,0.237,2.7,7.43
+"150","Anthony Gose","Tigers","outfield","5097",463,58,7,44,25,0.245,2.67,7.36
+"151","J.T. Realmuto","Marlins","catcher","11739",397,40,8,45,9,0.257,2.59,7.12
+"152","Jorge Soler","Cubs","outfield","14221",468,62,18,66,4,0.26,2.58,7.09
+"153","Carlos Beltran","Yankees","outfield","589",488,63,18,68,2,0.263,2.57,7.06
+"154","Carlos Santana","Indians","first_base","2396",528,78,21,75,7,0.239,2.56,7.06
+"155","Joe Panik","Giants","second_base","11936",555,68,7,53,5,0.278,2.56,7.04
+"156","Michael Conforto","Mets","outfield","16376",503,60,19,68,3,0.26,2.55,7.01
+"157","Francisco Cervelli","Pirates","catcher","5275",445,47,7,49,2,0.269,2.54,7
+"158","Addison Russell","Cubs","shortstop","14106",475,57,14,59,10,0.247,2.51,6.9
+"159","Odubel Herrera","Phillies","outfield","11476",519,54,7,47,15,0.266,2.48,6.82
+"160","Adonis Garcia","Braves","third_base","13777",481,48,12,57,5,0.267,2.48,6.82
+"161","Steven Souza","Rays","outfield","5667",433,58,18,56,15,0.239,2.47,6.8
+"162","Desmond Jennings","Rays","outfield","1965",505,65,12,53,16,0.245,2.46,6.77
+"163","Ender Inciarte","Braves","outfield","4922",439,50,5,36,17,0.272,2.42,6.67
+"164","Adam Lind","Mariners","first_base","8027",476,63,17,68,1,0.269,2.37,6.53
+"165","Devin Mesoraco","Reds","catcher","5666",376,46,16,53,4,0.243,2.37,6.52
+"166","Jimmy Rollins"," ","shortstop","971",516,63,11,50,16,0.237,2.37,6.52
+"167","Leonys Martin","Mariners","outfield","11846",484,54,8,47,23,0.242,2.34,6.44
+"168","Andrelton Simmons","Angels","shortstop","10847",559,61,9,58,6,0.26,2.29,6.32
+"169","Chris Owings","Diamondbacks","shortstop","10030",516,50,9,53,14,0.249,2.28,6.29
+"170","Jayson Werth","Nationals","outfield","1327",443,61,14,59,4,0.266,2.28,6.29
+"171","Michael Taylor","Nationals","outfield","11489",484,55,14,54,17,0.24,2.26,6.23
+"172","Brandon Guyer","Rays","outfield","2636",471,59,10,49,12,0.26,2.26,6.23
+"173","Josh Hamilton","Rangers","outfield","1875",451,59,19,66,3,0.256,2.25,6.2
+"174","Neil Walker","Mets","second_base","7539",468,60,17,61,3,0.258,2.21,6.08
+"175","C.J. Cron","Angels","first_base","12546",496,59,19,68,3,0.259,2.18,6
+"176","Logan Forsythe","Rays","second_base","7185",517,61,13,61,7,0.254,2.16,5.96
+"177","Jake Lamb","Diamondbacks","third_base","13329",459,53,12,56,4,0.261,2.15,5.92
+"178","Cameron Maybin","Tigers","outfield","5223",410,51,8,44,14,0.263,2.12,5.83
+"179","Brad Miller","Rays","shortstop","12775",426,53,11,49,10,0.252,2.08,5.73
+"180","Yan Gomes","Indians","catcher","9627",400,45,14,52,1,0.249,2.06,5.67
+"181","Jose Ramirez","Indians","shortstop","13510",354,42,5,35,17,0.259,2.06,5.67
+"182","Adam Duvall","Reds","outfield","10950",441,55,25,67,3,0.243,2.05,5.65
+"183","Yunel Escobar","Angels","third_base","4191",530,60,8,54,3,0.266,2.05,5.64
+"184","Mark Teixeira","Yankees","first_base","1281",474,70,27,78,2,0.233,2.04,5.63
+"185","Stephen Piscotty","Cardinals","outfield","13367",451,55,11,51,7,0.267,2.04,5.6
+"186","Wilson Ramos","Nationals","catcher","1433",375,40,14,50,1,0.252,2.02,5.56
+"187","Joe Mauer","Twins","first_base","1857",534,69,9,61,2,0.274,1.98,5.45
+"188","Didi Gregorius","Yankees","shortstop","6012",496,57,11,56,5,0.256,1.98,5.44
+"189","Rusney Castillo","Red Sox","outfield","17016",375,45,9,46,10,0.27,1.96,5.4
+"190","Nick Markakis","Braves","outfield","5930",582,69,9,55,3,0.269,1.95,5.38
+"191","Mitch Moreland","Rangers","first_base","3086",486,62,20,69,2,0.253,1.95,5.36
+"192","Travis d'Arnaud","Mets","catcher","7739",309,38,13,43,1,0.257,1.92,5.29
+"193","Javier Baez","Cubs","shortstop","12979",308,42,15,45,9,0.252,1.9,5.24
+"194","David Freese"," ","third_base","9549",452,52,13,57,2,0.259,1.89,5.2
+"195","Johnny Giavotella","Angels","second_base","6740",492,57,6,49,7,0.27,1.88,5.19
+"196","Alex Rodriguez","Yankees","dh","1274",546,75,23,77,4,0.24,1.85,5.1
+"197","Eugenio Suarez","Reds","shortstop","12552",422,47,14,51,6,0.254,1.85,5.1
+"198","Jonathan Schoop","Orioles","second_base","11265",452,53,19,60,4,0.249,1.83,5.04
+"199","Lucas Duda","Mets","first_base","2502",496,68,24,73,2,0.238,1.82,5.02
+"200","Pedro Alvarez"," ","third_base","2495",355,48,21,57,3,0.243,1.81,4.99
+"201","Lonnie Chisenhall","Indians","third_base","7571",405,48,13,52,3,0.26,1.81,4.98
+"202","Mark Canha","Athletics","outfield","11445",430,56,14,54,5,0.259,1.76,4.85
+"203","Chris Carter","Brewers","first_base","9911",477,66,30,76,3,0.223,1.76,4.85
+"204","Danny Valencia","Athletics","third_base","6364",436,50,15,57,3,0.25,1.68,4.62
+"205","Luis Valbuena","Astros","third_base","4969",466,63,19,62,2,0.235,1.65,4.54
+"206","Asdrubal Cabrera","Mets","shortstop","4962",480,54,14,56,6,0.243,1.62,4.47
+"207","Yangervis Solarte","Padres","third_base","5352",494,56,10,50,2,0.261,1.62,4.46
+"208","Justin Bour","Marlins","first_base","9744",461,56,18,64,2,0.256,1.61,4.42
+"209","Jed Lowrie","Athletics","shortstop","4418",512,61,11,59,2,0.252,1.59,4.38
+"210","Yonder Alonso","Athletics","first_base","2530",435,53,9,51,5,0.272,1.52,4.18
+"211","Oswaldo Arcia","Twins","outfield","10306",389,51,19,58,2,0.253,1.51,4.17
+"212","Derek Norris","Padres","catcher","6867",396,45,12,46,3,0.24,1.49,4.09
+"213","Jackie Bradley Jr.","Red Sox","outfield","12984",423,56,10,52,7,0.257,1.48,4.09
+"214","A.J. Pierzynski","Braves","catcher","746",355,34,8,40,1,0.261,1.47,4.05
+"215","Jose Peraza","Reds","second_base","13593",272,27,3,25,16,0.275,1.47,4.03
+"216","Yasmani Grandal","Dodgers","catcher","11368",338,46,13,48,1,0.241,1.46,4.03
+"217","Blake Swihart","Red Sox","catcher","13176",273,32,5,31,4,0.265,1.46,4.02
+"218","Adeiny Hechavarria","Marlins","shortstop","10459",518,47,5,49,7,0.261,1.45,4
+"219","James Loney","Rays","first_base","4556",472,51,9,53,3,0.274,1.37,3.78
+"220","Matt Wieters","Orioles","catcher","4298",345,41,13,44,1,0.244,1.36,3.75
+"221","Danny Santana","Twins","shortstop","10322",321,37,4,30,12,0.265,1.36,3.75
+"222","Hector Olivera","Braves","third_base","17528",423,47,10,46,3,0.26,1.33,3.65
+"223","Miguel Montero","Cubs","catcher","3364",359,44,10,45,2,0.244,1.33,3.65
+"224","Welington Castillo","Diamondbacks","catcher","3256",336,38,13,44,1,0.244,1.28,3.52
+"225","Brandon Crawford","Giants","shortstop","5343",495,52,12,57,5,0.242,1.24,3.41
+"226","Jonathan Villar","Brewers","shortstop","10071",291,33,7,31,20,0.239,1.22,3.36
+"227","Zack Cozart","Reds","shortstop","2616",493,50,11,51,6,0.245,1.19,3.29
+"228","Henry Urrutia","Orioles","outfield","14441",348,40,9,40,3,0.278,1.18,3.24
+"229","Robinson Chirinos","Rangers","catcher","3142",372,46,12,47,2,0.235,1.16,3.19
+"230","Andre Ethier","Dodgers","outfield","6265",394,45,10,50,3,0.267,1.14,3.12
+"231","Justin Morneau"," ","first_base","1737",412,49,13,55,1,0.265,1.03,2.83
+"232","Jordy Mercer","Pirates","shortstop","6547",448,45,8,48,4,0.256,1.01,2.78
+"233","Dioner Navarro","White Sox","catcher","3179",255,30,8,32,1,0.258,0.97,2.67
+"234","Cody Asche","Phillies","third_base","11997",387,41,12,47,2,0.254,0.94,2.59
+"235","Wilmer Flores","Mets","shortstop","5827",327,36,11,42,1,0.264,0.89,2.46
+"236","Michael Saunders","Blue Jays","outfield","9981",381,52,12,48,7,0.246,0.87,2.4
+"237","Chris Colabello","Blue Jays","outfield","13051",314,42,14,47,1,0.262,0.82,2.26
+"238","Chris Young","Red Sox","outfield","3882",358,49,13,49,5,0.249,0.81,2.24
+"239","Jace Peterson","Braves","second_base","12325",467,48,5,40,15,0.241,0.79,2.17
+"240","James McCann","Tigers","catcher","12859",311,32,5,34,2,0.255,0.78,2.14
+"241","Rajai Davis","Indians","outfield","3708",335,39,6,32,19,0.241,0.74,2.04
+"242","Steve Pearce"," ","outfield","9957",335,45,15,47,3,0.252,0.73,2.01
+"243","Tim Anderson","White Sox","shortstop","sa737508",250,26,4,26,13,0.258,0.7,1.94
+"244","Eduardo Escobar","Twins","shortstop","6153",346,39,7,39,4,0.26,0.69,1.91
+"245","Nick Ahmed","Diamondbacks","shortstop","12147",476,45,7,46,9,0.24,0.66,1.82
+"246","Juan Uribe"," ","third_base","454",336,36,9,41,2,0.26,0.66,1.81
+"247","Brock Holt","Red Sox","third_base","9345",296,37,2,28,5,0.272,0.66,1.81
+"248","Alex Rios"," ","outfield","2090",413,41,8,45,10,0.249,0.64,1.78
+"249","Jesus Montero","Mariners","catcher","5514",159,19,6,21,1,0.267,0.62,1.72
+"250","Colby Rasmus","Astros","outfield","9893",470,59,21,64,3,0.222,0.62,1.71
+"251","Marlon Byrd"," ","outfield","950",445,49,15,57,2,0.244,0.6,1.64
+"252","Adam LaRoche","White Sox","first_base","1904",492,64,21,68,2,0.224,0.57,1.56
+"253","Jason Castro","Astros","catcher","8722",390,46,12,46,2,0.224,0.56,1.54
+"254","Carlos Perez","Angels","catcher","10642",357,36,5,36,3,0.245,0.56,1.53
+"255","Aaron Altherr","Phillies","outfield","11270",408,46,11,45,10,0.239,0.54,1.49
+"256","Carl Crawford","Dodgers","outfield","1201",275,32,6,30,10,0.263,0.49,1.36
+"257","J.J. Hardy","Orioles","shortstop","3797",492,49,13,53,1,0.239,0.47,1.29
+"258","Will Venable"," ","outfield","211",371,43,9,40,11,0.243,0.46,1.27
+"259","Cesar Hernandez","Phillies","second_base","10556",365,37,2,29,12,0.259,0.44,1.2
+"260","Billy Butler","Athletics","dh","7399",434,53,12,56,1,0.263,0.43,1.18
+"261","Brandon Moss","Cardinals","outfield","4467",352,47,18,54,1,0.24,0.4,1.09
+"262","Chase Utley","Dodgers","second_base","1679",440,52,10,49,4,0.244,0.39,1.08
+"263","Logan Morrison","Rays","first_base","9205",389,48,15,50,6,0.24,0.37,1.03
+"264","Kurt Suzuki","Twins","catcher","8259",305,32,4,31,1,0.253,0.37,1.02
+"265","Seth Smith","Mariners","outfield","7331",412,54,12,51,1,0.248,0.36,1
+"266","Darin Ruf","Phillies","outfield","9929",404,46,15,51,3,0.242,0.36,0.99
+"267","Freddy Galvis","Phillies","shortstop","6609",439,42,8,42,5,0.246,0.36,0.98
+"268","Christian Colon","Royals","shortstop","11145",264,29,4,26,7,0.264,0.34,0.94
+"269","Gregor Blanco","Giants","outfield","3123",306,36,4,30,10,0.261,0.32,0.87
+"270","Mike Napoli","Indians","first_base","3057",452,59,19,61,4,0.224,0.29,0.8
+"271","JR Murphy","Twins","catcher","10346",225,26,6,27,1,0.253,0.27,0.74
+"272","Juan Lagares","Mets","outfield","5384",382,39,6,37,7,0.257,0.21,0.56
+"273","Marwin Gonzalez","Astros","shortstop","5497",318,36,7,35,5,0.252,0.2,0.56
+"274","David Murphy"," ","outfield","6035",369,40,9,44,2,0.259,0.19,0.52
+"275","Ben Paulsen","Rockies","first_base","9741",368,43,12,48,3,0.252,0.14,0.4
+"276","Dalton Pompey","Blue Jays","outfield","12797",231,29,4,26,11,0.261,0.13,0.36
+"277","Ryan Howard","Phillies","first_base","2154",460,52,20,63,1,0.228,0.08,0.21
+"278","L.J. Hoes","Orioles","outfield","6656",284,32,4,28,9,0.262,0.07,0.2
+"279","Christian Walker","Orioles","first_base","13419",333,42,13,44,2,0.254,0.07,0.19
+"280","Jon Jay","Padres","outfield","5227",360,37,5,34,5,0.263,0.03,0.08
+"281","Jimmy Paredes","Orioles","outfield","5481",334,37,7,35,7,0.253,-0.02,-0.07
+"282","Mark Reynolds","Rockies","third_base","7619",214,30,11,33,2,0.251,-0.02,-0.07
+"283","Coco Crisp","Athletics","outfield","1572",367,48,8,35,10,0.238,-0.03,-0.07
+"284","Jon Singleton","Astros","first_base","10441",375,53,18,54,3,0.229,-0.04,-0.11
+"285","Omar Infante","Royals","second_base","1609",407,41,5,40,5,0.253,-0.05,-0.12
+"286","Giovanny Urshela","Indians","third_base","10681",360,39,10,42,2,0.242,-0.07,-0.19
+"287","J.P. Crawford","Phillies","shortstop","sa737507",271,28,5,27,6,0.256,-0.1,-0.29
+"288","Conor Gillaspie"," ","third_base","9009",310,33,7,36,2,0.253,-0.12,-0.32
+"289","Darnell Sweeney","Phillies","second_base","13284",362,36,7,35,14,0.231,-0.15,-0.41
+"290","Devon Travis","Blue Jays","second_base","13862",186,25,5,22,4,0.272,-0.16,-0.44
+"291","Tyler Saladino","White Sox","third_base","10807",251,30,5,26,10,0.243,-0.19,-0.52
+"292","Alejandro De Aza","Mets","outfield","3371",377,41,7,37,9,0.241,-0.22,-0.61
+"293","Alexi Amarista","Padres","shortstop","9063",451,41,7,42,7,0.232,-0.23,-0.64
+"294","Kyle Parker","Rockies","outfield","11763",276,31,9,34,4,0.256,-0.26,-0.71
+"295","Tyler Collins","Tigers","outfield","12723",288,34,9,35,5,0.251,-0.28,-0.77
+"296","Tommy Pham","Cardinals","outfield","2967",240,30,5,26,5,0.265,-0.3,-0.82
+"297","Enrique Hernandez","Dodgers","outfield","10472",356,38,9,40,4,0.248,-0.3,-0.83
+"298","Brandon Barnes","Rockies","outfield","629",294,32,6,33,7,0.253,-0.31,-0.86
+"299","Gregory Bird","Yankees","first_base","14131",208,30,11,33,1,0.265,-0.33,-0.91
+"300","Will Middlebrooks","Brewers","third_base","7002",304,33,13,40,3,0.233,-0.36,-0.98
+"301","Eduardo Nunez","Twins","shortstop","6848",175,19,3,19,6,0.264,-0.36,-0.99
+"302","Christian Vazquez","Red Sox","catcher","9774",107,13,2,12,2,0.261,-0.36,-0.99
+"303","Steve Clevenger","Mariners","catcher","9542",155,17,2,16,1,0.259,-0.36,-0.99
+"304","Nolan Reimold","Orioles","outfield","3441",348,43,11,39,4,0.241,-0.37,-1.02
+"305","Michael Bourn","Braves","outfield","6387",364,37,3,28,12,0.244,-0.43,-1.19
+"306","Abraham Almonte","Indians","outfield","5486",305,35,6,32,8,0.247,-0.44,-1.22
+"307","Carlos Ruiz","Phillies","catcher","2579",247,24,4,24,2,0.243,-0.45,-1.24
+"308","Aaron Hill","Diamondbacks","second_base","6104",317,35,7,35,4,0.25,-0.46,-1.25
+"309","Angel Pagan","Giants","outfield","2918",279,31,3,24,7,0.261,-0.47,-1.29
+"310","Ryan Goins","Blue Jays","shortstop","9807",412,43,4,39,4,0.24,-0.51,-1.4
+"311","Kennys Vargas","Twins","first_base","12101",264,34,11,38,1,0.256,-0.54,-1.48
+"312","Franklin Gutierrez","Mariners","outfield","3255",346,41,13,44,2,0.237,-0.55,-1.52
+"313","Paulo Orlando","Royals","outfield","8628",275,28,4,28,8,0.254,-0.58,-1.59
+"314","Jarrett Parker","Giants","outfield","11624",301,35,10,37,8,0.234,-0.6,-1.65
+"315","Casey McGehee"," ","third_base","6086",333,34,5,35,2,0.247,-0.61,-1.69
+"316","Joey Gallo","Rangers","third_base","14128",232,34,15,38,3,0.225,-0.62,-1.7
+"317","Travis Jankowski","Padres","outfield","13768",207,20,2,19,11,0.258,-0.66,-1.82
+"318","Jose Pirela","Padres","second_base","5485",242,24,4,26,4,0.262,-0.68,-1.87
+"319","Justin Smoak","Blue Jays","first_base","9054",342,45,15,48,1,0.234,-0.71,-1.95
+"320","Josh Phegley","Athletics","catcher","9308",170,19,6,21,1,0.241,-0.72,-1.98
+"321","Chris Iannetta","Mariners","catcher","8267",303,38,9,35,2,0.215,-0.73,-2
+"322","Derek Dietrich","Marlins","second_base","10542",254,31,9,33,2,0.249,-0.74,-2.05
+"323","Tommy La Stella","Cubs","second_base","12371",157,18,2,17,2,0.277,-0.77,-2.12
+"324","Justin Ruggiano","Rangers","outfield","7620",210,28,8,27,5,0.251,-0.77,-2.12
+"325","Clint Robinson","Nationals","outfield","6908",236,29,6,30,1,0.262,-0.77,-2.13
+"326","Shane Victorino"," ","outfield","1677",316,36,6,32,7,0.242,-0.8,-2.2
+"327","Jarrod Saltalamacchia","Tigers","catcher","5557",216,27,8,28,1,0.227,-0.83,-2.29
+"328","Scott Van Slyke","Dodgers","outfield","4365",261,33,10,36,3,0.243,-0.85,-2.34
+"329","Brayan Pena","Cardinals","catcher","3231",147,14,1,14,1,0.254,-0.85,-2.35
+"330","Matt Joyce"," ","outfield","3353",325,40,10,40,3,0.236,-0.9,-2.48
+"331","Travis Shaw","Red Sox","first_base","11982",233,31,8,32,1,0.259,-0.92,-2.52
+"332","Travis Snider"," ","outfield","2830",268,33,8,32,2,0.249,-0.97,-2.66
+"333","Chris Coghlan","Cubs","outfield","6878",249,32,6,29,5,0.247,-0.99,-2.73
+"334","Michael Morse","Pirates","outfield","3035",282,32,9,36,1,0.247,-1.01,-2.79
+"335","J.B. Shuck","White Sox","outfield","6677",240,26,2,22,7,0.256,-1.02,-2.8
+"336","Socrates Brito","Diamondbacks","outfield","12944",189,19,3,19,6,0.262,-1.02,-2.81
+"337","Preston Tucker","Astros","outfield","13633",214,28,9,29,1,0.253,-1.02,-2.81
+"338","Dustin Garneau","Rockies","catcher","9433",164,18,5,19,1,0.238,-1.05,-2.9
+"339","Jedd Gyorko","Cardinals","second_base","10816",198,24,8,27,1,0.254,-1.07,-2.96
+"340","Cameron Rupp","Phillies","catcher","11146",270,26,8,29,1,0.222,-1.09,-3
+"341","Alberto Callaspo"," ","third_base","3336",294,30,4,29,1,0.247,-1.12,-3.08
+"342","Kevin Plawecki","Mets","catcher","13807",221,20,4,23,1,0.235,-1.13,-3.11
+"343","Domonic Brown"," ","outfield","3154",244,27,7,30,4,0.247,-1.13,-3.12
+"344","Matt den Dekker","Nationals","outfield","11385",168,20,4,20,4,0.261,-1.18,-3.24
+"345","Tyler Moore","Nationals","outfield","7244",222,27,9,30,2,0.247,-1.2,-3.31
+"346","Daniel Nava","Angels","outfield","5450",334,39,6,34,3,0.241,-1.21,-3.34
+"347","Scott Schebler","Reds","outfield","12225",267,31,10,33,6,0.231,-1.24,-3.4
+"348","Melvin Upton","Padres","outfield","5015",352,38,9,35,12,0.213,-1.25,-3.44
+"349","Austin Barnes","Dodgers","catcher","12158",40,5,1,5,1,0.256,-1.26,-3.48
+"350","Cristhian Adames","Rockies","shortstop","6013",50,6,1,5,1,0.277,-1.27,-3.5
+"351","Andres Blanco","Phillies","third_base","1907",194,20,4,20,3,0.249,-1.3,-3.59
+"352","Chris Denorfia"," ","outfield","4400",283,30,5,28,3,0.249,-1.32,-3.63
+"353","Chris Gimenez","Rangers","catcher","7324",160,18,3,17,2,0.235,-1.33,-3.65
+"354","Delmon Young"," ","outfield","2140",193,21,5,23,1,0.261,-1.35,-3.7
+"355","Alex Avila","White Sox","catcher","7476",253,32,8,29,2,0.211,-1.37,-3.76
+"356","Craig Gentry","Angels","outfield","9571",245,26,2,21,11,0.24,-1.37,-3.77
+"357","Andrew Susac","Giants","catcher","13132",190,20,5,22,1,0.229,-1.38,-3.79
+"358","Dustin Ackley","Yankees","outfield","10099",151,19,5,19,2,0.261,-1.39,-3.83
+"359","Caleb Joseph","Orioles","catcher","7087",162,18,5,18,1,0.232,-1.39,-3.84
+"360","David DeJesus"," ","outfield","1825",281,34,6,29,3,0.243,-1.4,-3.84
+"361","Phil Gosselin","Diamondbacks","second_base","10953",161,17,2,16,2,0.266,-1.4,-3.84
+"362","Joey Butler","Indians","outfield","7799",169,21,5,20,2,0.259,-1.41,-3.88
+"363","Curt Casali","Rays","catcher","12510",209,24,7,24,2,0.219,-1.41,-3.89
+"364","Ryan Hanigan","Red Sox","catcher","4952",155,18,2,16,1,0.238,-1.42,-3.91
+"365","Ike Davis"," ","first_base","8433",264,33,10,35,2,0.24,-1.45,-3.98
+"366","Hank Conger","Rays","catcher","2505",213,24,6,24,2,0.22,-1.45,-4
+"367","Tomas Telis","Marlins","catcher","10067",28,3,0,3,0,0.258,-1.49,-4.11
+"368","Josmil Pinto","Twins","catcher","6806",30,4,1,4,0,0.255,-1.5,-4.12
+"369","Matt McBride","Rockies","outfield","9373",60,7,2,8,1,0.279,-1.52,-4.18
+"370","Rymer Liriano","Padres","outfield","4779",279,28,6,29,7,0.234,-1.52,-4.19
+"371","Michael McKenry"," ","catcher","9628",135,16,4,16,2,0.231,-1.53,-4.2
+"372","Ramon Cabrera","Reds","catcher","10327",84,8,1,8,0,0.25,-1.53,-4.21
+"373","Carlos Sanchez","White Sox","second_base","11602",206,21,2,20,4,0.254,-1.54,-4.23
+"374","Orlando Arcia","Brewers","shortstop","sa596917",82,8,1,8,3,0.264,-1.55,-4.26
+"375","Peter O'Brien","Diamondbacks","outfield","13288",216,27,11,31,1,0.238,-1.58,-4.35
+"376","Alex Dickerson","Padres","outfield","12649",222,23,6,25,2,0.25,-1.58,-4.35
+"377","Chris Stewart","Pirates","catcher","3878",125,11,1,11,1,0.243,-1.59,-4.38
+"378","Max Kepler","Twins","outfield","12144",179,21,3,20,4,0.254,-1.6,-4.41
+"379","Rob Refsnyder","Yankees","second_base","13770",88,11,2,11,2,0.268,-1.61,-4.42
+"380","Ezequiel Carrera","Blue Jays","outfield","9048",159,18,2,16,6,0.254,-1.64,-4.52
+"381","Willson Contreras","Cubs","catcher","sa508176",11,1,0,1,0,0.257,-1.66,-4.56
+"382","Sean Rodriguez","Pirates","outfield","6589",288,29,7,32,4,0.234,-1.69,-4.66
+"383","Mike Aviles","Tigers","third_base","5986",154,17,3,16,3,0.247,-1.7,-4.68
+"384","Joey Terdoslavich","Orioles","outfield","10593",145,18,5,18,2,0.256,-1.71,-4.7
+"385","Tucker Barnhart","Reds","catcher","10200",135,12,2,13,1,0.237,-1.72,-4.75
+"386","Cheslor Cuthbert","Royals","third_base","10473",139,15,3,16,2,0.25,-1.73,-4.75
+"387","Grady Sizemore"," ","outfield","2197",221,25,5,24,3,0.246,-1.73,-4.76
+"388","A.J. Ellis","Dodgers","catcher","5677",178,19,4,19,1,0.226,-1.74,-4.79
+"389","Dariel Alvarez","Orioles","outfield","15580",75,9,2,9,1,0.273,-1.74,-4.8
+"390","Jose Lobaton","Nationals","catcher","4243",161,16,3,17,1,0.23,-1.77,-4.86
+"391","Eric Campbell","Mets","third_base","6938",164,18,3,17,4,0.242,-1.78,-4.89
+"392","Skip Schumaker"," ","second_base","3704",239,24,2,21,3,0.249,-1.81,-4.98
+"393","Kelby Tomlinson","Giants","second_base","13005",175,17,1,15,7,0.248,-1.82,-5.01
+"394","Josh Thole","Blue Jays","catcher","9689",109,12,1,11,1,0.238,-1.82,-5.02
+"395","Shane Peterson","Brewers","outfield","7423",165,19,4,18,2,0.255,-1.82,-5.02
+"396","Jurickson Profar","Rangers","second_base","10815",128,16,3,15,3,0.254,-1.86,-5.11
+"397","Steven Moya","Tigers","outfield","11854",166,20,8,24,2,0.243,-1.87,-5.15
+"398","Jake Marisnick","Astros","outfield","11339",162,19,4,18,9,0.237,-1.87,-5.15
+"399","Maicer Izturis"," ","third_base","2437",152,15,2,14,2,0.249,-1.93,-5.31
+"400","Austin Hedges","Padres","catcher","12976",225,19,4,21,2,0.218,-1.97,-5.42
+"401","Daniel Descalso","Rockies","shortstop","8392",109,12,2,12,2,0.252,-1.97,-5.43
+"402","Mikie Mahtook","Rays","outfield","13130",212,23,5,22,5,0.238,-2,-5.52
+"403","Tyler Flowers","Braves","catcher","9134",189,18,5,20,1,0.219,-2.01,-5.52
+"404","Nate McLouth"," ","outfield","3190",216,25,5,22,7,0.232,-2.01,-5.53
+"405","Boog Powell","Mariners","outfield","sa658509",102,11,1,10,3,0.263,-2.02,-5.55
+"406","Tommy Medica","Marlins","first_base","11147",235,26,7,29,3,0.239,-2.02,-5.55
+"407","Chris Taylor","Mariners","shortstop","13757",64,7,1,6,2,0.259,-2.02,-5.56
+"408","Christian Bethancourt","Padres","catcher","10028",29,3,1,3,0,0.246,-2.02,-5.56
+"409","Mac Williamson","Giants","outfield","14158",166,18,4,19,2,0.251,-2.03,-5.58
+"410","Chris Parmelee"," ","outfield","2554",152,18,5,20,1,0.251,-2.03,-5.6
+"411","Ryan Raburn"," ","outfield","2218",182,22,7,24,1,0.243,-2.03,-5.6
+"412","Daniel Castro","Braves","shortstop","15450",121,11,1,11,1,0.256,-2.04,-5.62
+"413","Aaron Hicks","Yankees","outfield","5297",137,18,4,16,3,0.25,-2.04,-5.62
+"414","Rafael Ynoa","Rockies","third_base","2832",42,4,0,4,1,0.264,-2.06,-5.68
+"415","Ichiro Suzuki","Marlins","outfield","1101",170,16,1,15,5,0.251,-2.1,-5.78
+"416","Jorge Polanco","Twins","shortstop","13152",42,5,1,4,1,0.262,-2.1,-5.79
+"417","Tom Murphy","Rockies","catcher","13499",17,2,1,2,0,0.245,-2.13,-5.86
+"418","Eric Sogard","Athletics","second_base","7927",192,20,1,17,4,0.246,-2.16,-5.94
+"419","Collin Cowgill","Indians","outfield","7250",225,25,4,23,4,0.237,-2.19,-6.03
+"420","Raimel Tapia","Rockies","outfield","sa597078",6,1,0,1,0,0.279,-2.2,-6.06
+"421","Kelly Johnson","Braves","third_base","2234",167,18,5,20,2,0.233,-2.22,-6.11
 "422","Spencer Kieboom","Nationals","catcher","sa621637",6,1,0,1,0,0.246,-2.23,-6.13
-"423","Martin Maldonado","Brewers","catcher","6887",194,17,4,18,1,0.218,-2.24,-6.16
-"424","Brett Wallace","Padres","first_base","8434",202,20,6,22,1,0.248,-2.27,-6.24
-"425","Jonathan Herrera"," ","shortstop","4182",194,16,2,16,4,0.237,-2.27,-6.25
-"426","Micah Johnson","Dodgers","second_base","13809",52,5,1,5,2,0.263,-2.3,-6.33
-"427","Wynton Bernard","Tigers","outfield","sa658999",33,3,0,3,2,0.27,-2.3,-6.33
-"428","Josh Bell","Pirates","outfield","sa597768",34,3,1,3,0,0.273,-2.3,-6.35
-"429","Slade Heathcott","Yankees","outfield","10336",114,12,2,12,2,0.256,-2.33,-6.4
-"430","Cole Gillespie","Marlins","outfield","5888",68,7,1,6,1,0.266,-2.34,-6.45
-"431","Luis Sardinas","Mariners","shortstop","13153",149,13,1,12,4,0.241,-2.35,-6.48
-"432","Miguel Rojas","Marlins","shortstop","7802",157,13,1,13,2,0.245,-2.37,-6.53
-"433","Rob Brantly","White Sox","catcher","10655",18,2,0,2,0,0.242,-2.38,-6.54
-"434","Drew Stubbs"," ","outfield","9328",270,27,6,24,9,0.216,-2.38,-6.54
-"435","Jeff Francoeur"," ","outfield","4792",202,19,5,22,2,0.24,-2.39,-6.58
-"436","Charlie Tilson","Cardinals","outfield","sa597793",68,6,1,6,3,0.26,-2.43,-6.68
-"437","Tim Beckham","Rays","shortstop","7949",206,19,4,19,4,0.227,-2.43,-6.69
-"438","Carlos Corporan"," ","catcher","5587",152,13,4,15,1,0.218,-2.44,-6.71
-"439","Ryan Flaherty","Orioles","second_base","7888",270,28,8,28,1,0.224,-2.48,-6.84
-"440","Brandon Drury","Diamondbacks","third_base","11615",79,7,1,8,1,0.25,-2.49,-6.86
-"441","Scott Sizemore","Nationals","third_base","2881",20,2,0,2,0,0.26,-2.51,-6.91
-"442","Wilmer Difo","Nationals","second_base","14320",65,6,1,6,3,0.255,-2.53,-6.96
-"443","Austin Romine","Yankees","catcher","5491",18,2,0,2,0,0.239,-2.53,-6.97
-"444","Chris Herrmann","Diamondbacks","catcher","9284",123,11,2,11,1,0.223,-2.53,-6.98
-"445","Jordan Pacheco"," ","catcher","2677",91,8,1,8,1,0.228,-2.54,-6.99
-"446","Geovany Soto","Angels","catcher","3707",198,19,5,20,1,0.208,-2.55,-7.01
-"447","Danny Espinosa","Nationals","second_base","9219",224,22,5,23,3,0.229,-2.56,-7.06
-"448","Bryan Holaday","Tigers","catcher","11287",30,3,0,3,0,0.237,-2.58,-7.1
-"449","Reymond Fuentes","Royals","outfield","10329",14,1,0,1,1,0.269,-2.59,-7.13
-"450","Rosell Herrera","Rockies","shortstop","sa547996",7,1,0,1,0,0.26,-2.62,-7.22
+"423","Martin Maldonado","Brewers","catcher","6887",174,17,4,18,1,0.218,-2.24,-6.16
+"424","Brett Wallace","Padres","first_base","8434",183,20,6,22,1,0.248,-2.27,-6.24
+"425","Jonathan Herrera"," ","shortstop","4182",181,16,2,16,4,0.237,-2.27,-6.25
+"426","Micah Johnson","Dodgers","second_base","13809",47,5,1,5,2,0.263,-2.3,-6.33
+"427","Wynton Bernard","Tigers","outfield","sa658999",31,3,0,3,2,0.27,-2.3,-6.33
+"428","Josh Bell","Pirates","outfield","sa597768",31,3,1,3,0,0.273,-2.3,-6.35
+"429","Slade Heathcott","Yankees","outfield","10336",105,12,2,12,2,0.256,-2.33,-6.4
+"430","Cole Gillespie","Marlins","outfield","5888",61,7,1,6,1,0.266,-2.34,-6.45
+"431","Luis Sardinas","Mariners","shortstop","13153",140,13,1,12,4,0.241,-2.35,-6.48
+"432","Miguel Rojas","Marlins","shortstop","7802",145,13,1,13,2,0.245,-2.37,-6.53
+"433","Rob Brantly","White Sox","catcher","10655",17,2,0,2,0,0.242,-2.38,-6.54
+"434","Drew Stubbs"," ","outfield","9328",242,27,6,24,9,0.216,-2.38,-6.54
+"435","Jeff Francoeur"," ","outfield","4792",190,19,5,22,2,0.24,-2.39,-6.58
+"436","Charlie Tilson","Cardinals","outfield","sa597793",63,6,1,6,3,0.26,-2.43,-6.68
+"437","Tim Beckham","Rays","shortstop","7949",190,19,4,19,4,0.227,-2.43,-6.69
+"438","Carlos Corporan"," ","catcher","5587",139,13,4,15,1,0.218,-2.44,-6.71
+"439","Ryan Flaherty","Orioles","second_base","7888",242,28,8,28,1,0.224,-2.48,-6.84
+"440","Brandon Drury","Diamondbacks","third_base","11615",74,7,1,8,1,0.25,-2.49,-6.86
+"441","Scott Sizemore","Nationals","third_base","2881",18,2,0,2,0,0.26,-2.51,-6.91
+"442","Wilmer Difo","Nationals","second_base","14320",61,6,1,6,3,0.255,-2.53,-6.96
+"443","Austin Romine","Yankees","catcher","5491",17,2,0,2,0,0.239,-2.53,-6.97
+"444","Chris Herrmann","Diamondbacks","catcher","9284",112,11,2,11,1,0.223,-2.53,-6.98
+"445","Jordan Pacheco"," ","catcher","2677",83,8,1,8,1,0.228,-2.54,-6.99
+"446","Geovany Soto","Angels","catcher","3707",178,19,5,20,1,0.208,-2.55,-7.01
+"447","Danny Espinosa","Nationals","second_base","9219",203,22,5,23,3,0.229,-2.56,-7.06
+"448","Bryan Holaday","Tigers","catcher","11287",28,3,0,3,0,0.237,-2.58,-7.1
+"449","Reymond Fuentes","Royals","outfield","10329",12,1,0,1,1,0.269,-2.59,-7.13
+"450","Rosell Herrera","Rockies","shortstop","sa547996",6,1,0,1,0,0.26,-2.62,-7.22
 "451","Marco Hernandez","Red Sox","shortstop","sa547804",13,1,0,1,0,0.26,-2.62,-7.22
-"452","Rickie Weeks"," ","second_base","1849",203,21,5,20,3,0.23,-2.63,-7.23
-"453","Alfredo Gonzalez","Astros","catcher","sa505301",31,3,0,3,0,0.236,-2.63,-7.24
-"454","A.J. Jimenez","Blue Jays","catcher","sa454887",31,3,0,3,0,0.236,-2.63,-7.24
-"455","Pedro Severino","Nationals","catcher","14523",25,2,0,2,0,0.237,-2.63,-7.25
-"456","Francisco Pena","Orioles","catcher","8298",62,6,2,7,1,0.226,-2.64,-7.25
-"457","Max Stassi","Astros","catcher","10059",153,15,4,15,1,0.213,-2.64,-7.27
-"458","Ruben Tejada","Mets","shortstop","5519",100,9,1,8,1,0.247,-2.65,-7.3
-"459","Jake Smolinski","Athletics","outfield","5408",127,14,3,14,1,0.248,-2.66,-7.32
-"460","Jonny Gomes"," ","outfield","1845",270,28,8,28,2,0.221,-2.67,-7.35
-"461","Tony Cruz","Royals","catcher","2802",73,6,1,7,1,0.227,-2.68,-7.37
-"462","Joey Rickard","Orioles","outfield","sa621658",80,8,1,7,2,0.256,-2.68,-7.37
-"463","Ivan De Jesus","Reds","second_base","9886",149,13,2,12,1,0.248,-2.68,-7.38
-"464","Todd Cunningham","Angels","outfield","10822",118,11,1,10,3,0.25,-2.69,-7.4
-"465","Kevan Smith","White Sox","catcher","sa599392",12,1,0,1,0,0.237,-2.69,-7.41
-"466","Jason Rogers","Pirates","first_base","11773",74,8,2,8,1,0.261,-2.71,-7.45
-"467","Ronald Torreyes","Dodgers","third_base","11400",41,4,0,3,1,0.252,-2.71,-7.47
-"468","Gordon Beckham","Braves","third_base","9015",187,16,3,17,1,0.232,-2.73,-7.5
-"469","Roberto Perez","Indians","catcher","2900",173,17,3,15,1,0.212,-2.73,-7.51
-"470","Jorge Alfaro","Phillies","catcher","sa551307",31,3,1,3,0,0.232,-2.74,-7.55
-"471","Chris O'Dowd","Braves","catcher","sa503377",31,3,0,3,1,0.231,-2.76,-7.6
-"472","John Hicks","Twins","catcher","12547",30,3,0,3,1,0.231,-2.76,-7.6
-"473","Ramon Flores","Brewers","outfield","11165",20,2,1,2,0,0.265,-2.78,-7.64
-"474","Dilson Herrera","Mets","second_base","14335",39,4,1,4,1,0.257,-2.79,-7.69
-"475","Hanser Alberto","Rangers","second_base","11902",46,4,1,4,1,0.257,-2.79,-7.69
-"476","Greg Garcia","Cardinals","shortstop","10951",32,3,0,3,1,0.252,-2.8,-7.7
-"477","Trevor Story","Rockies","shortstop","sa597765",34,4,1,4,1,0.249,-2.8,-7.72
-"478","Andrew Romine","Tigers","third_base","1159",85,8,1,7,3,0.239,-2.81,-7.74
-"479","Nick Swisher","Braves","first_base","4599",297,29,8,29,1,0.225,-2.82,-7.76
-"480","Hernan Perez","Brewers","third_base","5751",27,2,0,2,1,0.251,-2.85,-7.84
-"481","A.J. Reed","Astros","dh","sa599279",133,16,4,15,1,0.257,-2.85,-7.84
-"482","Brett Phillips","Brewers","outfield","sa658005",60,6,1,6,2,0.254,-2.86,-7.88
-"483","Efren Navarro","Angels","outfield","9854",112,10,1,10,1,0.252,-2.86,-7.89
-"484","Nick Franklin","Rays","second_base","10166",148,16,4,15,2,0.235,-2.87,-7.91
-"485","Ramon Torres","Royals","shortstop","sa547940",7,1,0,1,0,0.255,-2.88,-7.94
+"452","Rickie Weeks"," ","second_base","1849",179,21,5,20,3,0.23,-2.63,-7.23
+"453","Alfredo Gonzalez","Astros","catcher","sa505301",28,3,0,3,0,0.236,-2.63,-7.24
+"454","A.J. Jimenez","Blue Jays","catcher","sa454887",29,3,0,3,0,0.236,-2.63,-7.24
+"455","Pedro Severino","Nationals","catcher","14523",23,2,0,2,0,0.237,-2.63,-7.25
+"456","Francisco Pena","Orioles","catcher","8298",58,6,2,7,1,0.226,-2.64,-7.25
+"457","Max Stassi","Astros","catcher","10059",141,15,4,15,1,0.213,-2.64,-7.27
+"458","Ruben Tejada","Mets","shortstop","5519",89,9,1,8,1,0.247,-2.65,-7.3
+"459","Jake Smolinski","Athletics","outfield","5408",114,14,3,14,1,0.248,-2.66,-7.32
+"460","Jonny Gomes"," ","outfield","1845",234,28,8,28,2,0.221,-2.67,-7.35
+"461","Tony Cruz","Royals","catcher","2802",68,6,1,7,1,0.227,-2.68,-7.37
+"462","Joey Rickard","Orioles","outfield","sa621658",71,8,1,7,2,0.256,-2.68,-7.37
+"463","Ivan De Jesus","Reds","second_base","9886",135,13,2,12,1,0.248,-2.68,-7.38
+"464","Todd Cunningham","Angels","outfield","10822",109,11,1,10,3,0.25,-2.69,-7.4
+"465","Kevan Smith","White Sox","catcher","sa599392",11,1,0,1,0,0.237,-2.69,-7.41
+"466","Jason Rogers","Pirates","first_base","11773",67,8,2,8,1,0.261,-2.71,-7.45
+"467","Ronald Torreyes","Dodgers","third_base","11400",38,4,0,3,1,0.252,-2.71,-7.47
+"468","Gordon Beckham","Braves","third_base","9015",171,16,3,17,1,0.232,-2.73,-7.5
+"469","Roberto Perez","Indians","catcher","2900",150,17,3,15,1,0.212,-2.73,-7.51
+"470","Jorge Alfaro","Phillies","catcher","sa551307",29,3,1,3,0,0.232,-2.74,-7.55
+"471","Chris O'Dowd","Braves","catcher","sa503377",29,3,0,3,1,0.231,-2.76,-7.6
+"472","John Hicks","Twins","catcher","12547",28,3,0,3,1,0.231,-2.76,-7.6
+"473","Ramon Flores","Brewers","outfield","11165",18,2,1,2,0,0.265,-2.78,-7.64
+"474","Dilson Herrera","Mets","second_base","14335",36,4,1,4,1,0.257,-2.79,-7.69
+"475","Hanser Alberto","Rangers","second_base","11902",43,4,1,4,1,0.257,-2.79,-7.69
+"476","Greg Garcia","Cardinals","shortstop","10951",29,3,0,3,1,0.252,-2.8,-7.7
+"477","Trevor Story","Rockies","shortstop","sa597765",31,4,1,4,1,0.249,-2.8,-7.72
+"478","Andrew Romine","Tigers","third_base","1159",78,8,1,7,3,0.239,-2.81,-7.74
+"479","Nick Swisher","Braves","first_base","4599",260,29,8,29,1,0.225,-2.82,-7.76
+"480","Hernan Perez","Brewers","third_base","5751",25,2,0,2,1,0.251,-2.85,-7.84
+"481","A.J. Reed","Astros","dh","sa599279",119,16,4,15,1,0.257,-2.85,-7.84
+"482","Brett Phillips","Brewers","outfield","sa658005",55,6,1,6,2,0.254,-2.86,-7.88
+"483","Efren Navarro","Angels","outfield","9854",102,10,1,10,1,0.252,-2.86,-7.89
+"484","Nick Franklin","Rays","second_base","10166",132,16,4,15,2,0.235,-2.87,-7.91
+"485","Ramon Torres","Royals","shortstop","sa547940",6,1,0,1,0,0.255,-2.88,-7.94
 "486","Mike Ohlman","Cardinals","catcher","sa501614",6,1,0,1,0,0.233,-2.9,-7.98
-"487","Tyler Naquin","Indians","outfield","sa502772",46,5,1,4,1,0.257,-2.92,-8.04
-"488","Aledmys Diaz","Cardinals","shortstop","sa803159",7,1,0,1,0,0.254,-2.93,-8.08
-"489","Matt Duffy","Astros","third_base","12181",33,3,1,4,0,0.248,-2.95,-8.12
-"490","Alen Hanson","Pirates","shortstop","sa547735",27,3,0,3,1,0.249,-2.95,-8.13
-"491","Ben Gamel","Yankees","outfield","sa548493",20,2,0,2,0,0.263,-2.97,-8.18
-"492","Mallex Smith","Braves","outfield","sa599039",27,2,0,2,2,0.258,-2.98,-8.2
-"493","Arismendy Alcantara","Cubs","second_base","10711",103,11,3,11,3,0.237,-2.99,-8.23
-"494","Cliff Pennington","Angels","shortstop","3395",143,14,1,12,2,0.233,-2.99,-8.24
-"495","Trevor Brown","Giants","catcher","13895",30,2,0,2,0,0.23,-3,-8.25
-"496","Deven Marrero","Red Sox","third_base","13325",34,3,0,3,1,0.247,-3,-8.25
-"497","Jett Bandy","Angels","catcher","12508",13,1,0,1,0,0.231,-3,-8.26
-"498","Rene Rivera","Rays","catcher","3648",89,8,2,8,1,0.217,-3.02,-8.3
-"499","Leury Garcia","White Sox","second_base","5913",87,8,1,7,4,0.241,-3.04,-8.38
-"500","Garin Cecchini","Brewers","third_base","11608",67,6,1,6,1,0.241,-3.04,-8.38
-"501","Mike Zunino","Mariners","catcher","13265",107,11,4,12,1,0.209,-3.04,-8.38
-"502","Johnny Monell","Mets","catcher","2783",30,3,1,3,0,0.226,-3.05,-8.41
-"503","Tuffy Gosewisch","Diamondbacks","catcher","5277",42,3,1,4,0,0.225,-3.08,-8.47
-"504","Ehire Adrianza","Giants","shortstop","8418",103,9,1,8,2,0.236,-3.09,-8.52
-"505","Shawn O'Malley","Mariners","outfield","9629",72,7,1,6,2,0.249,-3.09,-8.52
-"506","Darwin Barney","Blue Jays","second_base","2430",143,14,2,13,2,0.236,-3.12,-8.58
-"507","Clint Barmes"," ","shortstop","1830",194,16,3,17,1,0.225,-3.15,-8.66
-"508","Oscar Hernandez","Diamondbacks","catcher","13490",62,5,1,6,1,0.219,-3.15,-8.66
-"509","Antoan Richardson","Pirates","outfield","209",40,4,0,3,2,0.253,-3.15,-8.67
-"510","Jake Cave","Reds","outfield","sa597983",119,10,1,10,2,0.244,-3.15,-8.68
-"511","Tyler Holt","Reds","outfield","11391",92,8,0,7,3,0.246,-3.16,-8.7
-"512","Stephen Drew","Nationals","shortstop","4251",142,14,3,15,1,0.226,-3.21,-8.83
-"513","Roman Quinn","Phillies","shortstop","sa597773",20,2,0,2,1,0.245,-3.22,-8.85
-"514","Corey Hart"," ","dh","1945",201,21,7,24,2,0.234,-3.23,-8.9
-"515","Billy Mckinney","Cubs","outfield","sa737528",7,1,0,1,0,0.259,-3.23,-8.9
-"516","Nick Williams","Phillies","outfield","sa657981",27,3,1,3,0,0.255,-3.24,-8.91
-"517","Gavin Cecchini","Mets","shortstop","sa657876",14,1,0,1,0,0.248,-3.24,-8.93
-"518","Jose Rondon","Padres","shortstop","sa597500",54,4,0,4,1,0.242,-3.26,-8.97
-"519","Matt Szczur","Cubs","outfield","11255",47,4,1,4,2,0.248,-3.29,-9.05
-"520","Dean Anna","Cardinals","shortstop","8353",13,1,0,1,0,0.247,-3.3,-9.07
-"521","Dixon Machado","Tigers","shortstop","11472",59,5,0,5,1,0.24,-3.3,-9.09
-"522","Jefry Marte","Tigers","first_base","5107",80,9,2,9,1,0.248,-3.32,-9.15
-"523","Taylor Motter","Rays","outfield","sa577804",53,5,1,5,2,0.246,-3.33,-9.18
-"524","Kirk Nieuwenhuis","Brewers","outfield","6400",91,10,3,11,2,0.236,-3.35,-9.23
-"525","Albert Almora","Cubs","outfield","sa657859",7,1,0,1,0,0.256,-3.39,-9.33
-"526","Andrew Lambo","Athletics","outfield","5386",33,4,1,4,1,0.248,-3.41,-9.4
-"527","John Mayberry"," ","outfield","3390",165,16,5,18,2,0.224,-3.42,-9.41
-"528","Reynaldo Navarro","Angels","second_base","6008",7,1,0,1,0,0.252,-3.44,-9.47
-"529","Sam Fuld","Athletics","outfield","8254",162,16,2,13,5,0.224,-3.46,-9.53
-"530","Emilio Bonifacio","Braves","second_base","4054",33,3,0,2,1,0.247,-3.49,-9.6
-"531","Nomar Mazara","Rangers","outfield","sa659453",13,1,0,1,0,0.254,-3.49,-9.62
-"532","Jeff Mathis","Marlins","catcher","3448",149,12,3,13,1,0.201,-3.49,-9.62
-"533","Raul Mondesi","Royals","shortstop","sa659237",46,4,1,4,2,0.233,-3.5,-9.65
-"534","Aaron Judge","Yankees","outfield","sa549847",46,5,2,6,0,0.245,-3.52,-9.68
-"535","Travis Ishikawa"," ","first_base","4793",129,13,3,13,1,0.238,-3.52,-9.69
-"536","Willy Garcia","Pirates","outfield","sa547734",54,5,2,6,1,0.242,-3.55,-9.76
-"537","Stefen Romero","Mariners","outfield","11746",14,1,0,2,0,0.252,-3.57,-9.82
-"538","Luke Maile","Rays","catcher","13355",18,2,0,1,0,0.219,-3.59,-9.89
+"487","Tyler Naquin","Indians","outfield","sa502772",42,5,1,4,1,0.257,-2.92,-8.04
+"488","Aledmys Diaz","Cardinals","shortstop","sa803159",6,1,0,1,0,0.254,-2.93,-8.08
+"489","Matt Duffy","Astros","third_base","12181",31,3,1,4,0,0.248,-2.95,-8.12
+"490","Alen Hanson","Pirates","shortstop","sa547735",25,3,0,3,1,0.249,-2.95,-8.13
+"491","Ben Gamel","Yankees","outfield","sa548493",18,2,0,2,0,0.263,-2.97,-8.18
+"492","Mallex Smith","Braves","outfield","sa599039",25,2,0,2,2,0.258,-2.98,-8.2
+"493","Arismendy Alcantara","Cubs","second_base","10711",95,11,3,11,3,0.237,-2.99,-8.23
+"494","Cliff Pennington","Angels","shortstop","3395",127,14,1,12,2,0.233,-2.99,-8.24
+"495","Trevor Brown","Giants","catcher","13895",28,2,0,2,0,0.23,-3,-8.25
+"496","Deven Marrero","Red Sox","third_base","13325",31,3,0,3,1,0.247,-3,-8.25
+"497","Jett Bandy","Angels","catcher","12508",12,1,0,1,0,0.231,-3,-8.26
+"498","Rene Rivera","Rays","catcher","3648",82,8,2,8,1,0.217,-3.02,-8.3
+"499","Leury Garcia","White Sox","second_base","5913",81,8,1,7,4,0.241,-3.04,-8.38
+"500","Garin Cecchini","Brewers","third_base","11608",61,6,1,6,1,0.241,-3.04,-8.38
+"501","Mike Zunino","Mariners","catcher","13265",98,11,4,12,1,0.209,-3.04,-8.38
+"502","Johnny Monell","Mets","catcher","2783",27,3,1,3,0,0.226,-3.05,-8.41
+"503","Tuffy Gosewisch","Diamondbacks","catcher","5277",39,3,1,4,0,0.225,-3.08,-8.47
+"504","Ehire Adrianza","Giants","shortstop","8418",92,9,1,8,2,0.236,-3.09,-8.52
+"505","Shawn O'Malley","Mariners","outfield","9629",66,7,1,6,2,0.249,-3.09,-8.52
+"506","Darwin Barney","Blue Jays","second_base","2430",132,14,2,13,2,0.236,-3.12,-8.58
+"507","Clint Barmes"," ","shortstop","1830",180,16,3,17,1,0.225,-3.15,-8.66
+"508","Oscar Hernandez","Diamondbacks","catcher","13490",58,5,1,6,1,0.219,-3.15,-8.66
+"509","Antoan Richardson","Pirates","outfield","209",36,4,0,3,2,0.253,-3.15,-8.67
+"510","Jake Cave","Reds","outfield","sa597983",110,10,1,10,2,0.244,-3.15,-8.68
+"511","Tyler Holt","Reds","outfield","11391",83,8,0,7,3,0.246,-3.16,-8.7
+"512","Stephen Drew","Nationals","shortstop","4251",127,14,3,15,1,0.226,-3.21,-8.83
+"513","Roman Quinn","Phillies","shortstop","sa597773",19,2,0,2,1,0.245,-3.22,-8.85
+"514","Corey Hart"," ","dh","1945",185,21,7,24,2,0.234,-3.23,-8.9
+"515","Billy Mckinney","Cubs","outfield","sa737528",6,1,0,1,0,0.259,-3.23,-8.9
+"516","Nick Williams","Phillies","outfield","sa657981",25,3,1,3,0,0.255,-3.24,-8.91
+"517","Gavin Cecchini","Mets","shortstop","sa657876",12,1,0,1,0,0.248,-3.24,-8.93
+"518","Jose Rondon","Padres","shortstop","sa597500",50,4,0,4,1,0.242,-3.26,-8.97
+"519","Matt Szczur","Cubs","outfield","11255",43,4,1,4,2,0.248,-3.29,-9.05
+"520","Dean Anna","Cardinals","shortstop","8353",12,1,0,1,0,0.247,-3.3,-9.07
+"521","Dixon Machado","Tigers","shortstop","11472",54,5,0,5,1,0.24,-3.3,-9.09
+"522","Jefry Marte","Tigers","first_base","5107",73,9,2,9,1,0.248,-3.32,-9.15
+"523","Taylor Motter","Rays","outfield","sa577804",48,5,1,5,2,0.246,-3.33,-9.18
+"524","Kirk Nieuwenhuis","Brewers","outfield","6400",82,10,3,11,2,0.236,-3.35,-9.23
+"525","Albert Almora","Cubs","outfield","sa657859",6,1,0,1,0,0.256,-3.39,-9.33
+"526","Andrew Lambo","Athletics","outfield","5386",30,4,1,4,1,0.248,-3.41,-9.4
+"527","John Mayberry"," ","outfield","3390",149,16,5,18,2,0.224,-3.42,-9.41
+"528","Reynaldo Navarro","Angels","second_base","6008",6,1,0,1,0,0.252,-3.44,-9.47
+"529","Sam Fuld","Athletics","outfield","8254",144,16,2,13,5,0.224,-3.46,-9.53
+"530","Emilio Bonifacio","Braves","second_base","4054",31,3,0,2,1,0.247,-3.49,-9.6
+"531","Nomar Mazara","Rangers","outfield","sa659453",12,1,0,1,0,0.254,-3.49,-9.62
+"532","Jeff Mathis","Marlins","catcher","3448",136,12,3,13,1,0.201,-3.49,-9.62
+"533","Raul Mondesi","Royals","shortstop","sa659237",44,4,1,4,2,0.233,-3.5,-9.65
+"534","Aaron Judge","Yankees","outfield","sa549847",41,5,2,6,0,0.245,-3.52,-9.68
+"535","Travis Ishikawa"," ","first_base","4793",116,13,3,13,1,0.238,-3.52,-9.69
+"536","Willy Garcia","Pirates","outfield","sa547734",51,5,2,6,1,0.242,-3.55,-9.76
+"537","Stefen Romero","Mariners","outfield","11746",13,1,0,2,0,0.252,-3.57,-9.82
+"538","Luke Maile","Rays","catcher","13355",16,2,0,1,0,0.219,-3.59,-9.89
 "539","Tony Wolters","Indians","catcher","sa548197",6,1,0,0,0,0.22,-3.6,-9.91
-"540","Darrell Ceciliani","Mets","outfield","9954",92,8,1,8,3,0.235,-3.61,-9.93
-"541","Andrew Aplin","Astros","outfield","sa502787",20,2,0,2,1,0.248,-3.62,-9.97
-"542","David Ross","Cubs","catcher","1551",151,13,3,14,1,0.197,-3.64,-10.03
-"543","Yadiel Rivera","Brewers","shortstop","11863",80,6,1,6,2,0.228,-3.65,-10.05
-"544","Matt Dominguez","Blue Jays","third_base","4903",20,2,1,2,0,0.236,-3.66,-10.07
-"545","Zach Walters","Indians","dh","10622",130,14,5,16,1,0.24,-3.66,-10.08
-"546","Keon Broxton","Brewers","outfield","9253",129,12,3,12,5,0.221,-3.67,-10.09
-"547","Junior Lake","Blue Jays","outfield","4672",48,5,1,5,1,0.242,-3.67,-10.1
-"548","Jesus Sucre","Mariners","catcher","5942",6,0,0,0,0,0.219,-3.68,-10.13
-"549","Alex Guerrero","Dodgers","third_base","15670",22,2,1,3,0,0.235,-3.68,-10.13
-"550","Lewis Brinson","Rangers","outfield","sa657923",13,1,0,1,0,0.25,-3.7,-10.19
-"551","Mason Williams","Yankees","outfield","11859",7,1,0,1,0,0.25,-3.7,-10.19
-"552","Matt Reynolds","Mets","shortstop","sa579039",54,4,1,4,1,0.231,-3.73,-10.28
-"553","Jerry Sands","White Sox","outfield","4016",60,7,2,7,0,0.239,-3.74,-10.3
+"540","Darrell Ceciliani","Mets","outfield","9954",85,8,1,8,3,0.235,-3.61,-9.93
+"541","Andrew Aplin","Astros","outfield","sa502787",17,2,0,2,1,0.248,-3.62,-9.97
+"542","David Ross","Cubs","catcher","1551",134,13,3,14,1,0.197,-3.64,-10.03
+"543","Yadiel Rivera","Brewers","shortstop","11863",74,6,1,6,2,0.228,-3.65,-10.05
+"544","Matt Dominguez","Blue Jays","third_base","4903",19,2,1,2,0,0.236,-3.66,-10.07
+"545","Zach Walters","Indians","dh","10622",120,14,5,16,1,0.24,-3.66,-10.08
+"546","Keon Broxton","Brewers","outfield","9253",116,12,3,12,5,0.221,-3.67,-10.09
+"547","Junior Lake","Blue Jays","outfield","4672",44,5,1,5,1,0.242,-3.67,-10.1
+"548","Jesus Sucre","Mariners","catcher","5942",5,0,0,0,0,0.219,-3.68,-10.13
+"549","Alex Guerrero","Dodgers","third_base","15670",21,2,1,3,0,0.235,-3.68,-10.13
+"550","Lewis Brinson","Rangers","outfield","sa657923",12,1,0,1,0,0.25,-3.7,-10.19
+"551","Mason Williams","Yankees","outfield","11859",6,1,0,1,0,0.25,-3.7,-10.19
+"552","Matt Reynolds","Mets","shortstop","sa579039",50,4,1,4,1,0.231,-3.73,-10.28
+"553","Jerry Sands","White Sox","outfield","4016",53,7,2,7,0,0.239,-3.74,-10.3
 "554","Ryan Brett","Rays","second_base","12138",13,1,0,1,0,0.246,-3.75,-10.32
-"555","Bryce Brentz","Red Sox","outfield","10607",7,1,0,1,0,0.249,-3.75,-10.33
-"556","JaCoby Jones","Tigers","shortstop","sa549406",14,1,0,1,0,0.238,-3.76,-10.35
-"557","Max Moroff","Pirates","shortstop","sa658280",7,1,0,1,0,0.238,-3.76,-10.35
-"558","Anthony Garcia","Cardinals","outfield","sa502038",27,3,1,3,0,0.244,-3.8,-10.47
-"559","Trayce Thompson","Dodgers","outfield","9952",69,7,2,8,1,0.234,-3.84,-10.58
-"560","Max Muncy","Athletics","third_base","13301",53,5,1,5,0,0.229,-3.85,-10.59
-"561","Kaleb Cowart","Angels","third_base","11494",98,9,1,8,2,0.22,-3.86,-10.63
-"562","Erik Gonzalez","Indians","shortstop","sa506001",7,1,0,1,0,0.236,-3.86,-10.64
-"563","Brett Eibner","Royals","outfield","sa390416",33,4,1,4,0,0.241,-3.9,-10.74
-"564","Ryan Rua","Rangers","outfield","12409",54,6,2,6,0,0.237,-3.9,-10.74
-"565","Jeff Baker"," ","first_base","2073",100,10,3,11,1,0.233,-3.92,-10.79
-"566","Taylor Featherston","Angels","third_base","12590",65,6,1,6,1,0.224,-3.92,-10.8
+"555","Bryce Brentz","Red Sox","outfield","10607",6,1,0,1,0,0.249,-3.75,-10.33
+"556","JaCoby Jones","Tigers","shortstop","sa549406",12,1,0,1,0,0.238,-3.76,-10.35
+"557","Max Moroff","Pirates","shortstop","sa658280",6,1,0,1,0,0.238,-3.76,-10.35
+"558","Anthony Garcia","Cardinals","outfield","sa502038",24,3,1,3,0,0.244,-3.8,-10.47
+"559","Trayce Thompson","Dodgers","outfield","9952",63,7,2,8,1,0.234,-3.84,-10.58
+"560","Max Muncy","Athletics","third_base","13301",47,5,1,5,0,0.229,-3.85,-10.59
+"561","Kaleb Cowart","Angels","third_base","11494",89,9,1,8,2,0.22,-3.86,-10.63
+"562","Erik Gonzalez","Indians","shortstop","sa506001",6,1,0,1,0,0.236,-3.86,-10.64
+"563","Brett Eibner","Royals","outfield","sa390416",30,4,1,4,0,0.241,-3.9,-10.74
+"564","Ryan Rua","Rangers","outfield","12409",49,6,2,6,0,0.237,-3.9,-10.74
+"565","Jeff Baker"," ","first_base","2073",91,10,3,11,1,0.233,-3.92,-10.79
+"566","Taylor Featherston","Angels","third_base","12590",60,6,1,6,1,0.224,-3.92,-10.8
 "567","Justin O'Conner","Rays","catcher","sa548314",12,1,0,1,0,0.213,-3.93,-10.82
-"568","Jacob May","White Sox","outfield","sa550097",13,1,0,1,1,0.242,-3.99,-10.98
-"569","Andy Wilkins","Brewers","first_base","11251",34,4,1,4,0,0.244,-4.03,-11.1
-"570","Jesus Aguilar","Indians","first_base","11342",40,4,1,4,0,0.244,-4.03,-11.1
-"571","Chris Heisey","Nationals","outfield","3978",52,6,2,6,1,0.232,-4.03,-11.11
-"572","Ryan Jackson"," ","second_base","6596",33,3,0,3,0,0.238,-4.05,-11.15
+"568","Jacob May","White Sox","outfield","sa550097",12,1,0,1,1,0.242,-3.99,-10.98
+"569","Andy Wilkins","Brewers","first_base","11251",31,4,1,4,0,0.244,-4.03,-11.1
+"570","Jesus Aguilar","Indians","first_base","11342",36,4,1,4,0,0.244,-4.03,-11.1
+"571","Chris Heisey","Nationals","outfield","3978",47,6,2,6,1,0.232,-4.03,-11.11
+"572","Ryan Jackson"," ","second_base","6596",30,3,0,3,0,0.238,-4.05,-11.15
 "573","Steven Baron","Mariners","catcher","9787",6,1,0,0,0,0.211,-4.06,-11.19
-"574","Drew Butera","Royals","catcher","3411",30,3,0,3,0,0.208,-4.08,-11.22
-"575","Yorman Rodriguez","Reds","outfield","9922",27,2,1,3,0,0.239,-4.09,-11.26
-"576","Pedro Florimon","Pirates","shortstop","8385",76,7,1,6,3,0.216,-4.12,-11.33
-"577","Carson Blair","Athletics","catcher","5429",30,3,1,3,0,0.204,-4.19,-11.54
-"578","Kyle Kubitza","Angels","third_base","12148",33,3,0,3,0,0.226,-4.21,-11.59
-"579","Richie Shaffer","Rays","third_base","13271",62,7,2,7,0,0.217,-4.26,-11.73
-"580","Peter Bourjos","Phillies","outfield","2578",53,5,1,5,2,0.228,-4.26,-11.74
-"581","Brian Goodwin","Nationals","outfield","sa501964",34,3,1,3,1,0.232,-4.3,-11.83
-"582","Gabby Guerrero","Diamondbacks","outfield","sa596948",33,3,1,3,1,0.231,-4.35,-11.97
-"583","Tyler Ladendorf","Athletics","outfield","3211",67,6,1,6,1,0.227,-4.39,-12.07
-"584","Brandon Nimmo","Mets","outfield","sa597760",68,6,1,5,1,0.227,-4.41,-12.15
-"585","Michael Reed","Brewers","outfield","13228",27,3,0,2,1,0.232,-4.42,-12.17
-"586","Jake Goebbert","Pirates","first_base","9431",13,1,0,1,0,0.24,-4.5,-12.39
-"587","Jorge Bonifacio","Royals","outfield","sa547943",40,4,1,4,0,0.229,-4.52,-12.45
-"588","James Ramsey","Indians","outfield","sa599239",26,3,1,3,0,0.23,-4.53,-12.46
-"589","Terrance Gore","Royals","outfield","13658",7,1,0,1,0,0.233,-4.58,-12.6
-"590","Mike Olt","White Sox","third_base","10698",52,6,2,6,0,0.211,-4.63,-12.74
-"591","Nolan Fontana","Astros","shortstop","sa657932",20,2,0,2,0,0.218,-4.74,-13.04
-"592","Adam Brett Walker","Twins","outfield","sa621791",13,1,1,2,0,0.226,-4.82,-13.27
-"593","Bubba Starling","Royals","outfield","sa597751",20,2,0,2,0,0.227,-4.83,-13.3
-"594","Gift Ngoepe","Pirates","shortstop","sa503029",14,1,0,1,0,0.213,-5.05,-13.91
-"595","Dan Uggla"," ","second_base","3442",131,13,4,13,1,0.197,-5.1,-14.05
-"596","Matt Davidson","White Sox","third_base","7226",27,3,1,3,0,0.205,-5.2,-14.32
-"597","Kyle Skipworth","Reds","catcher","5298",31,3,1,3,0,0.183,-5.28,-14.53
-"598","Jabari Blash","Padres","outfield","sa392225",36,4,1,4,0,0.214,-5.3,-14.58
-"599","Juan Duran","Reds","outfield","sa503255",7,1,0,1,0,0.216,-5.46,-15.02
+"574","Drew Butera","Royals","catcher","3411",27,3,0,3,0,0.208,-4.08,-11.22
+"575","Yorman Rodriguez","Reds","outfield","9922",25,2,1,3,0,0.239,-4.09,-11.26
+"576","Pedro Florimon","Pirates","shortstop","8385",70,7,1,6,3,0.216,-4.12,-11.33
+"577","Carson Blair","Athletics","catcher","5429",27,3,1,3,0,0.204,-4.19,-11.54
+"578","Kyle Kubitza","Angels","third_base","12148",29,3,0,3,0,0.226,-4.21,-11.59
+"579","Richie Shaffer","Rays","third_base","13271",55,7,2,7,0,0.217,-4.26,-11.73
+"580","Peter Bourjos","Phillies","outfield","2578",47,5,1,5,2,0.228,-4.26,-11.74
+"581","Brian Goodwin","Nationals","outfield","sa501964",30,3,1,3,1,0.232,-4.3,-11.83
+"582","Gabby Guerrero","Diamondbacks","outfield","sa596948",31,3,1,3,1,0.231,-4.35,-11.97
+"583","Tyler Ladendorf","Athletics","outfield","3211",61,6,1,6,1,0.227,-4.39,-12.07
+"584","Brandon Nimmo","Mets","outfield","sa597760",60,6,1,5,1,0.227,-4.41,-12.15
+"585","Michael Reed","Brewers","outfield","13228",24,3,0,2,1,0.232,-4.42,-12.17
+"586","Jake Goebbert","Pirates","first_base","9431",12,1,0,1,0,0.24,-4.5,-12.39
+"587","Jorge Bonifacio","Royals","outfield","sa547943",37,4,1,4,0,0.229,-4.52,-12.45
+"588","James Ramsey","Indians","outfield","sa599239",24,3,1,3,0,0.23,-4.53,-12.46
+"589","Terrance Gore","Royals","outfield","13658",6,1,0,1,0,0.233,-4.58,-12.6
+"590","Mike Olt","White Sox","third_base","10698",47,6,2,6,0,0.211,-4.63,-12.74
+"591","Nolan Fontana","Astros","shortstop","sa657932",17,2,0,2,0,0.218,-4.74,-13.04
+"592","Adam Brett Walker","Twins","outfield","sa621791",12,1,1,2,0,0.226,-4.82,-13.27
+"593","Bubba Starling","Royals","outfield","sa597751",18,2,0,2,0,0.227,-4.83,-13.3
+"594","Gift Ngoepe","Pirates","shortstop","sa503029",12,1,0,1,0,0.213,-5.05,-13.91
+"595","Dan Uggla"," ","second_base","3442",113,13,4,13,1,0.197,-5.1,-14.05
+"596","Matt Davidson","White Sox","third_base","7226",24,3,1,3,0,0.205,-5.2,-14.32
+"597","Kyle Skipworth","Reds","catcher","5298",29,3,1,3,0,0.183,-5.28,-14.53
+"598","Jabari Blash","Padres","outfield","sa392225",32,4,1,4,0,0.214,-5.3,-14.58
+"599","Juan Duran","Reds","outfield","sa503255",6,1,0,1,0,0.216,-5.46,-15.02

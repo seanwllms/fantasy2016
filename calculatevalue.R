@@ -41,7 +41,7 @@ filelocs <- sapply("./steamer/", paste, list.files("./steamer"), sep="")
 hitterdata <- lapply(filelocs, read.csv, header=TRUE, stringsAsFactors = FALSE)
 
 #keep only variables I care about
-hitterdata <- lapply(hitterdata, select, Name, Team, PA, R,HR, RBI, SB, AVG, OBP, playerid)
+hitterdata <- lapply(hitterdata, select, Name, Team, AB, PA, R,HR, RBI, SB, AVG, OBP, playerid)
 
 #rename columns
 hitterdata <- lapply(hitterdata, function(x) {colnames(x)[1] <- "name" 
@@ -76,7 +76,7 @@ grab.repl <- function(pos) {
       shortstop.proj <- cbind(hitterdata[[7]], grab.repl("shortstop"))
       
 #build all positional projections into a list
-projections <- list(first.base.proj,
+hitter_projections <- list(first.base.proj,
                     second.base.proj,
                     third.base.proj,
                     catcher.proj,
@@ -119,23 +119,23 @@ calculate.value <- function(df) {
 }
 
 #calculate values for all of the positions
-projections <- lapply(projections, calculate.value)
+hitter_projections <- lapply(hitter_projections, calculate.value)
 
 #merge projections for different positions together.
-projections <- do.call(rbind, projections)
+hitter_projections <- do.call(rbind, hitter_projections)
 
 #get player's strongest position
-projections <- projections %>%
+hitter_projections <- hitter_projections %>%
       group_by(playerid) %>%
       mutate(times.appears = n(), max.points = max(dollar.value)) %>%
       filter(position != "dh" | times.appears==1) %>%
       filter(dollar.value==max.points) %>%
       ungroup() %>%
       arrange(desc(dollar.value)) %>%
-      select(name, Team, position, playerid, PA, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
+      select(name, Team, position, playerid, AB, R, HR, RBI, SB, AVG, marginal.total.points, dollar.value) %>%
       mutate( marginal.total.points = round(marginal.total.points, 2),
               dollar.value = round(dollar.value, 2)) %>%
-      filter(PA > 1)
+      filter(AB > 1)
 
 
 ################################################################
@@ -143,13 +143,13 @@ projections <- projections %>%
 ################################################################
 
 #read in projections
-pitchers <- read.csv("pitchers.csv", stringsAsFactors=FALSE)
+pitcher_projections <- read.csv("pitchers.csv", stringsAsFactors=FALSE)
 
 #keep only relevant columns
-pitchers <- select(pitchers,Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
+pitcher_projections <- select(pitcher_projections,Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
       mutate(position = "pitcher")
 
-names(pitchers)[c(1, 7)] <- c("name", "K")
+names(pitcher_projections)[c(1, 7)] <- c("name", "K")
 
 #create replacement pitcher values
 #these are the mean projections for the 170th through 190th best players
@@ -157,7 +157,7 @@ replacement.pitcher <- c(3.761429,1.284286,5.523810,2.952381,88.714286)
 names(replacement.pitcher) <- c("ERA.repl","WHIP.repl","W.repl","SV.repl","K.repl")
 
 #calculate marginal values and points
-pitchers <- pitchers %>%
+pitcher_projections <- pitcher_projections %>%
       mutate(
             marginal.ERA = ERA - replacement.pitcher["ERA.repl"],
             marginal.WHIP = WHIP - replacement.pitcher["WHIP.repl"],
@@ -186,13 +186,13 @@ pitchers <- pitchers %>%
       filter(IP > 1)
 
 #create file for player projections
-hitterpitcher <- bind_rows(projections, pitchers) %>%
+hitterpitcher <- bind_rows(hitter_projections, pitcher_projections) %>%
       arrange(desc(dollar.value)) %>%
       select(name, Team, position, marginal.total.points, dollar.value)
 
 #write both files out to csv files
-write.csv(pitchers, file = "pitcher_projections.csv")
-write.csv(projections, file = "hitter_projections.csv")
+write.csv(pitcher_projections, file = "pitcher_projections.csv")
+write.csv(hitter_projections, file = "hitter_projections.csv")
 write.csv(hitterpitcher, file = "player_projections.csv")
 
-
+save(hitter_projections, pitcher_projections, file = "projections.rda")
