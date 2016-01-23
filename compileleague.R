@@ -1,4 +1,4 @@
-setwd("/home/seanasdf/Documents/rstuff/fantasy")
+setwd("/home/sean/Documents/rstuff/fantasy")
 library(dplyr)
 
 #load in coefficients file
