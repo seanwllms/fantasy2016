@@ -24,5 +24,6 @@ write.csv(player_projections, file = "combined_projections.csv")
 
 #write standings output to file
 standings.output <- select(standings, 1, 12:13,17:27)
-
 write.csv(standings.output, file="standings.csv")
+
+#write remaining players to csv

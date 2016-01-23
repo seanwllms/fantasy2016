@@ -97,7 +97,7 @@ draft <- function(team, player, salary, pos) {
             else if (pos == "C") {
                   for (i in 1:2) {
                         catcher_number <- paste(pos, i, sep = "")
-                        if (temp[catcher_number,"naame"] == "") {
+                        if (temp[catcher_number,"name"] == "") {
                               temp[catcher_number,"salary"] <- salary
                               temp[catcher_number,"name"] <- player
                               break
