@@ -51,14 +51,3 @@ for (team in teams) {
       remove(hitters, pitchers, temp, undrafted.pitchers, undrafted.hitters)
       
 }
-# 
-# 
-# #reorder rows.
-# for (team in teams) {
-#       
-#       temp <- get(team)
-#       
-#       temp <- arrange(temp, positions)
-#       
-#       assign(team,temp)
-# }

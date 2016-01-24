@@ -23,7 +23,9 @@ player_projections <- rbind_list(hitter_projections, pitcher_projections) %>% ar
 write.csv(player_projections, file = "combined_projections.csv")
 
 #write standings output to file
-standings.output <- select(standings, 1, 12:13,17:27)
+standings.output <- select(standings,
+                           team_name, spent, left, total_points, R_points, HR_points, RBI_points, 
+                           SB_points, AVG_points, ERA_points, WHIP_points, K_points, SV_points, W_points)
+
 write.csv(standings.output, file="standings.csv")
 
-#write remaining players to csv

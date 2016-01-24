@@ -3,86 +3,70 @@ standings <- data.frame()
 #Calculate current standings
 for (team in teams) {
       
-      temp <- get(team)
+      temp <- get(team) %>%
+            summarise(R = sum(R, na.rm=TRUE),
+                      HR = sum(HR, na.rm=TRUE),
+                      RBI = sum(RBI, na.rm=TRUE),
+                      SB = sum(SB, na.rm=TRUE),
+                      AVG = sum(AVG*AB, na.rm=TRUE)/sum(AB, na.rm=TRUE),
+                      ERA = sum(IP*ERA, na.rm=TRUE)/sum(IP, na.rm=TRUE),
+                      WHIP = sum(IP*WHIP, na.rm=TRUE)/sum(IP, na.rm=TRUE),
+                      K = sum(K, na.rm=TRUE),
+                      SV =sum(SV, na.rm=TRUE),
+                      W = sum(W, na.rm=TRUE),
+                      spent = sum(salary, na.rm=TRUE),
+                      left = 260-sum(salary, na.rm=TRUE)
+                      ) %>%
+            mutate(team_name = team) %>%
+            select(team_name, spent, left, R, HR, RBI, SB, AVG, ERA, WHIP, K, SV, W)
       
-      #get team's stats
-      team_R <- sum(temp$R[1:15], na.rm=TRUE)
-      team_HR <- sum(temp$HR[1:15], na.rm=TRUE)
-      team_RBI <- sum(temp$RBI[1:15], na.rm=TRUE)
-      team_SB <- sum(temp$SB[1:15], na.rm=TRUE)
-      team_AVG <- sum(temp$AVG*temp$AB[1:15], na.rm=TRUE) / sum(temp$AB, na.rm =TRUE)
+      #add results to standings      
+      standings <- rbind(standings, temp) 
       
-      team_ERA <- sum(temp$ERA[16:25] * temp$IP[16:25], na.rm=TRUE) /sum(temp$IP[16:25], na.rm=TRUE) 
-      team_WHIP <- sum(temp$WHIP[16:25] * temp$IP[16:25], na.rm=TRUE) /sum(temp$IP[16:25], na.rm=TRUE) 
-      team_K <- sum(temp$K[16:25], na.rm=TRUE)
-      team_SV <- sum(temp$SV[16:25], na.rm=TRUE)
-      team_W <- sum(temp$W[16:25], na.rm=TRUE)
-      
-      team_salary <- sum(temp$salary, na.rm=TRUE)
-      salary_left <- 260-sum(temp$salary, na.rm=TRUE)
-      
-      picks_left <- sum(temp$Name[1:25]=="")
-      dollars_per_pick <- salary_left/picks_left
-      
-      max_bid <- salary_left + 1 - picks_left
-      
-      #merge team's stats in to standings
-      standings <- data.frame(
-                  team_name = c(standings$team_name, team),
-                  R =  c(standings$R, team_R),
-                  HR = c(standings$HR,team_HR),
-                  RBI = c(standings$RBI,team_RBI),
-                  SB = c(standings$SB, team_SB),
-                  AVG = round(c(standings$AVG,team_AVG),3),
-                  ERA = round(c(standings$ERA, team_ERA),2),
-                  WHIP = round(c(standings$WHIP, team_WHIP),2),
-                  K = c(standings$K, team_K),
-                  SV = c(standings$SV, team_SV),
-                  W = c(standings$W, team_W),
-                  spent = c(standings$spent, team_salary), 
-                  left = c(standings$left, salary_left),
-                  picks_left <- c(standings$picks_left, picks_left),
-                  dollars_per_pick <- c(standings$dollars_per_pick, dollars_per_pick),                  
-                  max_bid <- c(standings$max_bid, max_bid),
-                  stringsAsFactors = FALSE
-            )
+      remove(temp)
 }
 
-names(standings)[14] <- "picks_left"
-names(standings)[15] <- "dollars_per_pick"
-names(standings)[16] <- "max_bid"
+#load coeficients for calculating standings
+load("standingscoefs.rda")
 
 #calculate points
-standings$R_pts <- rank(standings$R)
-standings$HR_pts <- rank(standings$HR)
-standings$RBI_pts <- rank(standings$RBI)
-standings$SB_pts <- rank(standings$SB)
-standings$AVG_pts <- rank(standings$AVG)
+stats <- c("R", "HR", "RBI", "SB", "AVG", "ERA", "WHIP", "K","SV","W")
 
-standings$ERA_pts <- 19-rank(standings$ERA)
-standings$WHIP_pts <- 19-rank(standings$ERA)
-standings$K_pts <- rank(standings$K)
-standings$SV_pts <- rank(standings$SV)
-standings$W_pts <- rank(standings$W)
+for (stat in stats) {
+      column.name <- paste(stat,"_points", sep="")
+      standings[column.name] <- coefs.standings[coefs.standings$Category==tolower(stat),2] +
+                                coefs.standings[coefs.standings$Category==tolower(stat),3]*
+                                standings[stat]
+}
 
+points.var.names <- paste(stats, "_points", sep="")
 
-standings$total_points <-     standings$ERA_pts +
-                              standings$WHIP_pts + 
-                              standings$K_pts +
-                              standings$SV_pts +
-                              standings$W_pts +
-                              standings$R_pts +
-                              standings$HR_pts +
-                              standings$RBI_pts +      
-                              standings$SB_pts +
-                              standings$AVG_pts 
+#create function to fix impossible numbers
+rational.points <- function(vector) {
+      column <- vector %>%
+            sapply(max, 1) %>%
+            sapply(min, 18) %>%
+            sapply(round, 2)
+      column
+}
 
-standings$total_points <- round(standings$total_points, 0)
+standings[points.var.names] <- lapply(standings[points.var.names], rational.points)
+
+standings <- mutate(standings, total_points = 
+                          R_points +
+                          HR_points+
+                          RBI_points+
+                          SB_points+
+                          AVG_points+
+                          ERA_points+
+                          WHIP_points+
+                          K_points+
+                          SV_points+
+                          W_points) %>%
+      mutate(total_points = round(total_points, 2)) %>%
+      arrange(desc(total_points))
 
 #Rownames
 rownames(standings) <- standings$team_name
-
-#Sort by total points
-standings <- standings[order(-standings$total_points),]
 
 
