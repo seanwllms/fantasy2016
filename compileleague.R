@@ -27,3 +27,5 @@ source("calculatestandings.R")
 
 #write to .csv
 source("csvwriter.R")
+
+standings

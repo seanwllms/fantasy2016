@@ -11,6 +11,9 @@ replacement_hitters[c("OF1","OF2","OF3","OF4","OF5","OF6"),] <- replacement_hitt
 #read in replacement level pitchers
 replacement_pitcher <- c(150,4.47,1.4,4,1,102)
 
+#assume nobody drafts terrible players
+hitter_projections <- filter(hitter_projections, dollar.value > -5)
+pitcher_projections <- filter(pitcher_projections, dollar.value > -5)
 
 #####################################################################
 #############MERGE IN PROJECTIONS FOR EACH PLAYER AND TEAM###########
@@ -27,59 +30,35 @@ for (team in teams) {
       #merge in projections
       hitters <- left_join(hitters, hitter_projections, by = "name")
       pitchers <- left_join(pitchers, pitcher_projections, by = "name")
-      
-      #add columns for stats to team
-      temp[c("playerid","roster_spot", "AB","R","HR","RBI","SB","AVG","IP","ERA","WHIP","SV","W","K")] <- NA
-      
-      #reassign rownames to merged projections
-      rownames(hitters) <- hitters$roster_spot
-      rownames(pitchers) <- pitchers$roster_spot
-      
 
-      #add hitter projections to team 
-      for (position in batter_positions) {
-            temp[position, c("playerid","AB","R","HR","RBI","SB","AVG")] <- 
-                  hitters[position, c("playerid","AB","R","HR","RBI","SB","AVG")]
-      }
+      #add replacement level stats for hitters
+      undrafted.hitters <- filter(hitters, is.na(playerid))
+      undrafted.pitchers <- filter(pitchers, is.na(playerid))
       
-      #add pitcher projections to team
-      for (position in pitcher_positions) {
-            temp[position, c("playerid","IP","ERA","WHIP","SV","W","K")] <- 
-                  pitchers[position, c("playerid","IP","ERA","WHIP","SV","W","K")]
-      }
+      #pull in replacement level stats to undrafted df
+      undrafted.hitters[,c("AB","R","HR","RBI","SB","AVG")] <- replacement_hitters[undrafted.hitters$roster_spot,c(7,2:6)]
+      undrafted.pitchers[,c("IP","ERA","WHIP","SV","W","K")] <- sapply(replacement_pitcher, rep, nrow(undrafted.pitchers))
       
+      #insert replacement level stats in hitters and pitchers df
+      hitters[hitters$roster_spot %in% undrafted.hitters$roster_spot, 7:12] <- undrafted.hitters[,7:12]
+      pitchers[pitchers$roster_spot %in% undrafted.pitchers$roster_spot, 7:12] <- undrafted.pitchers[,7:12]
       
-      #add replacement level stats for empty hitter roster spots
-      for (position in batter_positions) {
-            if (temp[position,"name"] == "") {
-                  temp[position,c("AB","R","HR","RBI","SB","AVG")] <- replacement_hitters[position,c("AB","Runs","HR","RBI","SB","AVG")]
-            }
-      }
-      
-      #add replacement level stats for pitcher spots
-      for (position in pitcher_positions) {
-            if (temp[position,"name"] == "") {
-                  temp[position,c("IP","ERA","WHIP","SV","W","K")] <- replacement_pitcher
-            }
-      }
-      
-      
+      #merge hitters and pitchers
+      temp <- rbind_list(hitters, pitchers)
       
       assign(team, temp)
       
-      remove(hitters)
-      remove(pitchers)
-      remove(temp)
+      remove(hitters, pitchers, temp, undrafted.pitchers, undrafted.hitters)
       
 }
-
-
-#reorder rows.
-for (team in teams) {
-      
-      temp <- get(team)
-      
-      temp <- temp[positions,]
-      
-      assign(team,temp)
-}
+# 
+# 
+# #reorder rows.
+# for (team in teams) {
+#       
+#       temp <- get(team)
+#       
+#       temp <- arrange(temp, positions)
+#       
+#       assign(team,temp)
+# }
