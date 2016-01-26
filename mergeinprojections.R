@@ -51,3 +51,4 @@ for (team in teams) {
       remove(hitters, pitchers, temp, undrafted.pitchers, undrafted.hitters)
       
 }
+

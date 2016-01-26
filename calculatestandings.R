@@ -46,7 +46,7 @@ rational.points <- function(vector) {
       column <- vector %>%
             sapply(max, 1) %>%
             sapply(min, 18) %>%
-            sapply(round, 2)
+            sapply(round, 1)
       column
 }
 
@@ -63,7 +63,7 @@ standings <- mutate(standings, total_points =
                           K_points+
                           SV_points+
                           W_points) %>%
-      mutate(total_points = round(total_points, 2)) %>%
+      mutate(total_points = round(total_points,1)) %>%
       arrange(desc(total_points))
 
 #Rownames
