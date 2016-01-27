@@ -1,6 +1,6 @@
 team,player,salary,position
 ottawa,Salvador Perez,21,C
-ottawa,Johnathan Schoop,4,2B
+ottawa,Jonathan Schoop,4,2B
 ottawa,Todd Frazier,14,3B
 ottawa,Jose Bautista,29,OF
 ottawa,Kevin Pillar,4,OF
@@ -18,30 +18,30 @@ bellevegas,Chris Davis,28,OF
 bellevegas,David Peralta,6,OF
 bellevegas,Joey Gallo,8,OF
 bellevegas,Melky Cabrera,13,OF
-bellevegas,Stephen Matz,4,P
+bellevegas,Steven Matz,4,P
 bellevegas,Luis Severino,4,P
 bellevegas,Michael Wacha,14,P
 bellevegas,Matt Moore,6,P
 bellevegas,Mike Leake,13,P
 bellevegas,Brad Ziegler,17,P
 bellevegas,Josh Bell,0,B
-rippe,Kolten Wang,9,2B
+rippe,Kolten Wong,9,2B
 rippe,Manny Machado,19,3B
 rippe,Troy Tulowitzki,28,SS
 rippe,Matt Carpenter,14,CI
 rippe,Mike Trout,34,OF
 rippe,A.J. Pollock,17,OF
 rippe,Christian Yelich,14,OF
-rippe,Brian Buxton,4,OF
+rippe,Byron Buxton,4,OF
 rippe,Gerrit Cole,14,P
-rippe,Jacob Degrom,9,P
+rippe,Jacob deGrom,9,P
 rippe,Adam Wainwright,5,P
 rippe,David Price,30,P
-rippe,Jeff Smardzjia,15,P
+rippe,Jeff Samardzija,15,P
 rippe,David Ross,8,P
 rippe,Aaron Judge,0,B
 rippe,Hunter Harvey,1,B
-isotopes,Steven Vogt,11,C
+isotopes,Stephen Vogt,11,C
 isotopes,Kendrys Morales,6,DH
 isotopes,Lorenzo Cain,10,OF
 isotopes,Josh Reddick,12,OF
@@ -52,7 +52,7 @@ isotopes,Yordano Ventura,10,P
 isotopes,Kevin Gausman,9,P
 isotopes,Patrick Corbin,4,P
 isotopes,Joaquin Benoit,12,P
-isotopes,Lucas Gioloto,0,B
+isotopes,Lucas Giolito,0,B
 isotopes,Nomar Mazara,0,B
 deano,George Springer,9,OF
 deano,Ender Inciarte,4,OF
@@ -107,21 +107,21 @@ marmaduke,Arodys Vizcaino,4,P
 marmaduke,Adam Conley,4,P
 marmaduke,Ryan McMahon,0,B
 pk dodgers,Francisco Cervelli,9,C
-pk dodgers,Byung-Ho Park,15,1B
+pk dodgers,Byung-ho Park,15,1B
 pk dodgers,Dee Gordon,9,2B
-pk dodgers,Jung-Ho Kang,7,3B
+pk dodgers,Jung-ho Kang,7,3B
 pk dodgers,Yasiel Puig,14,OF
-pk dodgers,Enrique Hernandez ,6,OF
+pk dodgers,Enrique Hernandez,6,OF
 pk dodgers,Carl Crawford,1,OF
 pk dodgers,Mike Bolsinger,7,P
 pk dodgers,Clayton Kershaw,37,P
 pk dodgers,Jason Hammel,9,P
 pk dodgers,Andrew Heaney,5,P
-pk dodgers,Nathan Karns,4,P
+pk dodgers,Nate Karns,4,P
 pk dodgers,Scott Kazmir,16,P
 pk dodgers,David Robertson,18,P
-pk dodgers,Trace Thompson,0,B
-pk dodgers,Hector Oliveira,0,B
+pk dodgers,Trayce Thompson,0,B
+pk dodgers,Hector Olivera,0,B
 balco,C.J. Cron,9,1B
 balco,Logan Forsythe,14,2B
 balco,Justin Turner,4,3B
@@ -131,14 +131,14 @@ balco,Yoenis Cespedes,28,OF
 balco,Michael Conforto,4,OF
 balco,Eddie Rosario,7,OF
 balco,Jorge Soler,9,OF
-balco,Colbey Rasmus,12,OF
+balco,Colby Rasmus,12,OF
 balco,Jesse Winker,0,B
 pasadena,Anthony Rizzo,24,1B
 pasadena,Jose Altuve,21,2B
 pasadena,Anthony Rendon,14,MI
 pasadena,Edwin Encarnacion,32,CI
 pasadena,Miguel Cabrera,38,DH
-pasadena,Bryce Harper ,19,OF
+pasadena,Bryce Harper,19,OF
 pasadena,Joc Pederson,9,OF
 pasadena,Kris Bryant,9,OF
 pasadena,Dallas Keuchel,9,P
@@ -150,7 +150,7 @@ jobu,Russell Martin,15,C
 jobu,Justin Smoak,4,1B
 jobu,Robinson Cano,25,2B
 jobu,Noah Syndergaard,4,P
-jobu,Colin McHugh,9,P
+jobu,Collin McHugh,9,P
 jobu,Edinson Volquez,10,P
 jobu,Jose Quintana,14,P
 jobu,Tanner Roark,9,P
@@ -161,20 +161,20 @@ dembums,Prince Fielder,24,1B
 dembums,Alex Rodriguez,5,DH
 dembums,Giancarlo Stanton,29,OF
 dembums,Nelson Cruz,24,OF
-dembums,Corey Blackmon,9,OF
+dembums,Charlie Blackmon,9,OF
 dembums,Corey Dickerson,10,OF
-dembums,Jackie Bradley,4,OF
+dembums,Jackie Bradley Jr.,4,OF
 dembums,Chris Sale,29,P
 dembums,Johnny Cueto,24,P
 dembums,Michael Pineda,10,P
-counsel,Wellington Castillo,6,C
+counsel,Welington Castillo,6,C
 counsel,Yoan Moncada,10,2B
-counsel,Xander Bogarts,14,SS
+counsel,Xander Bogaerts,14,SS
 counsel,Joe Panik,5,MI
 counsel,Michael Brantley,20,OF
 counsel,Archie Bradley,4,P
 counsel,Carlos Carrasco,20,P
-counsel,Jon Gray,7,P
+counsel,Jonathan Gray,7,P
 counsel,Matt Harvey,19,P
 counsel,Madison Bumgarner,35,P
 counsel,Shawn Tolleson,9,P
@@ -184,7 +184,7 @@ sturgeon,Lucas Duda,24,1B
 sturgeon,Rougned Odor,8,2B
 sturgeon,Nolan Arenado,14,3B
 sturgeon,Eric Hosmer,26,1B
-sturgeon,Randall Grichuk,4,OF
+sturgeon,Randal Grichuk,4,OF
 sturgeon,Stephen Piscotty,12,OF
 sturgeon,Chris Archer,15,P
 sturgeon,A.J. Ramos,4,P
@@ -203,16 +203,16 @@ baycity,Justin Upton,31,OF
 baycity,Lance McCullers,10,P
 baycity,Stephen Strasburg,29,P
 baycity,Marcus Stroman,9,P
-baycity,Zach Wheeler,14,P
+baycity,Zack Wheeler,14,P
 baycity,Tyler Glasnow,0,B
 deener,Adrian Gonzalez,38,1B
-deener,D.J. LeMahieu,5,2B
+deener,DJ LeMahieu,5,2B
 deener,Mike Moustakas,5,3B
 deener,Mitch Moreland,4,CI
 deener,David Ortiz,41,DH
 deener,Cameron Maybin,4,OF
 deener,Ben Revere,14,OF
-deener,Anthony Descalfini,4,P
+deener,Anthony DeSclafani,4,P
 deener,Jeurys Familia,4,P
 deener,Craig Kimbrel,33,P
 d&s,Mark Canha,4,1B
@@ -221,24 +221,24 @@ d&s,Luis Valbuena,4,3B
 d&s,Brandon Crawford,4,SS
 d&s,J.D. Martinez,14,OF
 d&s,Erasmo Ramirez,7,P
-d&s,Garret Richards,14,P
-d&s,Zach Greinke,33,P
+d&s,Garrett Richards,14,P
+d&s,Zack Greinke,33,P
 d&s,Brad Boxberger,11,P
 d&s,Andrew Miller,6,P
-d&s,Kento Maeda,0,B
+d&s,Kenta Maeda,0,B
 d&s,Julio Urias,0,B
 deano,Kenley Jansen,23,P
 ottawa,Kole Calhoun,21,OF
 ottawa,Mark Trumbo,18,1B
 dembums,Huston Street,19,P
-bellevegas,Travis D'Arnaud,15,C
+bellevegas,Travis d'Arnaud,15,C
 bellevegas,Dellin Betances,10,P
 marmaduke,Matt Adams,11,CI
 marmaduke,Masahiro Tanaka,17,P
 pk dodgers,Yan Gomes,16,C
 counsel,Jay Bruce,20,OF
 bears,Carlos Gomez,28,OF
-sturgeon,Delino DeShields,16,OF
+sturgeon,Delino DeShields Jr.,16,OF
 pk dodgers,Alex Wood,13,P
 deener,Ervin Santana,10,P
 d&s,Cole Hamels,22,P
@@ -264,7 +264,7 @@ bellevegas,Jon Singleton,4,DH
 bellevegas,Glen Perkins,16,P
 dembums,Brett Gardner,23,OF
 deano,Jacoby Ellsbury,18,OF
-balco,Shin-soo Choo,22,OF
+balco,Shin-Soo Choo,22,OF
 deener,Michael Bourn,1,OF
 pk dodgers,Alexei Ramirez,12,MI
 isotopes,Matt Wieters,13,C
@@ -276,3 +276,14 @@ deano,James McCann,9,C
 hermanos,Yadier Molina,12,C
 ottawa,Jean Segura,12,SS
 pk dodgers,Scott Van Slyke,1,OF
+jobu,Andre Ethier,12,OF
+jobu,Dexter Fowler,19,OF
+jobu,Ryan Braun,35,OF
+pk dodgers,Ubaldo Jimenez,5,P
+d&s,Matt Kemp,18,OF
+pk dodgers,Mikie Mahtook,4,OF
+bears,Jordan Zimmerman,16,P
+pk dodgers,Danny Valencia,9,CI
+isotopes,Evan Longoria,20,3B
+rippe,Avisail Garcia,13,OF
+deener,Vance Worley,1,P

@@ -1,4 +1,4 @@
-setwd("/home/seanasdf/Documents/rstuff/fantasy")
+setwd("/home/sean/Documents/rstuff/fantasy")
 library(dplyr)
 
 ###Load the coefficients data frame
@@ -185,14 +185,8 @@ pitcher_projections <- pitcher_projections %>%
       #select only pithcers with at least 1 IP
       filter(IP > 1)
 
-#create file for player projections
-hitterpitcher <- bind_rows(hitter_projections, pitcher_projections) %>%
-      arrange(desc(dollar.value)) %>%
-      select(name, Team, position, marginal.total.points, dollar.value)
-
 #write both files out to csv files
 write.csv(pitcher_projections, file = "pitcher_projections.csv")
 write.csv(hitter_projections, file = "hitter_projections.csv")
-write.csv(hitterpitcher, file = "player_projections.csv")
 
 save(hitter_projections, pitcher_projections, file = "projections.rda")

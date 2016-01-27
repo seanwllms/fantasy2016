@@ -15,12 +15,18 @@ for (player in pitcher_projections$Name) {
       }
 }
 
-#Merge hitter and pitcher projections
-player_projections <- rbind_list(hitter_projections, pitcher_projections) %>% arrange(desc(dollar.value))
+#create file for best remaining players
+hitterpitcher <- bind_rows(hitter_projections, pitcher_projections) %>%
+      arrange(desc(dollar.value)) %>%
+      select(name, Team, position, marginal.total.points, dollar.value, status) %>%
+      filter(status != "drafted") %>%
+      filter(dollar.value > -5)
+
+write.csv(hitterpitcher, "bestremaining.csv")
 
 
-#write player projections to csv
-write.csv(player_projections, file = "combined_projections.csv")
+#write out draft errors to csv
+write.csv(drafterrors, "drafterrors.csv")
 
 #write standings output to file
 standings.output <- select(standings,

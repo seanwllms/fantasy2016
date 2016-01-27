@@ -75,17 +75,17 @@ draft <- function(team, player, salary, pos) {
 #######################################################
 ###############Mark Drafted Function###################
 #######################################################
-hitter_projections$status <- ""
-pitcher_projections$status <- ""
 
-#make bad draft pick df
-drafterrors <- c()
+hitter_projections <- hitter_projections %>% 
+      mutate(status = ifelse(name %in% draftpicks$player, "drafted", ""))
+pitcher_projections <- pitcher_projections %>% 
+      mutate(status = ifelse(name %in% draftpicks$player, "drafted", ""))
 
-for (pick in draftpicks$player) {
-      hitter_projections <-  mutate(hitter_projections, status = ifelse(name == pick, "drafted", ""))
-}
-
-
+drafterrors <- select(draftpicks, player, team) %>%
+      mutate(error = ifelse(player %in% hitter_projections$name | player %in% pitcher_projections$name,
+             "matched", "not matched")
+      ) %>%
+      filter(error == "not matched")
 
 #draft everything in the draft csv
 for (pick in 1:nrow(draftpicks)) {

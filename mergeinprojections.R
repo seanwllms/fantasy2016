@@ -11,9 +11,6 @@ replacement_hitters[c("OF1","OF2","OF3","OF4","OF5","OF6"),] <- replacement_hitt
 #read in replacement level pitchers
 replacement_pitcher <- c(150,4.47,1.4,4,1,102)
 
-#assume nobody drafts terrible players
-hitter_projections <- filter(hitter_projections, dollar.value > -5)
-pitcher_projections <- filter(pitcher_projections, dollar.value > -5)
 
 #####################################################################
 #############MERGE IN PROJECTIONS FOR EACH PLAYER AND TEAM###########
