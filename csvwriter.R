@@ -1,26 +1,9 @@
-hitter_projections$status <- ""
-pitcher_projections$status <- ""
-
-#Mark drafted hitters as drafted.
-for (player in hitter_projections$Name) {
-      if (player %in% draftpicks$player) {
-            hitter_projections[which(hitter_projections$Name == player),"status"] <- "drafted"
-      }
-}
-
-#Mark drafted pitchers as drafted.
-for (player in pitcher_projections$Name) {
-      if (player %in% draftpicks$player) {
-            pitcher_projections[which(pitcher_projections$Name == player),"status"] <- "drafted"
-      }
-}
-
 #create file for best remaining players
 hitterpitcher <- bind_rows(hitter_projections, pitcher_projections) %>%
       arrange(desc(dollar.value)) %>%
-      select(name, Team, position, marginal.total.points, dollar.value, status) %>%
-      filter(status != "drafted") %>%
-      filter(dollar.value > -5)
+      select(name, Team, position, marginal.total.points, dollar.value, status)
+
+hitterpitcher <- filter(hitterpitcher, status != "drafted" & dollar.value > -5)
 
 write.csv(hitterpitcher, "bestremaining.csv")
 

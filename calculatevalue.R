@@ -35,7 +35,7 @@ names(replacement_hitters) <- c("position",
                                 "avg")
 
 #list of file names
-filelocs <- sapply("./steamer/", paste, list.files("./steamer"), sep="")
+filelocs <- sapply("./steamer/", paste, list.files("./steamer"), sep="")[c(1:6,8)]
 
 #read in hitterdata
 hitterdata <- lapply(filelocs, read.csv, header=TRUE, stringsAsFactors = FALSE)
@@ -143,7 +143,7 @@ hitter_projections <- hitter_projections %>%
 ################################################################
 
 #read in projections
-pitcher_projections <- read.csv("pitchers.csv", stringsAsFactors=FALSE)
+pitcher_projections <- read.csv("./steamer/pitchers.csv", stringsAsFactors=FALSE)
 
 #keep only relevant columns
 pitcher_projections <- select(pitcher_projections,Name,Team,W,ERA,SV,IP,SO,WHIP,playerid) %>%
