@@ -185,8 +185,4 @@ pitcher_projections <- pitcher_projections %>%
       #select only pithcers with at least 1 IP
       filter(IP > 1)
 
-#write both files out to csv files
-write.csv(pitcher_projections, file = "pitcher_projections.csv")
-write.csv(hitter_projections, file = "hitter_projections.csv")
-
 save(hitter_projections, pitcher_projections, file = "projections.rda")

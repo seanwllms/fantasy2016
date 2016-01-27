@@ -1,3 +1,7 @@
+#write projections files to csv
+write.csv(pitcher_projections, file = "pitcher_projections.csv")
+write.csv(hitter_projections, file = "hitter_projections.csv")
+
 #create file for best remaining players
 hitterpitcher <- bind_rows(hitter_projections, pitcher_projections) %>%
       arrange(desc(dollar.value)) %>%
