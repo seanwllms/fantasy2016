@@ -1,0 +1,62 @@
+---
+title: "Fantasy 2016"
+output: md_document 
+---
+
+```{r, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+setwd("/home/sean/Documents/rstuff/fantasy")
+source("compileleague.R")
+```
+
+####Current Standings
+```{r, echo = FALSE}
+standings.output %>% mutate(hit.points = R_points + HR_points + RBI_points + SB_points + AVG_points,
+                            pitch.points = ERA_points + WHIP_points + K_points + SV_points + W_points) %>%
+                            select(team_name, spent, left, picks.left, total_points, hit.points,
+                              pitch.points)
+
+```
+
+####Top Remaining Pitchers
+```{r, echo = FALSE}
+toppitch <- filter(pitcher_projections, status != "drafted") %>%
+      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
+      select(name, Team, IP, ERA, WHIP, K, SV, W, pts, dlr)
+
+toppitch[1:20,]
+```
+
+####Top Remaining Catchers
+```{r, echo = FALSE}
+topcatch <- filter(hitter_projections, status != "drafted" & position == "catcher") %>%
+      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
+      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)
+
+data.frame(topcatch[1:20,])
+```
+
+####Top Remaining MI
+```{r, echo = FALSE}
+topmi <- filter(hitter_projections, position == "second_base" | position == "shortstop") %>%
+      filter(status != "drafted") %>%
+      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
+      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)
+
+data.frame(topmi[1:20,])
+```
+
+####Top Remaining Hitters (DH)
+```{r, echo = FALSE}
+topdh <- filter(hitter_projections, status != "drafted") %>%
+      mutate(pts = marginal.total.points, dlr = dollar.value) %>%
+      select(name, Team, AB, R, HR, RBI, SB, AVG, pts, dlr)
+
+data.frame(topdh[1:20,])
+```
+
+
+####Data entry errors
+```{r, echo = FALSE}
+drafterrors
+```
+

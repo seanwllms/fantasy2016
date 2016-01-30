@@ -15,10 +15,11 @@ for (team in teams) {
                       SV =sum(SV, na.rm=TRUE),
                       W = sum(W, na.rm=TRUE),
                       spent = sum(salary, na.rm=TRUE),
-                      left = 260-sum(salary, na.rm=TRUE)
+                      left = 260-sum(salary, na.rm=TRUE), 
+                      picks.left = sum(salary == 0 & name =="")
                       ) %>%
             mutate(team_name = team) %>%
-            select(team_name, spent, left, R, HR, RBI, SB, AVG, ERA, WHIP, K, SV, W)
+            select(team_name, spent, left, picks.left, R, HR, RBI, SB, AVG, ERA, WHIP, K, SV, W)
       
       #add results to standings      
       standings <- rbind(standings, temp) 

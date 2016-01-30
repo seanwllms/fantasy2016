@@ -29,8 +29,8 @@ for (team in teams) {
       pitchers <- left_join(pitchers, pitcher_projections, by = "name")
 
       #add replacement level stats for hitters
-      undrafted.hitters <- filter(hitters, is.na(playerid))
-      undrafted.pitchers <- filter(pitchers, is.na(playerid))
+      undrafted.hitters <- filter(hitters, name == "")
+      undrafted.pitchers <- filter(pitchers, name == "")
       
       #pull in replacement level stats to undrafted df
       undrafted.hitters[,c("AB","R","HR","RBI","SB","AVG")] <- replacement_hitters[undrafted.hitters$roster_spot,c(7,2:6)]
