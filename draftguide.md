@@ -7,69 +7,69 @@
     ## 1       deano   246    14          8        110.0       35.8         74.2
     ## 2    pasadena   251     9         11        100.9       67.4         33.5
     ## 3       rippe   247    13          6        100.1       55.1         45.0
-    ## 4       bears   214    46         10         90.3       55.6         34.7
-    ## 5      ottawa   233    27          8         87.7       45.0         42.7
-    ## 6   marmaduke   228    32          8         86.9       53.9         33.0
-    ## 7     dembums   220    40         12         84.3       46.5         37.8
+    ## 4   marmaduke   242    18          7         93.2       53.9         39.3
+    ## 5       bears   214    46         10         90.3       55.6         34.7
+    ## 6      ottawa   233    27          8         87.7       45.0         42.7
+    ## 7     dembums   229    31         11         86.3       48.5         37.8
     ## 8  bellevegas   249    11          7         83.7       45.8         37.9
     ## 9    isotopes   218    42          8         82.9       44.7         38.2
     ## 10   hermanos   238    22          7         81.5       36.8         44.7
     ## 11   sturgeon   184    76         10         81.3       47.0         34.3
     ## 12     deener   211    49          6         80.7       41.6         39.1
-    ## 13       jobu   235    25          7         80.1       36.7         43.4
-    ## 14        d&s   242    18          8         79.9       40.5         39.4
+    ## 13        d&s   242    18          8         79.9       40.5         39.4
+    ## 14       jobu   243    17          6         79.3       35.9         43.4
     ## 15 pk dodgers   227    33          2         78.3       28.0         50.3
-    ## 16    baycity   193    67          9         74.0       44.9         29.1
-    ## 17    counsel   211    49          9         73.7       29.2         44.5
-    ## 18      balco   208    52          9         65.3       41.3         24.0
+    ## 16    baycity   204    56          6         78.2       42.8         35.4
+    ## 17    counsel   220    40          8         75.5       31.0         44.5
+    ## 18      balco   211    49          8         69.0       41.3         27.7
 
 #### Top Remaining Pitchers
 
     ##               name         Team  IP  ERA WHIP   K SV  W  pts   dlr
-    ## 1     Wei-Yin Chen      Marlins 195 3.41 1.18 161  0 12 4.26 11.72
-    ## 2  David Hernandez     Phillies  65 3.58 1.23  67 28  3 3.70 10.18
-    ## 3     Steve Cishek     Mariners  65 3.86 1.31  57 31  3 3.58  9.85
-    ## 4  Fernando Rodney       Padres  65 3.49 1.28  66 28  3 3.54  9.76
-    ## 5      J.J. Hoover         Reds  65 3.81 1.32  63 28  3 3.15  8.68
-    ## 6   Kyle Hendricks         Cubs 166 3.50 1.21 139  0 11 2.90  7.99
-    ## 7      Drew Storen    Blue Jays  65 3.37 1.19  66 22  3 2.88  7.93
-    ## 8    Rick Porcello      Red Sox 190 3.81 1.25 148  0 12 2.53  6.97
-    ## 9    Clay Buchholz      Red Sox 167 3.65 1.24 143  0 11 2.48  6.83
-    ## 10  Andrew Cashner       Padres 185 3.72 1.26 161  0 10 2.32  6.40
-    ## 11   Julio Teheran       Braves 193 3.85 1.27 170  0 10 2.18  6.01
-    ## 12    Gio Gonzalez    Nationals 170 3.74 1.30 160  0 11 2.11  5.81
-    ## 13  Anibal Sanchez       Tigers 167 3.88 1.25 142  0 10 1.78  4.90
-    ## 14      Aaron Nola     Phillies 167 3.86 1.24 140  0  9 1.62  4.45
-    ## 15     Phil Hughes        Twins 198 4.20 1.25 133  0 11 1.32  3.63
-    ## 16      Jake McGee         Rays  65 2.74 1.10  74  7  4 1.32  3.63
-    ## 17       Rich Hill    Athletics 181 3.97 1.35 176  0 10 1.29  3.55
-    ## 18   Daniel Hudson Diamondbacks  65 3.19 1.19  69 12  3 1.27  3.49
-    ## 19   Derek Holland      Rangers 162 4.02 1.30 138  0 10 1.04  2.85
-    ## 20      Jake Peavy       Giants 153 3.79 1.26 115  0  9 1.02  2.82
+    ## 1  David Hernandez     Phillies  65 3.58 1.23  67 28  3 3.70 10.18
+    ## 2     Steve Cishek     Mariners  65 3.86 1.31  57 31  3 3.58  9.85
+    ## 3  Fernando Rodney       Padres  65 3.49 1.28  66 28  3 3.54  9.76
+    ## 4      J.J. Hoover         Reds  65 3.81 1.32  63 28  3 3.15  8.68
+    ## 5   Kyle Hendricks         Cubs 166 3.50 1.21 139  0 11 2.90  7.99
+    ## 6    Rick Porcello      Red Sox 190 3.81 1.25 148  0 12 2.53  6.97
+    ## 7    Clay Buchholz      Red Sox 167 3.65 1.24 143  0 11 2.48  6.83
+    ## 8    Julio Teheran       Braves 193 3.85 1.27 170  0 10 2.18  6.01
+    ## 9     Gio Gonzalez    Nationals 170 3.74 1.30 160  0 11 2.11  5.81
+    ## 10  Anibal Sanchez       Tigers 167 3.88 1.25 142  0 10 1.78  4.90
+    ## 11      Aaron Nola     Phillies 167 3.86 1.24 140  0  9 1.62  4.45
+    ## 12     Phil Hughes        Twins 198 4.20 1.25 133  0 11 1.32  3.63
+    ## 13      Jake McGee         Rays  65 2.74 1.10  74  7  4 1.32  3.63
+    ## 14       Rich Hill    Athletics 181 3.97 1.35 176  0 10 1.29  3.55
+    ## 15   Daniel Hudson Diamondbacks  65 3.19 1.19  69 12  3 1.27  3.49
+    ## 16   Derek Holland      Rangers 162 4.02 1.30 138  0 10 1.04  2.85
+    ## 17      Jake Peavy       Giants 153 3.79 1.26 115  0  9 1.02  2.82
+    ## 18   Shelby Miller Diamondbacks 187 4.09 1.32 155  0 10 0.96  2.65
+    ## 19    Jesse Chavez    Blue Jays 140 3.89 1.27 122  0  9 0.94  2.60
+    ## 20  Tyler Clippard               65 3.72 1.27  62 14  3 0.89  2.44
 
 #### Top Remaining Catchers
 
     ##                     name      Team  AB  R HR RBI SB   AVG   pts   dlr
-    ## 1         Devin Mesoraco      Reds 386 46 17  54  3 0.243  2.36  6.51
-    ## 2              John Jaso   Pirates 333 43  9  40  3 0.260  2.01  5.54
-    ## 3        A.J. Pierzynski    Braves 301 28  7  33  1 0.261  1.01  2.77
-    ## 4          Jesus Montero  Mariners 193 22  7  26  1 0.268  1.00  2.75
-    ## 5         Miguel Montero      Cubs 298 34  9  37  2 0.244  0.72  1.99
-    ## 6         Dioner Navarro White Sox 197 23  6  25  1 0.257  0.33  0.92
-    ## 7              JR Murphy     Twins 228 26  6  27  1 0.253  0.27  0.74
-    ## 8            Kurt Suzuki     Twins 273 29  4  28  1 0.253  0.20  0.54
-    ## 9           Jason Castro    Astros 320 38 10  37  2 0.224 -0.11 -0.30
-    ## 10          Carlos Perez    Angels 262 26  4  27  2 0.244 -0.25 -0.70
-    ## 11     Christian Vazquez   Red Sox  99 12  2  11  2 0.261 -0.42 -1.15
-    ## 12       Steve Clevenger  Mariners 128 13  2  13  1 0.259 -0.56 -1.54
-    ## 13 Jarrod Saltalamacchia    Tigers 204 26  8  27  1 0.227 -0.89 -2.45
-    ## 14           Carlos Ruiz  Phillies 205 19  3  20  1 0.243 -0.92 -2.54
-    ## 15           Brayan Pena Cardinals 127 12  1  12  1 0.254 -0.97 -2.66
-    ## 16          Josh Phegley Athletics 142 16  5  18  1 0.241 -0.98 -2.71
-    ## 17          Cameron Rupp  Phillies 288 27  8  31  1 0.222 -1.00 -2.76
-    ## 18         Austin Barnes   Dodgers  40  4  1   5  1 0.256 -1.29 -3.55
-    ## 19          Caleb Joseph   Orioles 173 19  5  20  1 0.232 -1.31 -3.60
-    ## 20        Dustin Garneau   Rockies 138 15  4  16  1 0.238 -1.32 -3.63
+    ## 1              John Jaso   Pirates 333 43  9  40  3 0.260  2.01  5.54
+    ## 2        A.J. Pierzynski    Braves 301 28  7  33  1 0.261  1.01  2.77
+    ## 3          Jesus Montero  Mariners 193 22  7  26  1 0.268  1.00  2.75
+    ## 4         Miguel Montero      Cubs 298 34  9  37  2 0.244  0.72  1.99
+    ## 5         Dioner Navarro White Sox 197 23  6  25  1 0.257  0.33  0.92
+    ## 6              JR Murphy     Twins 228 26  6  27  1 0.253  0.27  0.74
+    ## 7            Kurt Suzuki     Twins 273 29  4  28  1 0.253  0.20  0.54
+    ## 8           Jason Castro    Astros 320 38 10  37  2 0.224 -0.11 -0.30
+    ## 9           Carlos Perez    Angels 262 26  4  27  2 0.244 -0.25 -0.70
+    ## 10     Christian Vazquez   Red Sox  99 12  2  11  2 0.261 -0.42 -1.15
+    ## 11       Steve Clevenger  Mariners 128 13  2  13  1 0.259 -0.56 -1.54
+    ## 12 Jarrod Saltalamacchia    Tigers 204 26  8  27  1 0.227 -0.89 -2.45
+    ## 13           Carlos Ruiz  Phillies 205 19  3  20  1 0.243 -0.92 -2.54
+    ## 14           Brayan Pena Cardinals 127 12  1  12  1 0.254 -0.97 -2.66
+    ## 15          Josh Phegley Athletics 142 16  5  18  1 0.241 -0.98 -2.71
+    ## 16          Cameron Rupp  Phillies 288 27  8  31  1 0.222 -1.00 -2.76
+    ## 17         Austin Barnes   Dodgers  40  4  1   5  1 0.256 -1.29 -3.55
+    ## 18          Caleb Joseph   Orioles 173 19  5  20  1 0.232 -1.31 -3.60
+    ## 19        Dustin Garneau   Rockies 138 15  4  16  1 0.238 -1.32 -3.63
+    ## 20           Tomas Telis   Marlins  28  3  0   3  0 0.258 -1.49 -4.11
 
 #### Top Remaining MI
 
@@ -116,8 +116,8 @@
     ## 16  Victor Martinez       Tigers 475 63 15  69  1 0.289 2.71  7.45
     ## 17   Jhonny Peralta    Cardinals 507 59 14  65  3 0.262 2.63  7.24
     ## 18      Neil Walker         Mets 503 67 18  63  3 0.258 2.55  7.02
-    ## 19   Devin Mesoraco         Reds 386 46 17  54  3 0.243 2.36  6.51
-    ## 20    Chase Headley      Yankees 489 59 14  60  3 0.258 2.34  6.43
+    ## 19   Carlos Santana      Indians 509 74 20  72  7 0.239 2.27  6.26
+    ## 20     Martin Prado      Marlins 489 54  9  54  2 0.273 2.21  6.08
 
 #### Data entry errors
 
