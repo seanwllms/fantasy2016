@@ -4,23 +4,23 @@
     ## 
     ##     team_name spent  left picks.left total_points hit.points pitch.points
     ##         (chr) (dbl) (dbl)      (int)        (dbl)      (dbl)        (dbl)
-    ## 1       deano   249    11          7        111.4       37.2         74.2
+    ## 1       deano   253     7          6        114.1       39.9         74.2
     ## 2       rippe   247    13          6        100.1       55.1         45.0
     ## 3       bears   245    15          6         99.9       61.7         38.2
-    ## 4    pasadena   240    20         11         98.4       67.4         31.0
-    ## 5     dembums   242    18          9         93.4       52.7         40.7
-    ## 6   marmaduke   242    18          7         93.2       53.9         39.3
-    ## 7    isotopes   241    19          5         90.8       45.1         45.7
-    ## 8    sturgeon   218    42          5         89.6       53.0         36.6
-    ## 9      ottawa   243    17          6         88.0       45.3         42.7
-    ## 10    baycity   232    28          2         87.4       48.8         38.6
+    ## 4    pasadena   246    14         10         99.8       68.8         31.0
+    ## 5    isotopes   256     4          3         97.3       47.6         49.7
+    ## 6     dembums   242    18          9         93.4       52.7         40.7
+    ## 7   marmaduke   242    18          7         93.2       53.9         39.3
+    ## 8     baycity   240    20          1         89.8       48.8         41.0
+    ## 9    sturgeon   218    42          5         89.6       53.0         36.6
+    ## 10     ottawa   243    17          6         88.0       45.3         42.7
     ## 11 bellevegas   253     7          6         86.2       48.3         37.9
     ## 12     deener   228    32          3         85.5       42.8         42.7
     ## 13       jobu   253     7          4         85.2       35.9         49.3
-    ## 14 pk dodgers   249    11          0         83.0       30.1         52.9
-    ## 15        d&s   246    14          7         82.3       40.5         41.8
+    ## 14        d&s   248    12          6         84.5       42.7         41.8
+    ## 15 pk dodgers   249    11          0         83.0       30.1         52.9
     ## 16   hermanos   244    16          6         82.3       37.6         44.7
-    ## 17    counsel   220    40          8         75.5       31.0         44.5
+    ## 17    counsel   227    33          6         76.9       32.4         44.5
     ## 18      balco   211    49          8         69.0       41.3         27.7
 
 #### Top Remaining Pitchers
@@ -32,20 +32,20 @@
     ## 4      Rick Porcello      Red Sox 190 3.81 1.25 148  0 12 2.53 6.97
     ## 5      Clay Buchholz      Red Sox 167 3.65 1.24 143  0 11 2.48 6.83
     ## 6      Julio Teheran       Braves 193 3.85 1.27 170  0 10 2.18 6.01
-    ## 7       Gio Gonzalez    Nationals 170 3.74 1.30 160  0 11 2.11 5.81
-    ## 8     Anibal Sanchez       Tigers 167 3.88 1.25 142  0 10 1.78 4.90
-    ## 9         Jake McGee         Rays  65 2.74 1.10  74  7  4 1.32 3.63
-    ## 10     Daniel Hudson Diamondbacks  65 3.19 1.19  69 12  3 1.27 3.49
-    ## 11     Derek Holland      Rangers 162 4.02 1.30 138  0 10 1.04 2.85
-    ## 12      Jesse Chavez    Blue Jays 140 3.89 1.27 122  0  9 0.94 2.60
-    ## 13 Jeremy Hellickson     Phillies 179 4.18 1.28 148  0  9 0.88 2.43
-    ## 14       C.J. Wilson       Angels 178 4.04 1.34 146  0 10 0.71 1.95
-    ## 15  Mike Foltynewicz       Braves 137 3.88 1.30 137  1  7 0.70 1.93
-    ## 16         Mat Latos              159 4.01 1.29 126  0  9 0.67 1.84
-    ## 17        Wade Miley     Mariners 175 4.00 1.33 133  0 10 0.63 1.74
-    ## 18 Eduardo Rodriguez      Red Sox 139 3.82 1.30 113  0  9 0.62 1.70
-    ## 19       Josh Tomlin      Indians 124 3.80 1.20  99  0  7 0.59 1.64
-    ## 20         John Lamb         Reds 126 3.81 1.27 121  0  7 0.52 1.44
+    ## 7     Anibal Sanchez       Tigers 167 3.88 1.25 142  0 10 1.78 4.90
+    ## 8         Jake McGee         Rays  65 2.74 1.10  74  7  4 1.32 3.63
+    ## 9      Daniel Hudson Diamondbacks  65 3.19 1.19  69 12  3 1.27 3.49
+    ## 10     Derek Holland      Rangers 162 4.02 1.30 138  0 10 1.04 2.85
+    ## 11      Jesse Chavez    Blue Jays 140 3.89 1.27 122  0  9 0.94 2.60
+    ## 12 Jeremy Hellickson     Phillies 179 4.18 1.28 148  0  9 0.88 2.43
+    ## 13       C.J. Wilson       Angels 178 4.04 1.34 146  0 10 0.71 1.95
+    ## 14  Mike Foltynewicz       Braves 137 3.88 1.30 137  1  7 0.70 1.93
+    ## 15         Mat Latos              159 4.01 1.29 126  0  9 0.67 1.84
+    ## 16        Wade Miley     Mariners 175 4.00 1.33 133  0 10 0.63 1.74
+    ## 17 Eduardo Rodriguez      Red Sox 139 3.82 1.30 113  0  9 0.62 1.70
+    ## 18       Josh Tomlin      Indians 124 3.80 1.20  99  0  7 0.59 1.64
+    ## 19         John Lamb         Reds 126 3.81 1.27 121  0  7 0.52 1.44
+    ## 20       Jason Motte      Rockies  65 4.42 1.37  53 17  3 0.47 1.30
 
 #### Top Remaining Catchers
 
@@ -103,21 +103,21 @@
     ## 3   Nick Castellanos       Tigers 519 62 16  67  3 0.269 3.38 9.30
     ## 4      Marcus Semien    Athletics 518 66 16  64 10 0.251 3.29 9.06
     ## 5        Erick Aybar       Braves 569 59  6  52 13 0.271 3.24 8.91
-    ## 6     Pablo Sandoval      Red Sox 474 59 14  64  1 0.278 3.24 8.91
-    ## 7     Odubel Herrera     Phillies 564 61  8  47 17 0.266 3.01 8.30
-    ## 8       Brandon Belt       Giants 464 59 17  66  7 0.265 2.75 7.58
-    ## 9    Victor Martinez       Tigers 475 63 15  69  1 0.289 2.71 7.45
-    ## 10       Neil Walker         Mets 503 67 18  63  3 0.258 2.55 7.02
-    ## 11      Martin Prado      Marlins 489 54  9  54  2 0.273 2.21 6.08
-    ## 12    Ryan Zimmerman    Nationals 387 49 15  57  2 0.263 2.20 6.05
-    ## 13         John Jaso      Pirates 333 43  9  40  3 0.260 2.01 5.54
-    ## 14         Jake Lamb Diamondbacks 431 50 12  51  4 0.261 1.92 5.28
-    ## 15     Adonis Garcia       Braves 430 42 11  51  4 0.267 1.92 5.28
-    ## 16       Brad Miller         Rays 417 51 11  47  9 0.252 1.84 5.07
-    ## 17 Lonnie Chisenhall      Indians 416 48 13  53  3 0.260 1.84 5.06
-    ## 18    Eugenio Suarez         Reds 415 46 13  51  6 0.254 1.73 4.77
-    ## 19      David Freese              432 49 13  54  2 0.259 1.72 4.73
-    ## 20      Jayson Werth    Nationals 392 51 13  53  3 0.266 1.61 4.44
+    ## 6     Odubel Herrera     Phillies 564 61  8  47 17 0.266 3.01 8.30
+    ## 7        Neil Walker         Mets 503 67 18  63  3 0.258 2.55 7.02
+    ## 8       Martin Prado      Marlins 489 54  9  54  2 0.273 2.21 6.08
+    ## 9     Ryan Zimmerman    Nationals 387 49 15  57  2 0.263 2.20 6.05
+    ## 10         John Jaso      Pirates 333 43  9  40  3 0.260 2.01 5.54
+    ## 11         Jake Lamb Diamondbacks 431 50 12  51  4 0.261 1.92 5.28
+    ## 12     Adonis Garcia       Braves 430 42 11  51  4 0.267 1.92 5.28
+    ## 13       Brad Miller         Rays 417 51 11  47  9 0.252 1.84 5.07
+    ## 14 Lonnie Chisenhall      Indians 416 48 13  53  3 0.260 1.84 5.06
+    ## 15    Eugenio Suarez         Reds 415 46 13  51  6 0.254 1.73 4.77
+    ## 16      David Freese              432 49 13  54  2 0.259 1.72 4.73
+    ## 17         Joe Mauer        Twins 493 62  9  55  2 0.274 1.61 4.43
+    ## 18  Desmond Jennings         Rays 422 52 10  44 14 0.244 1.35 3.71
+    ## 19  Asdrubal Cabrera         Mets 456 49 13  53  6 0.243 1.31 3.59
+    ## 20     Yonder Alonso    Athletics 416 49  8  48  5 0.272 1.23 3.38
 
 #### Data entry errors
 
