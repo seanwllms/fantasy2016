@@ -47,30 +47,6 @@
     ## 19    Nathan Eovaldi      Yankees 150 3.99 1.30 115  0  9 0.42 1.15
     ## 20     Bartolo Colon         Mets 123 3.83 1.20  87  0  7 0.32 0.89
 
-#### Top Remaining Catchers
-
-    ##                     name      Team  AB  R HR RBI SB   AVG   pts   dlr
-    ## 1              John Jaso   Pirates 333 43  9  40  3 0.260  2.01  5.54
-    ## 2        A.J. Pierzynski    Braves 301 28  7  33  1 0.261  1.01  2.77
-    ## 3          Jesus Montero  Mariners 193 22  7  26  1 0.268  1.00  2.75
-    ## 4         Dioner Navarro White Sox 197 23  6  25  1 0.257  0.33  0.92
-    ## 5              JR Murphy     Twins 228 26  6  27  1 0.253  0.27  0.74
-    ## 6            Kurt Suzuki     Twins 273 29  4  28  1 0.253  0.20  0.54
-    ## 7           Jason Castro    Astros 320 38 10  37  2 0.224 -0.11 -0.30
-    ## 8           Carlos Perez    Angels 262 26  4  27  2 0.244 -0.25 -0.70
-    ## 9      Christian Vazquez   Red Sox  99 12  2  11  2 0.261 -0.42 -1.15
-    ## 10       Steve Clevenger  Mariners 128 13  2  13  1 0.259 -0.56 -1.54
-    ## 11 Jarrod Saltalamacchia    Tigers 204 26  8  27  1 0.227 -0.89 -2.45
-    ## 12           Carlos Ruiz  Phillies 205 19  3  20  1 0.243 -0.92 -2.54
-    ## 13           Brayan Pena Cardinals 127 12  1  12  1 0.254 -0.97 -2.66
-    ## 14          Cameron Rupp  Phillies 288 27  8  31  1 0.222 -1.00 -2.76
-    ## 15         Austin Barnes   Dodgers  40  4  1   5  1 0.256 -1.29 -3.55
-    ## 16          Caleb Joseph   Orioles 173 19  5  20  1 0.232 -1.31 -3.60
-    ## 17        Dustin Garneau   Rockies 138 15  4  16  1 0.238 -1.32 -3.63
-    ## 18           Tomas Telis   Marlins  28  3  0   3  0 0.258 -1.49 -4.11
-    ## 19          Josmil Pinto     Twins  30  4  1   4  0 0.255 -1.50 -4.12
-    ## 20         Ramon Cabrera      Reds  84  7  1   8  0 0.250 -1.56 -4.28
-
 #### Top Remaining Hitters (DH)
 
     ##                name         Team  AB  R HR RBI SB   AVG  pts  dlr
@@ -94,6 +70,30 @@
     ## 18     Jose Ramirez      Indians 291 34  4  29 14 0.258 1.14 3.14
     ## 19    Mark Reynolds      Rockies 284 39 15  44  3 0.251 1.04 2.87
     ## 20  A.J. Pierzynski       Braves 301 28  7  33  1 0.261 1.01 2.77
+
+#### Top Remaining Catchers
+
+    ##                     name      Team  AB  R HR RBI SB   AVG   pts   dlr
+    ## 1              John Jaso   Pirates 333 43  9  40  3 0.260  2.01  5.54
+    ## 2        A.J. Pierzynski    Braves 301 28  7  33  1 0.261  1.01  2.77
+    ## 3          Jesus Montero  Mariners 193 22  7  26  1 0.268  1.00  2.75
+    ## 4         Dioner Navarro White Sox 197 23  6  25  1 0.257  0.33  0.92
+    ## 5              JR Murphy     Twins 228 26  6  27  1 0.253  0.27  0.74
+    ## 6            Kurt Suzuki     Twins 273 29  4  28  1 0.253  0.20  0.54
+    ## 7           Jason Castro    Astros 320 38 10  37  2 0.224 -0.11 -0.30
+    ## 8           Carlos Perez    Angels 262 26  4  27  2 0.244 -0.25 -0.70
+    ## 9      Christian Vazquez   Red Sox  99 12  2  11  2 0.261 -0.42 -1.15
+    ## 10       Steve Clevenger  Mariners 128 13  2  13  1 0.259 -0.56 -1.54
+    ## 11 Jarrod Saltalamacchia    Tigers 204 26  8  27  1 0.227 -0.89 -2.45
+    ## 12           Carlos Ruiz  Phillies 205 19  3  20  1 0.243 -0.92 -2.54
+    ## 13           Brayan Pena Cardinals 127 12  1  12  1 0.254 -0.97 -2.66
+    ## 14          Cameron Rupp  Phillies 288 27  8  31  1 0.222 -1.00 -2.76
+    ## 15         Austin Barnes   Dodgers  40  4  1   5  1 0.256 -1.29 -3.55
+    ## 16          Caleb Joseph   Orioles 173 19  5  20  1 0.232 -1.31 -3.60
+    ## 17        Dustin Garneau   Rockies 138 15  4  16  1 0.238 -1.32 -3.63
+    ## 18           Tomas Telis   Marlins  28  3  0   3  0 0.258 -1.49 -4.11
+    ## 19          Josmil Pinto     Twins  30  4  1   4  0 0.255 -1.50 -4.12
+    ## 20         Ramon Cabrera      Reds  84  7  1   8  0 0.250 -1.56 -4.28
 
 #### Data entry errors
 
