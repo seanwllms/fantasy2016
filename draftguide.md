@@ -5,7 +5,7 @@
     ##     team_name spent  left picks.left total_points hit.points pitch.points
     ##         (chr) (dbl) (dbl)      (int)        (dbl)      (dbl)        (dbl)
     ## 1       deano   260     0          0        116.7       42.5         74.2
-    ## 2    pasadena   258     2          0        111.5       67.7         43.8
+    ## 2    pasadena   258     2          0        113.5       67.7         45.8
     ## 3       rippe   259     1          0        108.0       55.5         52.5
     ## 4       bears   260     0          0        106.5       62.1         44.4
     ## 5   marmaduke   260     0          0        104.6       53.7         50.9
@@ -43,9 +43,9 @@
     ## 15      Mark Buehrle              200 4.16 1.33 109  0 11  0.01  0.02
     ## 16       Sergio Romo       Giants  65 2.81 1.10  66  2  3 -0.01 -0.04
     ## 17    Yusmeiro Petit    Nationals 119 4.02 1.25  97  0  7 -0.04 -0.10
-    ## 18  Rubby de la Rosa Diamondbacks 140 4.13 1.32 117  0  8 -0.09 -0.26
-    ## 19    Matthew Wisler       Braves 173 4.27 1.34 132  0  9 -0.14 -0.38
-    ## 20        Jeff Locke      Pirates 148 4.01 1.36 113  0  9 -0.15 -0.41
+    ## 18    Matthew Wisler       Braves 173 4.27 1.34 132  0  9 -0.14 -0.38
+    ## 19        Jeff Locke      Pirates 148 4.01 1.36 113  0  9 -0.15 -0.41
+    ## 20       Ryan Madson    Athletics  65 3.37 1.22  60  6  3 -0.19 -0.51
 
 #### Top Remaining Hitters (DH)
 
@@ -112,4 +112,3 @@
     ## 12     Seung-Hwan Oh   hermanos not matched
     ## 13 Anderson Espinoza    dembums not matched
     ## 14    Frances Martes    dembums not matched
-    ## 15  Rubby de La Rosa   pasadena not matched
