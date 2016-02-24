@@ -38,7 +38,7 @@ rippe,Jacob deGrom,9,P
 rippe,Adam Wainwright,5,P
 rippe,David Price,30,P
 rippe,Jeff Samardzija,15,P
-rippe,David Ross,8,P
+rippe,Joe Ross,8,P
 rippe,Aaron Judge,0,B
 rippe,Hunter Harvey,1,B
 isotopes,Stephen Vogt,11,C
@@ -183,7 +183,7 @@ sturgeon,Buster Posey,29,C
 sturgeon,Lucas Duda,24,1B
 sturgeon,Rougned Odor,8,2B
 sturgeon,Nolan Arenado,14,3B
-sturgeon,Eric Hosmer,26,1B
+sturgeon,Eric Hosmer,26,CI
 sturgeon,Randal Grichuk,4,OF
 sturgeon,Stephen Piscotty,12,OF
 sturgeon,Chris Archer,15,P
@@ -257,7 +257,7 @@ sturgeon,J.T. Realmuto,17,C
 sturgeon,Alex Reyes,4,P
 counsel,Derek Norris,15,C
 d&s,Jarrod Dyson,16,OF
-bears,Brett Anderson,10,OF
+bears,Brett Anderson,10,P
 rippe,Tony Watson,4,P
 isotopes,Jose Reyes,13,SS
 bellevegas,Jon Singleton,4,DH
@@ -279,7 +279,7 @@ pk dodgers,Scott Van Slyke,1,OF
 jobu,Andre Ethier,12,OF
 jobu,Dexter Fowler,19,OF
 jobu,Ryan Braun,35,OF
-pk dodgers,Ubaldo Jimenez,5,P
+rippe,Ubaldo Jimenez,5,P
 d&s,Matt Kemp,18,OF
 pk dodgers,Mikie Mahtook,4,OF
 bears,Jordan Zimmermann,16,P
@@ -402,16 +402,16 @@ rippe,A.J. Pierzynski,3,C
 counsel,Nathan Eovaldi,3,P
 dembums,Hunter Strickland,2,P
 hermanos,Howie Kendrick,3,DH
-counsel,Chris Coghlan,9,OF
+hermanos,Chris Coghlan,9,OF
 sturgeon,Vincent Velasquez,1,P
 deener,Darin Ruf,1,OF
 d&s,Brett Cecil,1,P
 deano,Yangervis Solarte,2,CI
 bellevegas,Jace Peterson,1,OF
 d&s,Dioner Navarro,2,C
-ottawa,Jake Lamb,2,P
-deano,Joe Mauer,1,CI
-counsel,Seth Smith,5,DH
+ottawa,Jake Lamb,2,DH
+deano,Joe Mauer,1,DH
+counsel,Seth Smith,5,OF
 dembums,Jerad Eickhoff,2,P
 marmaduke,John Jaso,1,DH
 balco,Curt Casali,1,C
@@ -439,7 +439,7 @@ ottawa,Hector Santiago,2,P
 dembums,Blake Snell,2,P
 isotopes,Jed Lowrie,1,CI
 deano,Scooter Gennett,1,MI
-bears,Cesar Hernandez,1,2B
+bears,Cesar Hernandez,1,MI
 marmaduke,Robbie Ray,1,P
 balco,Hansel Robles,1,P
 pasadena,Lewis Brinson,1,OF
@@ -449,11 +449,11 @@ hermanos,Nick Swisher,1,OF
 bellevegas,Anibal Sanchez,1,P
 rippe,Kevin Siegrist,1,P
 deano,Desmond Jennings,1,OF
-hermanos,Seung Hwan Oh,1,P
+hermanos,Seung-Hwan Oh,1,P
 dembums,Ben Paulsen,2,CI
 marmaduke,Willson Contreras,1,C
 balco,Yimi Garcia,1,P
-pasadena,Jon Lamb,1,P
+pasadena,John Lamb,1,P
 dembums,Anderson Espinoza,1,P
 deano,Marlon Byrd,1,OF
 bears,Adam Duvall,1,DH
@@ -466,6 +466,7 @@ pasadena,Kyle Zimmer,1,P
 bears,Taylor Jungmann,1,P
 pasadena,Alex Cobb,1,P
 bears,Adam Warren,1,P
-pasadena,Rubby De La Rosa,1,P
+pasadena,Rubby de La Rosa,1,P
 pasadena,Derek Holland,1,P
 pasadena,Jumbo Diaz,1,P
+sturgeon,Odubel Herrera,4,OF
