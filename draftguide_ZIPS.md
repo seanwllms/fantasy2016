@@ -25,51 +25,51 @@
 
 #### Top Remaining Pitchers
 
-    ##                 name      Team    IP  ERA WHIP   K SV  W  pts   dlr
-    ## 1         Lance Lynn Cardinals 181.7 3.37 1.29 173  0 14 3.80 10.45
-    ## 2           Zach Lee   Dodgers 128.7 3.78 1.18  93  0 11 1.66  4.56
-    ## 3          Dan Haren      Cubs 152.7 4.01 1.19 123  0  9 1.49  4.11
-    ## 4   Franklin Morales            67.7 4.12 1.34  50 21  3 1.39  3.82
-    ## 5     Matt Shoemaker    Angels 143.7 4.01 1.21 122  0  9 1.28  3.53
-    ## 6      Drew Pomeranz    Padres 100.7 3.40 1.25 106  4  6 1.16  3.19
-    ## 7        Tyler Lyons Cardinals 135.7 3.98 1.20 118  0  8 1.05  2.89
-    ## 8        Sergio Romo    Giants  54.3 2.82 1.05  59  6  5 1.00  2.76
-    ## 9     Kelvin Herrera    Royals  72.0 2.88 1.17  77  3  6 0.92  2.54
-    ## 10     Bartolo Colon      Mets 157.7 4.11 1.23 104  0 10 0.89  2.44
-    ## 11      Jose Berrios     Twins 146.3 4.18 1.29 130  0 10 0.81  2.22
-    ## 12 Kevin Quackenbush    Padres  67.3 3.21 1.25  70  9  4 0.79  2.17
-    ## 13    Zachary Davies   Brewers 141.0 3.96 1.31 120  0 10 0.75  2.05
-    ## 14      Jose De Leon   Dodgers 102.7 3.77 1.21 122  0  6 0.67  1.85
-    ## 15       Travis Wood      Cubs 135.7 3.85 1.30 127  0  8 0.61  1.69
-    ## 16     Matt Andriese      Rays 128.3 3.79 1.25  99  0  8 0.51  1.40
-    ## 17         Cody Reed    Royals 137.0 4.27 1.32 127  0 10 0.44  1.22
-    ## 18         Cody Reed    Royals 137.0 4.27 1.32 127  0 10 0.44  1.22
-    ## 19    Danny Farquhar      Rays  78.7 3.66 1.22  83  6  4 0.41  1.13
-    ## 20     Ryan Williams      Cubs 134.3 4.02 1.24  89  0  9 0.37  1.03
+    ##                 name         Team    IP  ERA WHIP   K SV  W  pts   dlr
+    ## 1         Lance Lynn    Cardinals 181.7 3.37 1.29 173  0 14 3.80 10.45
+    ## 2           Zach Lee      Dodgers 128.7 3.78 1.18  93  0 11 1.66  4.56
+    ## 3          Dan Haren         Cubs 152.7 4.01 1.19 123  0  9 1.49  4.11
+    ## 4   Franklin Morales               67.7 4.12 1.34  50 21  3 1.39  3.82
+    ## 5     Matt Shoemaker       Angels 143.7 4.01 1.21 122  0  9 1.28  3.53
+    ## 6      Drew Pomeranz       Padres 100.7 3.40 1.25 106  4  6 1.16  3.19
+    ## 7        Sergio Romo       Giants  54.3 2.82 1.05  59  6  5 1.00  2.76
+    ## 8     Kelvin Herrera       Royals  72.0 2.88 1.17  77  3  6 0.92  2.54
+    ## 9      Bartolo Colon         Mets 157.7 4.11 1.23 104  0 10 0.89  2.44
+    ## 10      Jose Berrios        Twins 146.3 4.18 1.29 130  0 10 0.81  2.22
+    ## 11 Kevin Quackenbush       Padres  67.3 3.21 1.25  70  9  4 0.79  2.17
+    ## 12    Zachary Davies      Brewers 141.0 3.96 1.31 120  0 10 0.75  2.05
+    ## 13      Jose De Leon      Dodgers 102.7 3.77 1.21 122  0  6 0.67  1.85
+    ## 14       Travis Wood         Cubs 135.7 3.85 1.30 127  0  8 0.61  1.69
+    ## 15     Matt Andriese         Rays 128.3 3.79 1.25  99  0  8 0.51  1.40
+    ## 16         Cody Reed       Royals 137.0 4.27 1.32 127  0 10 0.44  1.22
+    ## 17         Cody Reed       Royals 137.0 4.27 1.32 127  0 10 0.44  1.22
+    ## 18    Danny Farquhar         Rays  78.7 3.66 1.22  83  6  4 0.41  1.13
+    ## 19     Ryan Williams         Cubs 134.3 4.02 1.24  89  0  9 0.37  1.03
+    ## 20   Josh Collmenter Diamondbacks 137.0 3.94 1.25  91  1  8 0.36  1.00
 
 #### Top Remaining Hitters (DH)
 
-    ##                   name         Team  AB  R HR RBI SB   AVG  pts   dlr
-    ## 1         Raimel Tapia      Rockies 558 62 12  59 26 0.280 5.62 15.48
-    ## 2         Mallex Smith       Braves 516 69  4  44 46 0.248 5.50 15.15
-    ## 3          Jose Peraza         Reds 528 63  7  53 34 0.265 5.40 14.87
-    ## 4      Jonathan Villar      Brewers 446 59 10  46 33 0.240 4.34 11.96
-    ## 5         Jose Ramirez      Indians 511 70  8  49 22 0.262 4.30 11.85
-    ## 6        Wilin Rosario      Rockies 414 47 16  60  3 0.278 4.29 11.80
-    ## 7        Clint Coulter      Brewers 504 73 22  78  5 0.236 4.17 11.47
-    ## 8       Charlie Tilson    Cardinals 562 67  5  46 26 0.262 3.80 10.47
-    ## 9          Alen Hanson      Pirates 506 58 11  59 23 0.245 3.79 10.44
-    ## 10        Trevor Story      Rockies 492 57 18  63 17 0.244 3.72 10.24
-    ## 11      Socrates Brito Diamondbacks 552 62 10  55 20 0.259 3.48  9.58
-    ## 12      Socrates Brito Diamondbacks 552 62 10  55 20 0.259 3.48  9.58
-    ## 13      Dilson Herrera         Mets 520 68 15  62 14 0.252 3.35  9.22
-    ## 14    Cristhian Adames      Rockies 510 53  7  47 10 0.284 3.31  9.11
-    ## 15       Phillip Ervin         Reds 495 68 17  69 20 0.232 3.31  9.10
-    ## 16       Jesus Montero     Mariners 436 54 15  61  1 0.261 3.29  9.05
-    ## 17       Danny Santana        Twins 500 62  6  48 17 0.260 3.14  8.64
-    ## 18 Arismendy Alcantara         Cubs 537 69 16  63 19 0.231 3.04  8.38
-    ## 19       Micah Johnson      Dodgers 463 56  8  44 25 0.248 3.02  8.32
-    ## 20     Reymond Fuentes       Royals 430 54  6  41 24 0.258 2.93  8.06
+    ##                   name      Team  AB  R HR RBI SB   AVG  pts   dlr
+    ## 1         Raimel Tapia   Rockies 558 62 12  59 26 0.280 5.62 15.48
+    ## 2         Mallex Smith    Braves 516 69  4  44 46 0.248 5.50 15.15
+    ## 3      Jonathan Villar   Brewers 446 59 10  46 33 0.240 4.34 11.96
+    ## 4         Jose Ramirez   Indians 511 70  8  49 22 0.262 4.30 11.85
+    ## 5        Wilin Rosario   Rockies 414 47 16  60  3 0.278 4.29 11.80
+    ## 6        Clint Coulter   Brewers 504 73 22  78  5 0.236 4.17 11.47
+    ## 7       Charlie Tilson Cardinals 562 67  5  46 26 0.262 3.80 10.47
+    ## 8          Alen Hanson   Pirates 506 58 11  59 23 0.245 3.79 10.44
+    ## 9       Dilson Herrera      Mets 520 68 15  62 14 0.252 3.35  9.22
+    ## 10    Cristhian Adames   Rockies 510 53  7  47 10 0.284 3.31  9.11
+    ## 11       Phillip Ervin      Reds 495 68 17  69 20 0.232 3.31  9.10
+    ## 12       Jesus Montero  Mariners 436 54 15  61  1 0.261 3.29  9.05
+    ## 13       Danny Santana     Twins 500 62  6  48 17 0.260 3.14  8.64
+    ## 14 Arismendy Alcantara      Cubs 537 69 16  63 19 0.231 3.04  8.38
+    ## 15       Micah Johnson   Dodgers 463 56  8  44 25 0.248 3.02  8.32
+    ## 16     Reymond Fuentes    Royals 430 54  6  41 24 0.258 2.93  8.06
+    ## 17      Jake Marisnick    Astros 450 55 11  47 24 0.244 2.87  7.90
+    ## 18        Gregory Bird   Yankees 461 69 26  79  1 0.252 2.81  7.74
+    ## 19        Alex Verdugo   Dodgers 516 59 12  61  9 0.267 2.79  7.67
+    ## 20     Rafael Bautista Nationals 393 43  3  29 33 0.249 2.66  7.34
 
 #### Top Remaining Catchers
 
@@ -108,3 +108,13 @@
     ## 8      Seung-Hwan Oh   hermanos not matched
     ## 9  Anderson Espinoza    dembums not matched
     ## 10    Frances Martes    dembums not matched
+    ## 11 Andrew Benintendi    dembums not matched
+    ## 12 Corey Spangenberg    counsel not matched
+    ## 13      Gary Sanchez      bears not matched
+    ## 14  Johnathan Villar      bears not matched
+    ## 15     Yasiel Sierra pk dodgers not matched
+    ## 16         Greg Bird    dembums not matched
+    ## 17 Yulieski Gourriel   pasadena not matched
+    ## 18      Kevin Maitan      deano not matched
+    ## 19   Brendan Rodgers  marmaduke not matched
+    ## 20   Drew Hutchison         d&s not matched

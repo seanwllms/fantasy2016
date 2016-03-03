@@ -49,27 +49,27 @@
 
 #### Top Remaining Hitters (DH)
 
-    ##                 name      Team  AB  R HR RBI SB   AVG  pts  dlr
-    ## 1   Cory Spangenberg    Padres 546 61  8  47 19 0.260 3.57 9.84
-    ## 2      Adonis Garcia    Braves 430 42 11  51  4 0.267 1.92 5.28
-    ## 3       David Freese           432 49 13  54  2 0.259 1.72 4.73
-    ## 4      Yonder Alonso Athletics 416 49  8  48  5 0.272 1.23 3.38
-    ## 5       Jose Ramirez   Indians 291 34  4  29 14 0.258 1.14 3.14
-    ## 6      Mark Reynolds   Rockies 284 39 15  44  3 0.251 1.04 2.87
-    ## 7      Jesus Montero  Mariners 193 22  7  26  1 0.268 1.00 2.75
-    ## 8  Johnny Giavotella    Angels 390 44  5  40  5 0.270 0.92 2.52
-    ## 9        Zack Cozart      Reds 462 46 10  48  6 0.245 0.90 2.49
-    ## 10      Anthony Gose    Tigers 323 40  5  32 18 0.245 0.76 2.09
-    ## 11        Brock Holt   Red Sox 310 37  2  31  5 0.272 0.75 2.05
-    ## 12      Jordy Mercer   Pirates 424 41  8  46  3 0.256 0.71 1.96
-    ## 13      Billy Butler Athletics 468 56 13  59  1 0.263 0.69 1.90
-    ## 14       Jose Peraza      Reds 210 21  2  19 12 0.275 0.53 1.45
-    ## 15     Jimmy Rollins           368 44  8  35 11 0.237 0.50 1.37
-    ## 16   Jonathan Villar   Brewers 251 27  6  26 17 0.239 0.44 1.21
-    ## 17     Oswaldo Arcia     Twins 299 38 15  45  2 0.253 0.40 1.11
-    ## 18   Marwin Gonzalez    Astros 317 36  7  35  5 0.252 0.20 0.56
-    ## 19      Gregory Bird   Yankees 242 34 13  38  1 0.265 0.11 0.31
-    ## 20     Brandon Guyer      Rays 293 35  6  31  7 0.260 0.07 0.20
+    ##                name      Team  AB  R HR RBI SB   AVG   pts   dlr
+    ## 1  Cory Spangenberg    Padres 546 61  8  47 19 0.260  3.57  9.84
+    ## 2      David Freese           432 49 13  54  2 0.259  1.72  4.73
+    ## 3      Jose Ramirez   Indians 291 34  4  29 14 0.258  1.14  3.14
+    ## 4     Jesus Montero  Mariners 193 22  7  26  1 0.268  1.00  2.75
+    ## 5       Zack Cozart      Reds 462 46 10  48  6 0.245  0.90  2.49
+    ## 6      Jordy Mercer   Pirates 424 41  8  46  3 0.256  0.71  1.96
+    ## 7     Jimmy Rollins           368 44  8  35 11 0.237  0.50  1.37
+    ## 8   Jonathan Villar   Brewers 251 27  6  26 17 0.239  0.44  1.21
+    ## 9     Oswaldo Arcia     Twins 299 38 15  45  2 0.253  0.40  1.11
+    ## 10  Marwin Gonzalez    Astros 317 36  7  35  5 0.252  0.20  0.56
+    ## 11     Gregory Bird   Yankees 242 34 13  38  1 0.265  0.11  0.31
+    ## 12    Brandon Guyer      Rays 293 35  6  31  7 0.260  0.07  0.20
+    ## 13       Juan Uribe           272 29  7  32  2 0.260  0.02  0.04
+    ## 14       Tommy Pham Cardinals 271 33  6  30  5 0.265 -0.01 -0.01
+    ## 15     Jason Castro    Astros 320 38 10  37  2 0.224 -0.11 -0.30
+    ## 16  Christian Colon    Royals 221 24  3  22  6 0.264 -0.13 -0.36
+    ## 17       J.J. Hardy   Orioles 416 42 11  45  1 0.239 -0.14 -0.40
+    ## 18    Freddy Galvis  Phillies 384 34  7  38  4 0.246 -0.20 -0.55
+    ## 19    Danny Santana     Twins 185 20  2  18  8 0.264 -0.20 -0.55
+    ## 20    Gregor Blanco    Giants 264 28  4  27  8 0.261 -0.24 -0.67
 
 #### Top Remaining Catchers
 
@@ -112,3 +112,17 @@
     ## 12     Seung-Hwan Oh   hermanos not matched
     ## 13 Anderson Espinoza    dembums not matched
     ## 14    Frances Martes    dembums not matched
+    ## 15 Andrew Benintendi    dembums not matched
+    ## 16 Corey Spangenberg    counsel not matched
+    ## 17     Rafael Devers  marmaduke not matched
+    ## 18      Gary Sanchez      bears not matched
+    ## 19  Johnathan Villar      bears not matched
+    ## 20     Yasiel Sierra pk dodgers not matched
+    ## 21    Austin Meadows     ottawa not matched
+    ## 22         Greg Bird    dembums not matched
+    ## 23 Yulieski Gourriel   pasadena not matched
+    ## 24    Bradley Zimmer      balco not matched
+    ## 25      Kevin Maitan      deano not matched
+    ## 26   Brendan Rodgers  marmaduke not matched
+    ## 27   Drew Hutchison         d&s not matched
+    ## 28        David Dahl    baycity not matched
