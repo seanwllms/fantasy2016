@@ -1,26 +1,26 @@
 "","roster_spot","salary","name","Team","position","playerid","AB","R","HR","RBI","SB","AVG","marginal.total.points","dollar.value","status","IP","ERA","WHIP","SV","W","K"
-"1","C1",2,"Josh Phegley","Athletics","catcher","9308",142,16,5,18,1,0.241,-0.98,-2.71,"drafted",NA,NA,NA,NA,NA,NA
-"2","C2",1,"Cameron Rupp","Phillies","catcher","11146",288,27,8,31,1,0.222,-1,-2.76,"drafted",NA,NA,NA,NA,NA,NA
-"3","1B",24,"Anthony Rizzo","Cubs","first_base","3473",552,92,32,98,10,0.279,7.09,19.51,"drafted",NA,NA,NA,NA,NA,NA
-"4","2B",21,"Jose Altuve","Astros","second_base","5417",630,92,11,64,36,0.307,9.32,25.65,"drafted",NA,NA,NA,NA,NA,NA
-"5","SS",1,"Eugenio Suarez","Reds","shortstop","12552",415,46,13,51,6,0.254,1.73,4.77,"drafted",NA,NA,NA,NA,NA,NA
-"6","3B",10,"Josh Harrison","Pirates","third_base","8202",545,66,10,57,15,0.282,4.82,13.28,"drafted",NA,NA,NA,NA,NA,NA
-"7","CI",32,"Edwin Encarnacion","Blue Jays","first_base","2151",467,77,30,88,3,0.265,4.59,12.63,"drafted",NA,NA,NA,NA,NA,NA
-"8","MI",14,"Anthony Rendon","Nationals","third_base","12861",516,76,15,61,6,0.277,4.28,11.8,"drafted",NA,NA,NA,NA,NA,NA
-"9","OF1",19,"Bryce Harper","Nationals","outfield","11579",519,95,34,99,7,0.301,8.43,23.2,"drafted",NA,NA,NA,NA,NA,NA
-"10","OF2",9,"Joc Pederson","Dodgers","outfield","11899",496,71,24,66,12,0.228,2.73,7.51,"drafted",NA,NA,NA,NA,NA,NA
-"11","OF3",9,"Kris Bryant","Cubs","third_base","15429",549,87,31,96,11,0.273,7.52,20.69,"drafted",NA,NA,NA,NA,NA,NA
-"12","OF4",27,"Jason Heyward","Cubs","outfield","4940",579,91,18,72,18,0.284,6.55,18.05,"drafted",NA,NA,NA,NA,NA,NA
-"13","OF5",6,"Jayson Werth","Nationals","outfield","1327",392,51,13,53,3,0.266,1.61,4.44,"drafted",NA,NA,NA,NA,NA,NA
-"14","OF6",1,"Lewis Brinson","Rangers","outfield","sa657923",12,1,0,1,0,0.25,-3.7,-10.19,"drafted",NA,NA,NA,NA,NA,NA
-"15","DH",38,"Miguel Cabrera","Tigers","third_base","1744",517,86,26,92,2,0.314,7.9,21.74,"drafted",NA,NA,NA,NA,NA,NA
-"16","P1",9,"Dallas Keuchel","Astros","pitcher","9434",NA,NA,NA,NA,NA,NA,5.77,15.88,"drafted",212,3.04,1.2,0,14,182
-"17","P2",11,"Danny Salazar","Indians","pitcher","5867",NA,NA,NA,NA,NA,NA,4.25,11.7,"drafted",173,3.43,1.17,0,11,180
-"18","P3",15,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,8.05,22.17,"drafted",211,3.01,1.08,0,14,223
-"19","P4",3,"Rick Porcello","Red Sox","pitcher","2717",NA,NA,NA,NA,NA,NA,2.53,6.97,"drafted",190,3.81,1.25,0,12,148
-"20","P5",1,"John Lamb","Reds","pitcher","8493",NA,NA,NA,NA,NA,NA,0.52,1.44,"drafted",126,3.81,1.27,0,7,121
-"21","P6",1,"Kyle Zimmer","Royals","pitcher","sa621583",NA,NA,NA,NA,NA,NA,-2.69,-7.41,"drafted",28,3.83,1.29,0,2,24
-"22","P7",1,"Alex Cobb","Rays","pitcher","6562",NA,NA,NA,NA,NA,NA,-1.84,-5.06,"drafted",48,3.53,1.23,0,3,41
-"23","P8",1,"Rubby de la Rosa","Diamondbacks","pitcher","3862",NA,NA,NA,NA,NA,NA,-0.09,-0.26,"drafted",140,4.13,1.32,0,8,117
-"24","P9",1,"Derek Holland","Rangers","pitcher","4141",NA,NA,NA,NA,NA,NA,1.04,2.85,"drafted",162,4.02,1.3,0,10,138
-"25","P10",1,"Jumbo Diaz","Reds","pitcher","3397",NA,NA,NA,NA,NA,NA,-0.52,-1.43,"drafted",55,3.2,1.16,3,3,60
+"1","C1",2,"Josh Phegley","Athletics","catcher","9308",350,43,9,49,1,0.234,0.68,1.88,"drafted",NA,NA,NA,NA,NA,NA
+"2","C2",1,"Cameron Rupp","Phillies","catcher","11146",289,30,9,32,0,0.218,-1.13,-3.12,"drafted",NA,NA,NA,NA,NA,NA
+"3","1B",24,"Anthony Rizzo","Cubs","first_base","3473",576,94,32,99,10,0.271,6.76,18.6,"drafted",NA,NA,NA,NA,NA,NA
+"4","2B",21,"Jose Altuve","Astros","second_base","5417",644,85,11,64,40,0.309,9.73,26.79,"drafted",NA,NA,NA,NA,NA,NA
+"5","SS",1,"Eugenio Suarez","Reds","shortstop","12552",552,68,18,65,8,0.254,3.46,9.53,"drafted",NA,NA,NA,NA,NA,NA
+"6","3B",10,"Josh Harrison","Pirates","third_base","8202",447,63,8,42,14,0.282,3.99,10.98,"drafted",NA,NA,NA,NA,NA,NA
+"7","CI",32,"Edwin Encarnacion","Blue Jays","first_base","2151",477,73,29,97,4,0.27,5.04,13.87,"drafted",NA,NA,NA,NA,NA,NA
+"8","MI",14,"Anthony Rendon","Nationals","third_base","12861",452,67,13,52,6,0.27,3.23,8.88,"drafted",NA,NA,NA,NA,NA,NA
+"9","OF1",19,"Bryce Harper","Nationals","outfield","11579",473,93,34,79,5,0.311,8.05,22.15,"drafted",NA,NA,NA,NA,NA,NA
+"10","OF2",9,"Joc Pederson","Dodgers","outfield","11899",481,70,23,62,12,0.22,2.08,5.72,"drafted",NA,NA,NA,NA,NA,NA
+"11","OF3",9,"Kris Bryant","Cubs","third_base","15429",563,94,29,106,14,0.263,7.68,21.15,"drafted",NA,NA,NA,NA,NA,NA
+"12","OF4",27,"Jason Heyward","Cubs","outfield","4940",543,85,17,66,18,0.274,5.6,15.43,"drafted",NA,NA,NA,NA,NA,NA
+"13","OF5",6,"Jayson Werth","Nationals","outfield","1327",381,55,13,52,4,0.244,0.68,1.88,"drafted",NA,NA,NA,NA,NA,NA
+"14","OF6",1,"Lewis Brinson","Rangers","outfield","sa657923",419,47,12,43,12,0.234,0.6,1.64,"drafted",NA,NA,NA,NA,NA,NA
+"15","DH",38,"Miguel Cabrera","Tigers","third_base","1744",493,71,24,88,2,0.306,6.77,18.63,"drafted",NA,NA,NA,NA,NA,NA
+"16","P1",9,"Dallas Keuchel","Astros","pitcher","9434",NA,NA,NA,NA,NA,NA,5.82,16.03,"drafted",202.3,3.29,1.16,0,15,177
+"17","P2",11,"Danny Salazar","Indians","pitcher","5867",NA,NA,NA,NA,NA,NA,5.19,14.3,"drafted",178,3.49,1.15,0,13,195
+"18","P3",15,"Corey Kluber","Indians","pitcher","2429",NA,NA,NA,NA,NA,NA,7.3,20.1,"drafted",202,3.21,1.09,0,14,217
+"19","P4",3,"Rick Porcello","Red Sox","pitcher","2717",NA,NA,NA,NA,NA,NA,2.04,5.62,"drafted",187.3,4.18,1.27,0,14,140
+"20","P5",1,"John Lamb","Reds","pitcher","8493",NA,NA,NA,NA,NA,NA,1.54,4.23,"drafted",149.3,3.92,1.29,0,9,163
+"21","P6",1,"Kyle Zimmer","Royals","pitcher","sa621583",NA,NA,NA,NA,NA,NA,-2.35,-6.46,"drafted",56.3,4.47,1.37,0,4,47
+"22","P7",1,"Alex Cobb","Rays","pitcher","6562",NA,NA,NA,NA,NA,NA,1.21,3.34,"drafted",128.3,3.44,1.24,0,8,111
+"23","P8",1,"Rubby de la Rosa","Diamondbacks","pitcher","3862",NA,NA,NA,NA,NA,NA,-0.19,-0.52,"drafted",163,4.36,1.34,0,9,132
+"24","P9",1,"Derek Holland","Rangers","pitcher","4141",NA,NA,NA,NA,NA,NA,-1.34,-3.7,"drafted",100.7,4.29,1.31,0,5,85
+"25","P10",1,"Jumbo Diaz","Reds","pitcher","3397",NA,NA,NA,NA,NA,NA,-0.66,-1.81,"drafted",68.3,3.42,1.2,3,2,72

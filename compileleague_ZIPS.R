@@ -7,10 +7,10 @@ if (!file.exists("coefs.rda")) {
 }
 
 #load hitter and pitcher projections
-if (!file.exists("projections.rda")) {
-  source("calculatevalue.R")
+if (!file.exists("projections_ZIPS.rda")) {
+  source("calculatevalue_ZIPS.R")
 } else{
-  load("projections.rda")
+  load("projections_ZIPS.rda")
 }
 
 #Build league
