@@ -26,6 +26,6 @@ source("mergeinprojections.R")
 source("calculatestandings.R")
 
 #write to .csv
-source("csvwriter.R")
+source("csvwriter_ZIPS.R")
 
 standings.output
